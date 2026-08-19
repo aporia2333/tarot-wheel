@@ -1,0 +1,64 @@
+"use client";
+
+import { useEffect, useRef, useState } from "react";
+import { useRouter } from "next/navigation";
+import { RequireCloudAuth } from "@/components/RequireCloudAuth";
+import { TarotWheel } from "@/components/TarotWheel";
+import { tarotCards } from "@/data/tarotCards";
+import { createReadingId } from "@/lib/ids";
+import { saveReading } from "@/lib/readings/client";
+import { shuffleDeck } from "@/lib/shuffle";
+import { useReadingFlowStore } from "@/store/readingFlowStore";
+import type { Orientation, TarotCard } from "@/types";
+
+export default function DrawPage() {
+  const router = useRouter();
+  const completingRef = useRef(false);
+  const [lockedCardIds, setLockedCardIds] = useState<string[]>([]);
+  const [saveError, setSaveError] = useState("");
+  const { question, contextInfo, selectedSpread, shuffledDeck, selectedCards, setShuffledDeck, addSelectedCard } = useReadingFlowStore();
+
+  useEffect(() => {
+    if (!shuffledDeck.length) setShuffledDeck(shuffleDeck(tarotCards));
+  }, [setShuffledDeck, shuffledDeck.length]);
+
+  const deck = shuffledDeck.length ? shuffledDeck : tarotCards;
+
+  async function selectCard(card: TarotCard) {
+    if (!selectedSpread || completingRef.current || selectedCards.some((selected) => selected.card.id === card.id) || lockedCardIds.includes(card.id) || selectedCards.length >= selectedSpread.count) return;
+
+    const selectedCard = {
+      card,
+      orientation: (Math.random() > 0.5 ? "upright" : "reversed") as Orientation,
+      position: selectedSpread.positions[selectedCards.length],
+    };
+    const nextCards = [...selectedCards, selectedCard];
+    setLockedCardIds((ids) => [...ids, card.id]);
+    addSelectedCard(selectedCard);
+
+    if (nextCards.length !== selectedSpread.count) return;
+
+    completingRef.current = true;
+    setSaveError("");
+    const readingId = createReadingId();
+    try {
+      await saveReading({ readingId, question, contextInfo, spread: selectedSpread, selectedCards: nextCards, createdAt: new Date().toISOString(), aiStatus: "not_started" });
+      setTimeout(() => router.push(`/result/${readingId}`), 450);
+    } catch (error) {
+      completingRef.current = false;
+      setSaveError(error instanceof Error ? error.message : "保存历史记录失败，请重试。");
+    }
+  }
+
+  const content = !selectedSpread ? (
+    <main className="page-shell"><div className="content-wrap"><p className="text-mist">请先选择牌阵。</p><button type="button" className="btn-primary mt-4" onClick={() => router.push("/spreads")}>返回牌阵</button></div></main>
+  ) : (
+    <main className="page-shell"><div className="content-wrap">
+      <div className="flex flex-col gap-2 sm:flex-row sm:items-end sm:justify-between"><div><h1 className="text-3xl font-semibold text-white">圆轮抽牌</h1><p className="mt-2 text-mist/72">已选择 {selectedCards.length} / {selectedSpread.count}</p></div><p className="text-sm text-ember">{selectedSpread.name}</p></div>
+      <TarotWheel deck={deck} selectedIds={[...selectedCards.map((selected) => selected.card.id), ...lockedCardIds]} onSelect={selectCard} disabled={selectedCards.length >= selectedSpread.count || completingRef.current} />
+      {saveError ? <p className="mt-4 rounded-lg bg-white/[0.08] p-3 text-sm text-mist">{saveError}</p> : null}
+    </div></main>
+  );
+
+  return <RequireCloudAuth>{content}</RequireCloudAuth>;
+}

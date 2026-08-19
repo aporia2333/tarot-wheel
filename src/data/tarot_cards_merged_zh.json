@@ -1,0 +1,3700 @@
+{
+  "description": "tarot cards and basic information about them, as well as references to corresponding scans",
+  "sourcePriority": "Primary fields and image paths come from tarot-images.json; supplementary metadata comes from tarot_cards_app_ready(1).json.",
+  "cards": [
+    {
+      "id": "major-the-fool",
+      "cardNumber": 0,
+      "name": "The Fool",
+      "nameEn": "The Fool",
+      "nameCn": "愚者",
+      "arcana": "Major Arcana",
+      "suit": null,
+      "number": "0",
+      "img": "m00.jpg",
+      "imageUrl": "m00.jpg",
+      "backImageUrl": "/cards/back.png",
+      "element": "Air",
+      "zodiacSign": "Uranus",
+      "uprightKeywords": [
+        "New beginnings",
+        "innocence",
+        "adventure",
+        "free spirit"
+      ],
+      "reversedKeywords": [
+        "Recklessness",
+        "fear of change",
+        "holding back"
+      ],
+      "meanings": {
+        "love": "Exciting new romance, spontaneous love",
+        "career": "New career path, leap of faith",
+        "yesOrNo": "Yes"
+      },
+      "guideUrl": "https://deckaura.com/blogs/guide/fool-tarot-meaning",
+      "uprightKeywordsCn": [
+        "新的开始",
+        "天真",
+        "冒险",
+        "自由精神"
+      ],
+      "reversedKeywordsCn": [
+        "鲁莽",
+        "害怕改变",
+        "退缩"
+      ],
+      "meaningsCn": {
+        "love": "新的感情机会，关系带有轻盈、试探和冒险感。",
+        "career": "新的职业方向或机会，适合带着信念尝试。",
+        "yesOrNo": "偏是"
+      }
+    },
+    {
+      "id": "major-the-magician",
+      "cardNumber": 1,
+      "name": "The Magician",
+      "nameEn": "The Magician",
+      "nameCn": "魔术师",
+      "arcana": "Major Arcana",
+      "suit": null,
+      "number": "1",
+      "img": "m01.jpg",
+      "imageUrl": "m01.jpg",
+      "backImageUrl": "/cards/back.png",
+      "element": "Air",
+      "zodiacSign": "Mercury",
+      "uprightKeywords": [
+        "Manifestation",
+        "willpower",
+        "resourcefulness"
+      ],
+      "reversedKeywords": [
+        "Manipulation",
+        "poor planning",
+        "untapped talents"
+      ],
+      "meanings": {
+        "love": "Magnetic attraction, confident pursuit",
+        "career": "Skill mastery, new opportunity",
+        "yesOrNo": "Yes"
+      },
+      "guideUrl": "https://deckaura.com/blogs/guide/magician-tarot-meaning",
+      "uprightKeywordsCn": [
+        "显化",
+        "意志力",
+        "资源整合"
+      ],
+      "reversedKeywordsCn": [
+        "操控",
+        "计划不足",
+        "才能未被发挥"
+      ],
+      "meaningsCn": {
+        "love": "有吸引力和主动性，适合自信表达好感。",
+        "career": "技能发挥、资源到位，可能出现新机会。",
+        "yesOrNo": "是"
+      }
+    },
+    {
+      "id": "major-the-high-priestess",
+      "cardNumber": 2,
+      "name": "The High Priestess",
+      "nameEn": "The High Priestess",
+      "nameCn": "女祭司",
+      "arcana": "Major Arcana",
+      "suit": null,
+      "number": "2",
+      "img": "m02.jpg",
+      "imageUrl": "m02.jpg",
+      "backImageUrl": "/cards/back.png",
+      "element": "Water",
+      "zodiacSign": "Moon",
+      "uprightKeywords": [
+        "Intuition",
+        "mystery",
+        "inner wisdom",
+        "subconscious"
+      ],
+      "reversedKeywords": [
+        "Secrets",
+        "disconnection from intuition"
+      ],
+      "meanings": {
+        "love": "Hidden feelings, trust your instincts",
+        "career": "Follow your gut, hidden knowledge",
+        "yesOrNo": "Yes"
+      },
+      "guideUrl": "https://deckaura.com/blogs/guide/high-priestess-tarot-meaning",
+      "uprightKeywordsCn": [
+        "直觉",
+        "神秘",
+        "内在智慧",
+        "潜意识"
+      ],
+      "reversedKeywordsCn": [
+        "秘密",
+        "与直觉断开",
+        "信息不透明"
+      ],
+      "meaningsCn": {
+        "love": "感情中有隐藏情绪，需要相信直觉而不是只看表面。",
+        "career": "适合观察和等待，重要信息可能尚未浮现。",
+        "yesOrNo": "偏是"
+      }
+    },
+    {
+      "id": "major-the-empress",
+      "cardNumber": 3,
+      "name": "The Empress",
+      "nameEn": "The Empress",
+      "nameCn": "皇后",
+      "arcana": "Major Arcana",
+      "suit": null,
+      "number": "3",
+      "img": "m03.jpg",
+      "imageUrl": "m03.jpg",
+      "backImageUrl": "/cards/back.png",
+      "element": "Earth",
+      "zodiacSign": "Venus",
+      "uprightKeywords": [
+        "Abundance",
+        "nurturing",
+        "fertility",
+        "beauty"
+      ],
+      "reversedKeywords": [
+        "Insecurity",
+        "neglect",
+        "creative block"
+      ],
+      "meanings": {
+        "love": "Deep love, sensual connection",
+        "career": "Growth, prosperity, creative success",
+        "yesOrNo": "Yes"
+      },
+      "guideUrl": "https://deckaura.com/blogs/guide/empress-tarot-meaning",
+      "uprightKeywordsCn": [
+        "丰盛",
+        "滋养",
+        "孕育",
+        "美感"
+      ],
+      "reversedKeywordsCn": [
+        "不安全感",
+        "忽视",
+        "创造力受阻"
+      ],
+      "meaningsCn": {
+        "love": "感情温暖、亲密，有被照顾和被吸引的能量。",
+        "career": "项目有成长空间，适合发挥创意和审美。",
+        "yesOrNo": "是"
+      }
+    },
+    {
+      "id": "major-the-emperor",
+      "cardNumber": 4,
+      "name": "The Emperor",
+      "nameEn": "The Emperor",
+      "nameCn": "皇帝",
+      "arcana": "Major Arcana",
+      "suit": null,
+      "number": "4",
+      "img": "m04.jpg",
+      "imageUrl": "m04.jpg",
+      "backImageUrl": "/cards/back.png",
+      "element": "Fire",
+      "zodiacSign": "Aries",
+      "uprightKeywords": [
+        "Authority",
+        "structure",
+        "leadership",
+        "stability"
+      ],
+      "reversedKeywords": [
+        "Domination",
+        "rigidity",
+        "lack of discipline"
+      ],
+      "meanings": {
+        "love": "Committed partner, protective love",
+        "career": "Leadership role, promotion",
+        "yesOrNo": "Yes"
+      },
+      "guideUrl": "https://deckaura.com/blogs/guide/emperor-tarot-meaning",
+      "uprightKeywordsCn": [
+        "权威",
+        "结构",
+        "领导力",
+        "稳定"
+      ],
+      "reversedKeywordsCn": [
+        "控制欲",
+        "僵化",
+        "缺乏纪律"
+      ],
+      "meaningsCn": {
+        "love": "关系重视承诺和责任，也可能带有保护欲。",
+        "career": "适合建立秩序、承担领导职责或争取晋升。",
+        "yesOrNo": "是"
+      }
+    },
+    {
+      "id": "major-the-hierophant",
+      "cardNumber": 5,
+      "name": "The Hierophant",
+      "nameEn": "The Hierophant",
+      "nameCn": "教皇",
+      "arcana": "Major Arcana",
+      "suit": null,
+      "number": "5",
+      "img": "m05.jpg",
+      "imageUrl": "m05.jpg",
+      "backImageUrl": "/cards/back.png",
+      "element": "Earth",
+      "zodiacSign": "Taurus",
+      "uprightKeywords": [
+        "Tradition",
+        "spiritual guidance",
+        "conformity"
+      ],
+      "reversedKeywords": [
+        "Rebellion",
+        "subversion",
+        "new approaches"
+      ],
+      "meanings": {
+        "love": "Traditional relationship, commitment",
+        "career": "Mentorship, conventional path",
+        "yesOrNo": "Yes"
+      },
+      "guideUrl": "https://deckaura.com/blogs/guide/hierophant-tarot-meaning",
+      "uprightKeywordsCn": [
+        "传统",
+        "精神指引",
+        "规范",
+        "学习"
+      ],
+      "reversedKeywordsCn": [
+        "反叛",
+        "打破规则",
+        "新方法"
+      ],
+      "meaningsCn": {
+        "love": "偏向稳定、传统和认真承诺的关系。",
+        "career": "适合向导师学习，或走更稳妥、制度化的路线。",
+        "yesOrNo": "偏是"
+      }
+    },
+    {
+      "id": "major-the-lovers",
+      "cardNumber": 6,
+      "name": "The Lovers",
+      "nameEn": "The Lovers",
+      "nameCn": "恋人",
+      "arcana": "Major Arcana",
+      "suit": null,
+      "number": "6",
+      "img": "m06.jpg",
+      "imageUrl": "m06.jpg",
+      "backImageUrl": "/cards/back.png",
+      "element": "Air",
+      "zodiacSign": "Gemini",
+      "uprightKeywords": [
+        "Love",
+        "choices",
+        "partnerships",
+        "harmony"
+      ],
+      "reversedKeywords": [
+        "Disharmony",
+        "imbalance",
+        "misalignment"
+      ],
+      "meanings": {
+        "love": "Soulmate connection, deep bond",
+        "career": "Important partnership, career choice",
+        "yesOrNo": "Yes"
+      },
+      "guideUrl": "https://deckaura.com/blogs/guide/lovers-tarot-meaning",
+      "uprightKeywordsCn": [
+        "爱情",
+        "选择",
+        "伙伴关系",
+        "和谐"
+      ],
+      "reversedKeywordsCn": [
+        "不协调",
+        "失衡",
+        "价值观不一致"
+      ],
+      "meaningsCn": {
+        "love": "强烈吸引和深层连接，也涉及重要选择。",
+        "career": "可能有重要合作或职业方向上的抉择。",
+        "yesOrNo": "是"
+      }
+    },
+    {
+      "id": "major-the-chariot",
+      "cardNumber": 7,
+      "name": "The Chariot",
+      "nameEn": "The Chariot",
+      "nameCn": "战车",
+      "arcana": "Major Arcana",
+      "suit": null,
+      "number": "7",
+      "img": "m07.jpg",
+      "imageUrl": "m07.jpg",
+      "backImageUrl": "/cards/back.png",
+      "element": "Water",
+      "zodiacSign": "Cancer",
+      "uprightKeywords": [
+        "Determination",
+        "willpower",
+        "triumph",
+        "control"
+      ],
+      "reversedKeywords": [
+        "Lack of direction",
+        "aggression"
+      ],
+      "meanings": {
+        "love": "Pursuing love with confidence",
+        "career": "Ambition, career victory",
+        "yesOrNo": "Yes"
+      },
+      "guideUrl": "https://deckaura.com/blogs/guide/chariot-tarot-meaning",
+      "uprightKeywordsCn": [
+        "决心",
+        "意志力",
+        "胜利",
+        "掌控"
+      ],
+      "reversedKeywordsCn": [
+        "方向不清",
+        "冲动",
+        "失控"
+      ],
+      "meaningsCn": {
+        "love": "主动推进关系，带着信心追求。",
+        "career": "事业上需要冲刺和执行力，有取得进展的机会。",
+        "yesOrNo": "是"
+      }
+    },
+    {
+      "id": "major-strength",
+      "cardNumber": 8,
+      "name": "Strength",
+      "nameEn": "Strength",
+      "nameCn": "力量",
+      "arcana": "Major Arcana",
+      "suit": null,
+      "number": "8",
+      "img": "m08.jpg",
+      "imageUrl": "m08.jpg",
+      "backImageUrl": "/cards/back.png",
+      "element": "Fire",
+      "zodiacSign": "Leo",
+      "uprightKeywords": [
+        "Courage",
+        "patience",
+        "inner strength",
+        "compassion"
+      ],
+      "reversedKeywords": [
+        "Self-doubt",
+        "weakness",
+        "insecurity"
+      ],
+      "meanings": {
+        "love": "Patient love, gentle strength",
+        "career": "Perseverance, overcoming challenges",
+        "yesOrNo": "Yes"
+      },
+      "guideUrl": "https://deckaura.com/blogs/guide/strength-tarot-meaning",
+      "uprightKeywordsCn": [
+        "勇气",
+        "耐心",
+        "内在力量",
+        "温柔"
+      ],
+      "reversedKeywordsCn": [
+        "自我怀疑",
+        "软弱",
+        "不安全感"
+      ],
+      "meaningsCn": {
+        "love": "用耐心和温柔维系关系，而不是强硬推进。",
+        "career": "靠坚持和韧性克服挑战。",
+        "yesOrNo": "是"
+      }
+    },
+    {
+      "id": "major-the-hermit",
+      "cardNumber": 9,
+      "name": "The Hermit",
+      "nameEn": "The Hermit",
+      "nameCn": "隐者",
+      "arcana": "Major Arcana",
+      "suit": null,
+      "number": "9",
+      "img": "m09.jpg",
+      "imageUrl": "m09.jpg",
+      "backImageUrl": "/cards/back.png",
+      "element": "Earth",
+      "zodiacSign": "Virgo",
+      "uprightKeywords": [
+        "Introspection",
+        "solitude",
+        "inner guidance"
+      ],
+      "reversedKeywords": [
+        "Isolation",
+        "loneliness",
+        "withdrawal"
+      ],
+      "meanings": {
+        "love": "Self-discovery before love",
+        "career": "Career reflection, finding purpose",
+        "yesOrNo": "Maybe"
+      },
+      "guideUrl": "https://deckaura.com/blogs/guide/hermit-tarot-meaning",
+      "uprightKeywordsCn": [
+        "内省",
+        "独处",
+        "内在指引"
+      ],
+      "reversedKeywordsCn": [
+        "孤立",
+        "孤独",
+        "退缩"
+      ],
+      "meaningsCn": {
+        "love": "需要先厘清自己，再进入或推进关系。",
+        "career": "适合反思职业目标，寻找真正的方向。",
+        "yesOrNo": "不确定"
+      }
+    },
+    {
+      "id": "major-wheel-of-fortune",
+      "cardNumber": 10,
+      "name": "Wheel of Fortune",
+      "nameEn": "Wheel of Fortune",
+      "nameCn": "命运之轮",
+      "arcana": "Major Arcana",
+      "suit": null,
+      "number": "10",
+      "img": "m10.jpg",
+      "imageUrl": "m10.jpg",
+      "backImageUrl": "/cards/back.png",
+      "element": "Fire",
+      "zodiacSign": "Jupiter",
+      "uprightKeywords": [
+        "Cycles",
+        "destiny",
+        "turning points",
+        "luck"
+      ],
+      "reversedKeywords": [
+        "Bad luck",
+        "resistance to change"
+      ],
+      "meanings": {
+        "love": "Fated romance, relationship shift",
+        "career": "Career change, unexpected opportunity",
+        "yesOrNo": "Yes"
+      },
+      "guideUrl": "https://deckaura.com/blogs/guide/wheel-of-fortune-tarot-meaning",
+      "uprightKeywordsCn": [
+        "周期",
+        "命运",
+        "转折点",
+        "好运"
+      ],
+      "reversedKeywordsCn": [
+        "运势低迷",
+        "抗拒改变",
+        "时机不顺"
+      ],
+      "meaningsCn": {
+        "love": "关系可能进入转折期，带有机缘感。",
+        "career": "职业变化或意外机会出现，需要把握时机。",
+        "yesOrNo": "偏是"
+      }
+    },
+    {
+      "id": "major-justice",
+      "cardNumber": 11,
+      "name": "Justice",
+      "nameEn": "Justice",
+      "nameCn": "正义",
+      "arcana": "Major Arcana",
+      "suit": null,
+      "number": "11",
+      "img": "m11.jpg",
+      "imageUrl": "m11.jpg",
+      "backImageUrl": "/cards/back.png",
+      "element": "Air",
+      "zodiacSign": "Libra",
+      "uprightKeywords": [
+        "Fairness",
+        "truth",
+        "accountability",
+        "law"
+      ],
+      "reversedKeywords": [
+        "Unfairness",
+        "dishonesty",
+        "lack of accountability"
+      ],
+      "meanings": {
+        "love": "Fair partnership, karmic relationship",
+        "career": "Legal matters, ethical decisions",
+        "yesOrNo": "Yes"
+      },
+      "guideUrl": "https://deckaura.com/blogs/guide/justice-tarot-meaning",
+      "uprightKeywordsCn": [
+        "公平",
+        "真相",
+        "责任",
+        "法律"
+      ],
+      "reversedKeywordsCn": [
+        "不公平",
+        "不诚实",
+        "逃避责任"
+      ],
+      "meaningsCn": {
+        "love": "关系需要公平、坦诚和责任感。",
+        "career": "涉及规则、合同、伦理或重要判断。",
+        "yesOrNo": "是，但取决于是否公平合理"
+      }
+    },
+    {
+      "id": "major-the-hanged-man",
+      "cardNumber": 12,
+      "name": "The Hanged Man",
+      "nameEn": "The Hanged Man",
+      "nameCn": "倒吊人",
+      "arcana": "Major Arcana",
+      "suit": null,
+      "number": "12",
+      "img": "m12.jpg",
+      "imageUrl": "m12.jpg",
+      "backImageUrl": "/cards/back.png",
+      "element": "Water",
+      "zodiacSign": "Neptune",
+      "uprightKeywords": [
+        "Surrender",
+        "new perspective",
+        "pause",
+        "letting go"
+      ],
+      "reversedKeywords": [
+        "Stalling",
+        "resistance",
+        "indecision"
+      ],
+      "meanings": {
+        "love": "Pause in relationship, new viewpoint",
+        "career": "Career pause, seeing things differently",
+        "yesOrNo": "Maybe"
+      },
+      "guideUrl": "https://deckaura.com/blogs/guide/hanged-man-tarot-meaning",
+      "uprightKeywordsCn": [
+        "臣服",
+        "新视角",
+        "暂停",
+        "放下"
+      ],
+      "reversedKeywordsCn": [
+        "停滞",
+        "抗拒",
+        "犹豫不决"
+      ],
+      "meaningsCn": {
+        "love": "关系暂时停顿，需要换角度理解对方。",
+        "career": "职业节奏放慢，适合重新审视处境。",
+        "yesOrNo": "不确定"
+      }
+    },
+    {
+      "id": "major-death",
+      "cardNumber": 13,
+      "name": "Death",
+      "nameEn": "Death",
+      "nameCn": "死神",
+      "arcana": "Major Arcana",
+      "suit": null,
+      "number": "13",
+      "img": "m13.jpg",
+      "imageUrl": "m13.jpg",
+      "backImageUrl": "/cards/back.png",
+      "element": "Water",
+      "zodiacSign": "Scorpio",
+      "uprightKeywords": [
+        "Transformation",
+        "endings",
+        "new beginnings",
+        "change"
+      ],
+      "reversedKeywords": [
+        "Resistance to change",
+        "stagnation"
+      ],
+      "meanings": {
+        "love": "Relationship transformation, letting go",
+        "career": "Career ending leading to new start",
+        "yesOrNo": "Maybe"
+      },
+      "guideUrl": "https://deckaura.com/blogs/guide/death-tarot-meaning",
+      "uprightKeywordsCn": [
+        "转化",
+        "结束",
+        "新开始",
+        "改变"
+      ],
+      "reversedKeywordsCn": [
+        "抗拒改变",
+        "停滞",
+        "不愿放手"
+      ],
+      "meaningsCn": {
+        "love": "关系进入转化期，可能需要放下旧模式。",
+        "career": "一个阶段结束，为新方向腾出空间。",
+        "yesOrNo": "不确定，偏向需要改变"
+      }
+    },
+    {
+      "id": "major-temperance",
+      "cardNumber": 14,
+      "name": "Temperance",
+      "nameEn": "Temperance",
+      "nameCn": "节制",
+      "arcana": "Major Arcana",
+      "suit": null,
+      "number": "14",
+      "img": "m14.jpg",
+      "imageUrl": "m14.jpg",
+      "backImageUrl": "/cards/back.png",
+      "element": "Fire",
+      "zodiacSign": "Sagittarius",
+      "uprightKeywords": [
+        "Balance",
+        "patience",
+        "moderation",
+        "purpose"
+      ],
+      "reversedKeywords": [
+        "Imbalance",
+        "excess",
+        "lack of patience"
+      ],
+      "meanings": {
+        "love": "Balanced relationship, harmony",
+        "career": "Work-life balance, patience pays off",
+        "yesOrNo": "Yes"
+      },
+      "guideUrl": "https://deckaura.com/blogs/guide/temperance-tarot-meaning",
+      "uprightKeywordsCn": [
+        "平衡",
+        "耐心",
+        "节制",
+        "目的感"
+      ],
+      "reversedKeywordsCn": [
+        "失衡",
+        "过度",
+        "缺乏耐心"
+      ],
+      "meaningsCn": {
+        "love": "关系需要慢慢协调，重视平衡和磨合。",
+        "career": "适合稳步推进，保持工作与生活的平衡。",
+        "yesOrNo": "偏是"
+      }
+    },
+    {
+      "id": "major-the-devil",
+      "cardNumber": 15,
+      "name": "The Devil",
+      "nameEn": "The Devil",
+      "nameCn": "恶魔",
+      "arcana": "Major Arcana",
+      "suit": null,
+      "number": "15",
+      "img": "m15.jpg",
+      "imageUrl": "m15.jpg",
+      "backImageUrl": "/cards/back.png",
+      "element": "Earth",
+      "zodiacSign": "Capricorn",
+      "uprightKeywords": [
+        "Addiction",
+        "materialism",
+        "shadow self",
+        "bondage"
+      ],
+      "reversedKeywords": [
+        "Breaking free",
+        "releasing limiting beliefs"
+      ],
+      "meanings": {
+        "love": "Toxic attachment, passion without depth",
+        "career": "Feeling trapped in job, materialism",
+        "yesOrNo": "No"
+      },
+      "guideUrl": "https://deckaura.com/blogs/guide/devil-tarot-meaning",
+      "uprightKeywordsCn": [
+        "成瘾",
+        "物质欲望",
+        "阴影面",
+        "束缚"
+      ],
+      "reversedKeywordsCn": [
+        "挣脱束缚",
+        "释放限制性信念"
+      ],
+      "meaningsCn": {
+        "love": "强烈吸引但可能有依赖、执念或不健康关系模式。",
+        "career": "可能感到被工作、金钱或环境困住。",
+        "yesOrNo": "否"
+      }
+    },
+    {
+      "id": "major-the-tower",
+      "cardNumber": 16,
+      "name": "The Tower",
+      "nameEn": "The Tower",
+      "nameCn": "高塔",
+      "arcana": "Major Arcana",
+      "suit": null,
+      "number": "16",
+      "img": "m16.jpg",
+      "imageUrl": "m16.jpg",
+      "backImageUrl": "/cards/back.png",
+      "element": "Fire",
+      "zodiacSign": "Mars",
+      "uprightKeywords": [
+        "Sudden change",
+        "upheaval",
+        "revelation",
+        "chaos"
+      ],
+      "reversedKeywords": [
+        "Avoiding disaster",
+        "fear of change"
+      ],
+      "meanings": {
+        "love": "Relationship shakeup, revelation",
+        "career": "Sudden job loss, unexpected upheaval",
+        "yesOrNo": "No"
+      },
+      "guideUrl": "https://deckaura.com/blogs/guide/tower-tarot-meaning",
+      "uprightKeywordsCn": [
+        "突变",
+        "动荡",
+        "揭露",
+        "混乱"
+      ],
+      "reversedKeywordsCn": [
+        "避免灾难",
+        "害怕改变"
+      ],
+      "meaningsCn": {
+        "love": "关系中可能出现冲击、真相暴露或结构崩塌。",
+        "career": "事业可能有突然变化，需要重新搭建基础。",
+        "yesOrNo": "否"
+      }
+    },
+    {
+      "id": "major-the-star",
+      "cardNumber": 17,
+      "name": "The Star",
+      "nameEn": "The Star",
+      "nameCn": "星星",
+      "arcana": "Major Arcana",
+      "suit": null,
+      "number": "17",
+      "img": "m17.jpg",
+      "imageUrl": "m17.jpg",
+      "backImageUrl": "/cards/back.png",
+      "element": "Air",
+      "zodiacSign": "Aquarius",
+      "uprightKeywords": [
+        "Hope",
+        "renewal",
+        "spirituality",
+        "inspiration"
+      ],
+      "reversedKeywords": [
+        "Despair",
+        "lack of faith",
+        "disconnection"
+      ],
+      "meanings": {
+        "love": "Healing love, renewed hope",
+        "career": "Creative inspiration, dream career",
+        "yesOrNo": "Yes"
+      },
+      "guideUrl": "https://deckaura.com/blogs/guide/star-tarot-meaning",
+      "uprightKeywordsCn": [
+        "希望",
+        "更新",
+        "灵性",
+        "灵感"
+      ],
+      "reversedKeywordsCn": [
+        "失望",
+        "缺乏信念",
+        "断联感"
+      ],
+      "meaningsCn": {
+        "love": "感情有疗愈和重新燃起希望的可能。",
+        "career": "创意和愿景增强，适合追求理想方向。",
+        "yesOrNo": "是"
+      }
+    },
+    {
+      "id": "major-the-moon",
+      "cardNumber": 18,
+      "name": "The Moon",
+      "nameEn": "The Moon",
+      "nameCn": "月亮",
+      "arcana": "Major Arcana",
+      "suit": null,
+      "number": "18",
+      "img": "m18.jpg",
+      "imageUrl": "m18.jpg",
+      "backImageUrl": "/cards/back.png",
+      "element": "Water",
+      "zodiacSign": "Pisces",
+      "uprightKeywords": [
+        "Illusion",
+        "fear",
+        "subconscious",
+        "anxiety"
+      ],
+      "reversedKeywords": [
+        "Release of fear",
+        "clarity emerging"
+      ],
+      "meanings": {
+        "love": "Confusion in love, hidden emotions",
+        "career": "Uncertainty, trust your intuition",
+        "yesOrNo": "Maybe"
+      },
+      "guideUrl": "https://deckaura.com/blogs/guide/moon-tarot-meaning",
+      "uprightKeywordsCn": [
+        "幻象",
+        "恐惧",
+        "潜意识",
+        "焦虑"
+      ],
+      "reversedKeywordsCn": [
+        "恐惧释放",
+        "真相浮现"
+      ],
+      "meaningsCn": {
+        "love": "感情中存在不确定、隐藏情绪或误解。",
+        "career": "局势不够清晰，先不要完全相信表象。",
+        "yesOrNo": "不确定"
+      }
+    },
+    {
+      "id": "major-the-sun",
+      "cardNumber": 19,
+      "name": "The Sun",
+      "nameEn": "The Sun",
+      "nameCn": "太阳",
+      "arcana": "Major Arcana",
+      "suit": null,
+      "number": "19",
+      "img": "m19.jpg",
+      "imageUrl": "m19.jpg",
+      "backImageUrl": "/cards/back.png",
+      "element": "Fire",
+      "zodiacSign": "Sun",
+      "uprightKeywords": [
+        "Joy",
+        "success",
+        "vitality",
+        "positivity"
+      ],
+      "reversedKeywords": [
+        "Temporary sadness",
+        "lack of clarity"
+      ],
+      "meanings": {
+        "love": "Happy relationship, joy in love",
+        "career": "Career success, recognition",
+        "yesOrNo": "Yes"
+      },
+      "guideUrl": "https://deckaura.com/blogs/guide/sun-tarot-meaning",
+      "uprightKeywordsCn": [
+        "快乐",
+        "成功",
+        "活力",
+        "积极"
+      ],
+      "reversedKeywordsCn": [
+        "短暂低落",
+        "缺乏清晰度"
+      ],
+      "meaningsCn": {
+        "love": "关系明朗、快乐，有积极发展。",
+        "career": "事业表现亮眼，容易获得认可。",
+        "yesOrNo": "是"
+      }
+    },
+    {
+      "id": "major-judgement",
+      "cardNumber": 20,
+      "name": "Judgement",
+      "nameEn": "Judgement",
+      "nameCn": "审判",
+      "arcana": "Major Arcana",
+      "suit": null,
+      "number": "20",
+      "img": "m20.jpg",
+      "imageUrl": "m20.jpg",
+      "backImageUrl": "/cards/back.png",
+      "element": "Fire",
+      "zodiacSign": "Pluto",
+      "uprightKeywords": [
+        "Rebirth",
+        "reflection",
+        "reckoning",
+        "absolution"
+      ],
+      "reversedKeywords": [
+        "Self-doubt",
+        "refusal to learn"
+      ],
+      "meanings": {
+        "love": "Relationship evaluation, second chance",
+        "career": "Career calling, important decision",
+        "yesOrNo": "Yes"
+      },
+      "guideUrl": "https://deckaura.com/blogs/guide/judgement-tarot-meaning",
+      "uprightKeywordsCn": [
+        "重生",
+        "反思",
+        "审视",
+        "觉醒"
+      ],
+      "reversedKeywordsCn": [
+        "自我怀疑",
+        "拒绝学习"
+      ],
+      "meaningsCn": {
+        "love": "关系进入评估期，可能有重新开始或做决定的机会。",
+        "career": "听见职业召唤，需要做出重要判断。",
+        "yesOrNo": "是"
+      }
+    },
+    {
+      "id": "major-the-world",
+      "cardNumber": 21,
+      "name": "The World",
+      "nameEn": "The World",
+      "nameCn": "世界",
+      "arcana": "Major Arcana",
+      "suit": null,
+      "number": "21",
+      "img": "m21.jpg",
+      "imageUrl": "m21.jpg",
+      "backImageUrl": "/cards/back.png",
+      "element": "Earth",
+      "zodiacSign": "Saturn",
+      "uprightKeywords": [
+        "Completion",
+        "accomplishment",
+        "travel",
+        "wholeness"
+      ],
+      "reversedKeywords": [
+        "Incompletion",
+        "shortcuts",
+        "delays"
+      ],
+      "meanings": {
+        "love": "Fulfilled relationship, soulmate found",
+        "career": "Goal achieved, career milestone",
+        "yesOrNo": "Yes"
+      },
+      "guideUrl": "https://deckaura.com/blogs/guide/world-tarot-meaning",
+      "uprightKeywordsCn": [
+        "完成",
+        "成就",
+        "旅行",
+        "圆满"
+      ],
+      "reversedKeywordsCn": [
+        "未完成",
+        "走捷径",
+        "延迟"
+      ],
+      "meaningsCn": {
+        "love": "关系有圆满感，可能进入稳定或完成阶段。",
+        "career": "目标达成，职业进入一个里程碑。",
+        "yesOrNo": "是"
+      }
+    },
+    {
+      "id": "cups-ace-of-cups",
+      "cardNumber": 36,
+      "name": "Ace of Cups",
+      "nameEn": "Ace of Cups",
+      "nameCn": "圣杯王牌",
+      "arcana": "Minor Arcana",
+      "suit": "Cups",
+      "number": "1",
+      "img": "c01.jpg",
+      "imageUrl": "c01.jpg",
+      "backImageUrl": "/cards/back.png",
+      "element": "Water",
+      "zodiacSign": null,
+      "uprightKeywords": [
+        "New love",
+        "emotional beginning",
+        "compassion"
+      ],
+      "reversedKeywords": [
+        "Emotional loss",
+        "blocked feelings",
+        "emptiness"
+      ],
+      "meanings": {
+        "love": "New relationship, deep emotional connection",
+        "career": "Creative fulfillment, emotional satisfaction",
+        "yesOrNo": "Yes"
+      },
+      "guideUrl": "https://deckaura.com/blogs/guide/ace-of-cups-tarot-meaning",
+      "uprightKeywordsCn": [
+        "新爱情",
+        "情感开始",
+        "慈悲"
+      ],
+      "reversedKeywordsCn": [
+        "情感失落",
+        "感受受阻",
+        "空虚"
+      ],
+      "meaningsCn": {
+        "love": "新的关系或情感流动开始，适合表达真心。",
+        "career": "创意满足或情绪价值提升。",
+        "yesOrNo": "是"
+      }
+    },
+    {
+      "id": "cups-two-of-cups",
+      "cardNumber": 37,
+      "name": "Two of Cups",
+      "nameEn": "Two of Cups",
+      "nameCn": "圣杯二",
+      "arcana": "Minor Arcana",
+      "suit": "Cups",
+      "number": "2",
+      "img": "c02.jpg",
+      "imageUrl": "c02.jpg",
+      "backImageUrl": "/cards/back.png",
+      "element": "Water",
+      "zodiacSign": null,
+      "uprightKeywords": [
+        "Partnership",
+        "mutual attraction",
+        "unity"
+      ],
+      "reversedKeywords": [
+        "Breakup",
+        "imbalance",
+        "disharmony"
+      ],
+      "meanings": {
+        "love": "Mutual love, equal partnership",
+        "career": "Business partnership, collaboration",
+        "yesOrNo": "Yes"
+      },
+      "guideUrl": "https://deckaura.com/blogs/guide/two-of-cups-tarot-meaning",
+      "uprightKeywordsCn": [
+        "伙伴关系",
+        "相互吸引",
+        "结合"
+      ],
+      "reversedKeywordsCn": [
+        "分离",
+        "失衡",
+        "不和"
+      ],
+      "meaningsCn": {
+        "love": "双向好感、互相靠近，关系较平等。",
+        "career": "适合合作、结盟或建立伙伴关系。",
+        "yesOrNo": "是"
+      }
+    },
+    {
+      "id": "cups-three-of-cups",
+      "cardNumber": 38,
+      "name": "Three of Cups",
+      "nameEn": "Three of Cups",
+      "nameCn": "圣杯三",
+      "arcana": "Minor Arcana",
+      "suit": "Cups",
+      "number": "3",
+      "img": "c03.jpg",
+      "imageUrl": "c03.jpg",
+      "backImageUrl": "/cards/back.png",
+      "element": "Water",
+      "zodiacSign": null,
+      "uprightKeywords": [
+        "Celebration",
+        "friendship",
+        "joy",
+        "community"
+      ],
+      "reversedKeywords": [
+        "Overindulgence",
+        "gossip",
+        "isolation"
+      ],
+      "meanings": {
+        "love": "Social love, friends becoming lovers",
+        "career": "Team celebration, networking success",
+        "yesOrNo": "Yes"
+      },
+      "guideUrl": "https://deckaura.com/blogs/guide/three-of-cups-tarot-meaning",
+      "uprightKeywordsCn": [
+        "庆祝",
+        "友谊",
+        "喜悦",
+        "社群"
+      ],
+      "reversedKeywordsCn": [
+        "放纵",
+        "流言",
+        "孤立"
+      ],
+      "meaningsCn": {
+        "love": "轻松愉快的社交型感情，也可能朋友变恋人。",
+        "career": "团队协作顺利，适合社交和拓展人脉。",
+        "yesOrNo": "是"
+      }
+    },
+    {
+      "id": "cups-four-of-cups",
+      "cardNumber": 39,
+      "name": "Four of Cups",
+      "nameEn": "Four of Cups",
+      "nameCn": "圣杯四",
+      "arcana": "Minor Arcana",
+      "suit": "Cups",
+      "number": "4",
+      "img": "c04.jpg",
+      "imageUrl": "c04.jpg",
+      "backImageUrl": "/cards/back.png",
+      "element": "Water",
+      "zodiacSign": null,
+      "uprightKeywords": [
+        "Apathy",
+        "contemplation",
+        "missed opportunities"
+      ],
+      "reversedKeywords": [
+        "Awareness",
+        "acceptance",
+        "motivation returning"
+      ],
+      "meanings": {
+        "love": "Taking love for granted, emotional boredom",
+        "career": "Disengagement, overlooking opportunity",
+        "yesOrNo": "No"
+      },
+      "guideUrl": "https://deckaura.com/blogs/guide/four-of-cups-tarot-meaning",
+      "uprightKeywordsCn": [
+        "冷淡",
+        "沉思",
+        "错过机会"
+      ],
+      "reversedKeywordsCn": [
+        "觉察",
+        "接受",
+        "动力回归"
+      ],
+      "meaningsCn": {
+        "love": "对感情兴趣不足，可能忽视眼前机会。",
+        "career": "工作动力下降，容易错过机会。",
+        "yesOrNo": "否"
+      }
+    },
+    {
+      "id": "cups-five-of-cups",
+      "cardNumber": 40,
+      "name": "Five of Cups",
+      "nameEn": "Five of Cups",
+      "nameCn": "圣杯五",
+      "arcana": "Minor Arcana",
+      "suit": "Cups",
+      "number": "5",
+      "img": "c05.jpg",
+      "imageUrl": "c05.jpg",
+      "backImageUrl": "/cards/back.png",
+      "element": "Water",
+      "zodiacSign": null,
+      "uprightKeywords": [
+        "Loss",
+        "grief",
+        "regret",
+        "disappointment"
+      ],
+      "reversedKeywords": [
+        "Acceptance",
+        "moving on",
+        "finding peace"
+      ],
+      "meanings": {
+        "love": "Heartbreak, mourning lost love",
+        "career": "Career disappointment, focusing on loss",
+        "yesOrNo": "No"
+      },
+      "guideUrl": "https://deckaura.com/blogs/guide/five-of-cups-tarot-meaning",
+      "uprightKeywordsCn": [
+        "失落",
+        "悲伤",
+        "后悔",
+        "失望"
+      ],
+      "reversedKeywordsCn": [
+        "接受",
+        "走出",
+        "平静"
+      ],
+      "meaningsCn": {
+        "love": "沉浸在遗憾或失恋情绪中，但仍有可保留的部分。",
+        "career": "职业上有失望，需要从损失中恢复。",
+        "yesOrNo": "否"
+      }
+    },
+    {
+      "id": "cups-six-of-cups",
+      "cardNumber": 41,
+      "name": "Six of Cups",
+      "nameEn": "Six of Cups",
+      "nameCn": "圣杯六",
+      "arcana": "Minor Arcana",
+      "suit": "Cups",
+      "number": "6",
+      "img": "c06.jpg",
+      "imageUrl": "c06.jpg",
+      "backImageUrl": "/cards/back.png",
+      "element": "Water",
+      "zodiacSign": null,
+      "uprightKeywords": [
+        "Nostalgia",
+        "childhood",
+        "innocence",
+        "reunion"
+      ],
+      "reversedKeywords": [
+        "Moving forward",
+        "leaving the past"
+      ],
+      "meanings": {
+        "love": "Reconnecting with ex, childhood sweetheart",
+        "career": "Past career returning, nostalgia",
+        "yesOrNo": "Yes"
+      },
+      "guideUrl": "https://deckaura.com/blogs/guide/six-of-cups-tarot-meaning",
+      "uprightKeywordsCn": [
+        "怀旧",
+        "童年",
+        "纯真",
+        "重逢"
+      ],
+      "reversedKeywordsCn": [
+        "向前走",
+        "离开过去"
+      ],
+      "meaningsCn": {
+        "love": "旧人、旧情或熟悉感回归，带有温柔怀旧感。",
+        "career": "过去的机会或旧经验可能重新发挥作用。",
+        "yesOrNo": "偏是"
+      }
+    },
+    {
+      "id": "cups-seven-of-cups",
+      "cardNumber": 42,
+      "name": "Seven of Cups",
+      "nameEn": "Seven of Cups",
+      "nameCn": "圣杯七",
+      "arcana": "Minor Arcana",
+      "suit": "Cups",
+      "number": "7",
+      "img": "c07.jpg",
+      "imageUrl": "c07.jpg",
+      "backImageUrl": "/cards/back.png",
+      "element": "Water",
+      "zodiacSign": null,
+      "uprightKeywords": [
+        "Fantasy",
+        "illusion",
+        "choices",
+        "wishful thinking"
+      ],
+      "reversedKeywords": [
+        "Clarity",
+        "focus",
+        "making a decision"
+      ],
+      "meanings": {
+        "love": "Unrealistic expectations in love",
+        "career": "Too many options, need to focus",
+        "yesOrNo": "Maybe"
+      },
+      "guideUrl": "https://deckaura.com/blogs/guide/seven-of-cups-tarot-meaning",
+      "uprightKeywordsCn": [
+        "幻想",
+        "幻象",
+        "选择",
+        "空想"
+      ],
+      "reversedKeywordsCn": [
+        "清晰",
+        "专注",
+        "做决定"
+      ],
+      "meaningsCn": {
+        "love": "感情期待可能过于理想化，需要分清现实。",
+        "career": "选择太多导致分散，需要聚焦。",
+        "yesOrNo": "不确定"
+      }
+    },
+    {
+      "id": "cups-eight-of-cups",
+      "cardNumber": 43,
+      "name": "Eight of Cups",
+      "nameEn": "Eight of Cups",
+      "nameCn": "圣杯八",
+      "arcana": "Minor Arcana",
+      "suit": "Cups",
+      "number": "8",
+      "img": "c08.jpg",
+      "imageUrl": "c08.jpg",
+      "backImageUrl": "/cards/back.png",
+      "element": "Water",
+      "zodiacSign": null,
+      "uprightKeywords": [
+        "Walking away",
+        "searching for meaning",
+        "withdrawal"
+      ],
+      "reversedKeywords": [
+        "Fear of change",
+        "stagnation",
+        "clinging"
+      ],
+      "meanings": {
+        "love": "Leaving unfulfilling relationship",
+        "career": "Quitting job to find purpose",
+        "yesOrNo": "Maybe"
+      },
+      "guideUrl": "https://deckaura.com/blogs/guide/eight-of-cups-tarot-meaning",
+      "uprightKeywordsCn": [
+        "离开",
+        "寻找意义",
+        "抽离"
+      ],
+      "reversedKeywordsCn": [
+        "害怕改变",
+        "停滞",
+        "执着"
+      ],
+      "meaningsCn": {
+        "love": "离开不满足的关系，寻找更深层的情感意义。",
+        "career": "可能离开当前工作，寻找更有意义的方向。",
+        "yesOrNo": "不确定"
+      }
+    },
+    {
+      "id": "cups-nine-of-cups",
+      "cardNumber": 44,
+      "name": "Nine of Cups",
+      "nameEn": "Nine of Cups",
+      "nameCn": "圣杯九",
+      "arcana": "Minor Arcana",
+      "suit": "Cups",
+      "number": "9",
+      "img": "c09.jpg",
+      "imageUrl": "c09.jpg",
+      "backImageUrl": "/cards/back.png",
+      "element": "Water",
+      "zodiacSign": null,
+      "uprightKeywords": [
+        "Wish fulfillment",
+        "satisfaction",
+        "contentment"
+      ],
+      "reversedKeywords": [
+        "Dissatisfaction",
+        "greed",
+        "unfulfillment"
+      ],
+      "meanings": {
+        "love": "Relationship wishes coming true",
+        "career": "Career satisfaction, goals achieved",
+        "yesOrNo": "Yes"
+      },
+      "guideUrl": "https://deckaura.com/blogs/guide/nine-of-cups-tarot-meaning",
+      "uprightKeywordsCn": [
+        "愿望实现",
+        "满足",
+        "享受"
+      ],
+      "reversedKeywordsCn": [
+        "不满足",
+        "贪心",
+        "落空"
+      ],
+      "meaningsCn": {
+        "love": "感情愿望有实现机会，情绪满足度较高。",
+        "career": "事业目标接近达成，带来满足感。",
+        "yesOrNo": "是"
+      }
+    },
+    {
+      "id": "cups-ten-of-cups",
+      "cardNumber": 45,
+      "name": "Ten of Cups",
+      "nameEn": "Ten of Cups",
+      "nameCn": "圣杯十",
+      "arcana": "Minor Arcana",
+      "suit": "Cups",
+      "number": "10",
+      "img": "c10.jpg",
+      "imageUrl": "c10.jpg",
+      "backImageUrl": "/cards/back.png",
+      "element": "Water",
+      "zodiacSign": null,
+      "uprightKeywords": [
+        "Happiness",
+        "harmony",
+        "family",
+        "emotional fulfillment"
+      ],
+      "reversedKeywords": [
+        "Broken home",
+        "disharmony",
+        "misalignment"
+      ],
+      "meanings": {
+        "love": "Happy marriage, family bliss",
+        "career": "Dream career, work-life harmony",
+        "yesOrNo": "Yes"
+      },
+      "guideUrl": "https://deckaura.com/blogs/guide/ten-of-cups-tarot-meaning",
+      "uprightKeywordsCn": [
+        "幸福",
+        "和谐",
+        "家庭",
+        "情感圆满"
+      ],
+      "reversedKeywordsCn": [
+        "家庭不和",
+        "失谐",
+        "不一致"
+      ],
+      "meaningsCn": {
+        "love": "稳定、幸福、适合长期发展的关系。",
+        "career": "理想工作状态或工作生活和谐。",
+        "yesOrNo": "是"
+      }
+    },
+    {
+      "id": "cups-page-of-cups",
+      "cardNumber": 46,
+      "name": "Page of Cups",
+      "nameEn": "Page of Cups",
+      "nameCn": "圣杯侍从",
+      "arcana": "Minor Arcana",
+      "suit": "Cups",
+      "number": "11",
+      "img": "c11.jpg",
+      "imageUrl": "c11.jpg",
+      "backImageUrl": "/cards/back.png",
+      "element": "Water",
+      "zodiacSign": null,
+      "uprightKeywords": [
+        "Creative message",
+        "intuition",
+        "inner child"
+      ],
+      "reversedKeywords": [
+        "Emotional immaturity",
+        "creative block"
+      ],
+      "meanings": {
+        "love": "Sweet romantic gesture, new love message",
+        "career": "Creative opportunity, artistic pursuit",
+        "yesOrNo": "Yes"
+      },
+      "guideUrl": "https://deckaura.com/blogs/guide/page-of-cups-tarot-meaning",
+      "uprightKeywordsCn": [
+        "浪漫消息",
+        "直觉",
+        "内在小孩"
+      ],
+      "reversedKeywordsCn": [
+        "情绪不成熟",
+        "创意受阻"
+      ],
+      "meaningsCn": {
+        "love": "甜美的示好、暧昧消息或新的情感萌芽。",
+        "career": "创意机会出现，适合尝试艺术或表达。",
+        "yesOrNo": "是"
+      }
+    },
+    {
+      "id": "cups-knight-of-cups",
+      "cardNumber": 47,
+      "name": "Knight of Cups",
+      "nameEn": "Knight of Cups",
+      "nameCn": "圣杯骑士",
+      "arcana": "Minor Arcana",
+      "suit": "Cups",
+      "number": "12",
+      "img": "c12.jpg",
+      "imageUrl": "c12.jpg",
+      "backImageUrl": "/cards/back.png",
+      "element": "Water",
+      "zodiacSign": null,
+      "uprightKeywords": [
+        "Romance",
+        "charm",
+        "imagination",
+        "beauty"
+      ],
+      "reversedKeywords": [
+        "Moodiness",
+        "unrealistic",
+        "jealousy"
+      ],
+      "meanings": {
+        "love": "Romantic proposal, charming partner",
+        "career": "Following creative passion, artistic career",
+        "yesOrNo": "Yes"
+      },
+      "guideUrl": "https://deckaura.com/blogs/guide/knight-of-cups-tarot-meaning",
+      "uprightKeywordsCn": [
+        "浪漫",
+        "魅力",
+        "想象力",
+        "美"
+      ],
+      "reversedKeywordsCn": [
+        "情绪化",
+        "不现实",
+        "嫉妒"
+      ],
+      "meaningsCn": {
+        "love": "浪漫邀约或有魅力的人靠近，但需要看实际行动。",
+        "career": "追随创意热情，适合表达和提案。",
+        "yesOrNo": "是"
+      }
+    },
+    {
+      "id": "cups-queen-of-cups",
+      "cardNumber": 48,
+      "name": "Queen of Cups",
+      "nameEn": "Queen of Cups",
+      "nameCn": "圣杯王后",
+      "arcana": "Minor Arcana",
+      "suit": "Cups",
+      "number": "13",
+      "img": "c13.jpg",
+      "imageUrl": "c13.jpg",
+      "backImageUrl": "/cards/back.png",
+      "element": "Water",
+      "zodiacSign": null,
+      "uprightKeywords": [
+        "Compassion",
+        "calm",
+        "intuitive",
+        "nurturing"
+      ],
+      "reversedKeywords": [
+        "Insecurity",
+        "co-dependency",
+        "emotional manipulation"
+      ],
+      "meanings": {
+        "love": "Deeply caring partner, empathic love",
+        "career": "Counseling career, emotional intelligence",
+        "yesOrNo": "Yes"
+      },
+      "guideUrl": "https://deckaura.com/blogs/guide/queen-of-cups-tarot-meaning",
+      "uprightKeywordsCn": [
+        "同理心",
+        "平静",
+        "直觉",
+        "滋养"
+      ],
+      "reversedKeywordsCn": [
+        "不安全感",
+        "共依赖",
+        "情绪操控"
+      ],
+      "meaningsCn": {
+        "love": "温柔深情、重视照顾和情绪理解。",
+        "career": "适合咨询、照护、创意或需要情商的工作。",
+        "yesOrNo": "是"
+      }
+    },
+    {
+      "id": "cups-king-of-cups",
+      "cardNumber": 49,
+      "name": "King of Cups",
+      "nameEn": "King of Cups",
+      "nameCn": "圣杯国王",
+      "arcana": "Minor Arcana",
+      "suit": "Cups",
+      "number": "14",
+      "img": "c14.jpg",
+      "imageUrl": "c14.jpg",
+      "backImageUrl": "/cards/back.png",
+      "element": "Water",
+      "zodiacSign": null,
+      "uprightKeywords": [
+        "Emotional balance",
+        "diplomacy",
+        "calm authority"
+      ],
+      "reversedKeywords": [
+        "Emotional manipulation",
+        "moodiness"
+      ],
+      "meanings": {
+        "love": "Wise loving partner, emotional maturity",
+        "career": "Leadership through empathy, diplomacy",
+        "yesOrNo": "Yes"
+      },
+      "guideUrl": "https://deckaura.com/blogs/guide/king-of-cups-tarot-meaning",
+      "uprightKeywordsCn": [
+        "情绪平衡",
+        "外交",
+        "沉稳权威"
+      ],
+      "reversedKeywordsCn": [
+        "情绪操控",
+        "阴晴不定"
+      ],
+      "meaningsCn": {
+        "love": "成熟稳定的爱，能控制情绪并给予支持。",
+        "career": "以同理心领导，适合协调和管理。",
+        "yesOrNo": "是"
+      }
+    },
+    {
+      "id": "swords-ace-of-swords",
+      "cardNumber": 50,
+      "name": "Ace of Swords",
+      "nameEn": "Ace of Swords",
+      "nameCn": "宝剑王牌",
+      "arcana": "Minor Arcana",
+      "suit": "Swords",
+      "number": "1",
+      "img": "s01.jpg",
+      "imageUrl": "s01.jpg",
+      "backImageUrl": "/cards/back.png",
+      "element": "Air",
+      "zodiacSign": null,
+      "uprightKeywords": [
+        "Clarity",
+        "breakthrough",
+        "truth",
+        "new idea"
+      ],
+      "reversedKeywords": [
+        "Confusion",
+        "chaos",
+        "lack of clarity"
+      ],
+      "meanings": {
+        "love": "Clear communication in love",
+        "career": "Breakthrough idea, mental clarity",
+        "yesOrNo": "Yes"
+      },
+      "guideUrl": "https://deckaura.com/blogs/guide/ace-of-swords-tarot-meaning",
+      "uprightKeywordsCn": [
+        "清晰",
+        "突破",
+        "真相",
+        "新想法"
+      ],
+      "reversedKeywordsCn": [
+        "混乱",
+        "失序",
+        "不清晰"
+      ],
+      "meaningsCn": {
+        "love": "通过坦诚沟通带来关系突破。",
+        "career": "出现清晰想法或关键突破。",
+        "yesOrNo": "是"
+      }
+    },
+    {
+      "id": "swords-two-of-swords",
+      "cardNumber": 51,
+      "name": "Two of Swords",
+      "nameEn": "Two of Swords",
+      "nameCn": "宝剑二",
+      "arcana": "Minor Arcana",
+      "suit": "Swords",
+      "number": "2",
+      "img": "s02.jpg",
+      "imageUrl": "s02.jpg",
+      "backImageUrl": "/cards/back.png",
+      "element": "Air",
+      "zodiacSign": null,
+      "uprightKeywords": [
+        "Indecision",
+        "stalemate",
+        "blocked emotions"
+      ],
+      "reversedKeywords": [
+        "Information overload",
+        "overwhelm",
+        "clarity coming"
+      ],
+      "meanings": {
+        "love": "Relationship crossroads, avoiding truth",
+        "career": "Career decision paralysis",
+        "yesOrNo": "Maybe"
+      },
+      "guideUrl": "https://deckaura.com/blogs/guide/two-of-swords-tarot-meaning",
+      "uprightKeywordsCn": [
+        "犹豫",
+        "僵持",
+        "情感封闭"
+      ],
+      "reversedKeywordsCn": [
+        "信息过载",
+        "压力",
+        "清晰将至"
+      ],
+      "meaningsCn": {
+        "love": "关系处于抉择点，双方可能回避真相。",
+        "career": "职业选择困难，需要更多信息。",
+        "yesOrNo": "不确定"
+      }
+    },
+    {
+      "id": "swords-three-of-swords",
+      "cardNumber": 52,
+      "name": "Three of Swords",
+      "nameEn": "Three of Swords",
+      "nameCn": "宝剑三",
+      "arcana": "Minor Arcana",
+      "suit": "Swords",
+      "number": "3",
+      "img": "s03.jpg",
+      "imageUrl": "s03.jpg",
+      "backImageUrl": "/cards/back.png",
+      "element": "Air",
+      "zodiacSign": null,
+      "uprightKeywords": [
+        "Heartbreak",
+        "sorrow",
+        "grief",
+        "painful truth"
+      ],
+      "reversedKeywords": [
+        "Recovery",
+        "healing",
+        "forgiveness"
+      ],
+      "meanings": {
+        "love": "Breakup, betrayal, emotional pain",
+        "career": "Job loss, painful professional truth",
+        "yesOrNo": "No"
+      },
+      "guideUrl": "https://deckaura.com/blogs/guide/three-of-swords-tarot-meaning",
+      "uprightKeywordsCn": [
+        "心碎",
+        "悲伤",
+        "痛苦真相"
+      ],
+      "reversedKeywordsCn": [
+        "恢复",
+        "疗愈",
+        "原谅"
+      ],
+      "meaningsCn": {
+        "love": "可能有失望、分离或痛苦沟通。",
+        "career": "职场上面临刺痛的事实或损失。",
+        "yesOrNo": "否"
+      }
+    },
+    {
+      "id": "swords-four-of-swords",
+      "cardNumber": 53,
+      "name": "Four of Swords",
+      "nameEn": "Four of Swords",
+      "nameCn": "宝剑四",
+      "arcana": "Minor Arcana",
+      "suit": "Swords",
+      "number": "4",
+      "img": "s04.jpg",
+      "imageUrl": "s04.jpg",
+      "backImageUrl": "/cards/back.png",
+      "element": "Air",
+      "zodiacSign": null,
+      "uprightKeywords": [
+        "Rest",
+        "recovery",
+        "contemplation",
+        "restoration"
+      ],
+      "reversedKeywords": [
+        "Restlessness",
+        "burnout",
+        "lack of rest"
+      ],
+      "meanings": {
+        "love": "Relationship pause, time to reflect",
+        "career": "Vacation needed, recovery from stress",
+        "yesOrNo": "Maybe"
+      },
+      "guideUrl": "https://deckaura.com/blogs/guide/four-of-swords-tarot-meaning",
+      "uprightKeywordsCn": [
+        "休息",
+        "恢复",
+        "沉思",
+        "修复"
+      ],
+      "reversedKeywordsCn": [
+        "坐立不安",
+        "倦怠",
+        "缺乏休息"
+      ],
+      "meaningsCn": {
+        "love": "关系需要暂停和冷静，避免过度消耗。",
+        "career": "需要休整，避免职业倦怠。",
+        "yesOrNo": "不确定"
+      }
+    },
+    {
+      "id": "swords-five-of-swords",
+      "cardNumber": 54,
+      "name": "Five of Swords",
+      "nameEn": "Five of Swords",
+      "nameCn": "宝剑五",
+      "arcana": "Minor Arcana",
+      "suit": "Swords",
+      "number": "5",
+      "img": "s05.jpg",
+      "imageUrl": "s05.jpg",
+      "backImageUrl": "/cards/back.png",
+      "element": "Air",
+      "zodiacSign": null,
+      "uprightKeywords": [
+        "Conflict",
+        "defeat",
+        "win at all costs",
+        "betrayal"
+      ],
+      "reversedKeywords": [
+        "Reconciliation",
+        "forgiveness",
+        "moving on"
+      ],
+      "meanings": {
+        "love": "Arguments, power struggles in love",
+        "career": "Office politics, unfair competition",
+        "yesOrNo": "No"
+      },
+      "guideUrl": "https://deckaura.com/blogs/guide/five-of-swords-tarot-meaning",
+      "uprightKeywordsCn": [
+        "冲突",
+        "失败",
+        "不择手段",
+        "背叛"
+      ],
+      "reversedKeywordsCn": [
+        "和解",
+        "原谅",
+        "放下"
+      ],
+      "meaningsCn": {
+        "love": "争执和权力斗争明显，不适合硬碰硬。",
+        "career": "职场政治或不公平竞争，需要谨慎。",
+        "yesOrNo": "否"
+      }
+    },
+    {
+      "id": "swords-six-of-swords",
+      "cardNumber": 55,
+      "name": "Six of Swords",
+      "nameEn": "Six of Swords",
+      "nameCn": "宝剑六",
+      "arcana": "Minor Arcana",
+      "suit": "Swords",
+      "number": "6",
+      "img": "s06.jpg",
+      "imageUrl": "s06.jpg",
+      "backImageUrl": "/cards/back.png",
+      "element": "Air",
+      "zodiacSign": null,
+      "uprightKeywords": [
+        "Transition",
+        "moving on",
+        "recovery",
+        "travel"
+      ],
+      "reversedKeywords": [
+        "Stagnation",
+        "resistance",
+        "unfinished business"
+      ],
+      "meanings": {
+        "love": "Moving on from heartbreak",
+        "career": "Career transition, relocation",
+        "yesOrNo": "Yes"
+      },
+      "guideUrl": "https://deckaura.com/blogs/guide/six-of-swords-tarot-meaning",
+      "uprightKeywordsCn": [
+        "过渡",
+        "离开",
+        "恢复",
+        "旅行"
+      ],
+      "reversedKeywordsCn": [
+        "停滞",
+        "抗拒",
+        "未完成"
+      ],
+      "meaningsCn": {
+        "love": "从旧伤中离开，关系进入过渡期。",
+        "career": "职业转型、调岗或迁移。",
+        "yesOrNo": "偏是"
+      }
+    },
+    {
+      "id": "swords-seven-of-swords",
+      "cardNumber": 56,
+      "name": "Seven of Swords",
+      "nameEn": "Seven of Swords",
+      "nameCn": "宝剑七",
+      "arcana": "Minor Arcana",
+      "suit": "Swords",
+      "number": "7",
+      "img": "s07.jpg",
+      "imageUrl": "s07.jpg",
+      "backImageUrl": "/cards/back.png",
+      "element": "Air",
+      "zodiacSign": null,
+      "uprightKeywords": [
+        "Deception",
+        "strategy",
+        "stealth",
+        "cunning"
+      ],
+      "reversedKeywords": [
+        "Coming clean",
+        "confession",
+        "conscience"
+      ],
+      "meanings": {
+        "love": "Dishonesty in relationship, secrets",
+        "career": "Underhanded work tactics, be careful",
+        "yesOrNo": "No"
+      },
+      "guideUrl": "https://deckaura.com/blogs/guide/seven-of-swords-tarot-meaning",
+      "uprightKeywordsCn": [
+        "欺瞒",
+        "策略",
+        "隐秘",
+        "狡黠"
+      ],
+      "reversedKeywordsCn": [
+        "坦白",
+        "承认",
+        "良心"
+      ],
+      "meaningsCn": {
+        "love": "关系中可能有隐瞒、试探或不完全诚实。",
+        "career": "工作中要警惕暗箱操作或信息不对称。",
+        "yesOrNo": "否"
+      }
+    },
+    {
+      "id": "swords-eight-of-swords",
+      "cardNumber": 57,
+      "name": "Eight of Swords",
+      "nameEn": "Eight of Swords",
+      "nameCn": "宝剑八",
+      "arcana": "Minor Arcana",
+      "suit": "Swords",
+      "number": "8",
+      "img": "s08.jpg",
+      "imageUrl": "s08.jpg",
+      "backImageUrl": "/cards/back.png",
+      "element": "Air",
+      "zodiacSign": null,
+      "uprightKeywords": [
+        "Restriction",
+        "trapped",
+        "self-limiting beliefs"
+      ],
+      "reversedKeywords": [
+        "Freedom",
+        "release",
+        "new perspective"
+      ],
+      "meanings": {
+        "love": "Feeling trapped in relationship",
+        "career": "Feeling stuck in career, self-imposed limits",
+        "yesOrNo": "No"
+      },
+      "guideUrl": "https://deckaura.com/blogs/guide/eight-of-swords-tarot-meaning",
+      "uprightKeywordsCn": [
+        "限制",
+        "困住",
+        "自我设限"
+      ],
+      "reversedKeywordsCn": [
+        "自由",
+        "释放",
+        "新视角"
+      ],
+      "meaningsCn": {
+        "love": "感觉被关系困住，但限制可能部分来自自己。",
+        "career": "职业上感到卡住，需要突破自我设限。",
+        "yesOrNo": "否"
+      }
+    },
+    {
+      "id": "swords-nine-of-swords",
+      "cardNumber": 58,
+      "name": "Nine of Swords",
+      "nameEn": "Nine of Swords",
+      "nameCn": "宝剑九",
+      "arcana": "Minor Arcana",
+      "suit": "Swords",
+      "number": "9",
+      "img": "s09.jpg",
+      "imageUrl": "s09.jpg",
+      "backImageUrl": "/cards/back.png",
+      "element": "Air",
+      "zodiacSign": null,
+      "uprightKeywords": [
+        "Anxiety",
+        "worry",
+        "nightmares",
+        "fear"
+      ],
+      "reversedKeywords": [
+        "Hope",
+        "recovery",
+        "reaching out for help"
+      ],
+      "meanings": {
+        "love": "Relationship anxiety, overthinking",
+        "career": "Work stress, insomnia from career worry",
+        "yesOrNo": "No"
+      },
+      "guideUrl": "https://deckaura.com/blogs/guide/nine-of-swords-tarot-meaning",
+      "uprightKeywordsCn": [
+        "焦虑",
+        "担忧",
+        "噩梦",
+        "恐惧"
+      ],
+      "reversedKeywordsCn": [
+        "希望",
+        "恢复",
+        "求助"
+      ],
+      "meaningsCn": {
+        "love": "过度思虑导致关系焦虑，需要回到事实。",
+        "career": "工作压力大，可能影响睡眠和判断。",
+        "yesOrNo": "否"
+      }
+    },
+    {
+      "id": "swords-ten-of-swords",
+      "cardNumber": 59,
+      "name": "Ten of Swords",
+      "nameEn": "Ten of Swords",
+      "nameCn": "宝剑十",
+      "arcana": "Minor Arcana",
+      "suit": "Swords",
+      "number": "10",
+      "img": "s10.jpg",
+      "imageUrl": "s10.jpg",
+      "backImageUrl": "/cards/back.png",
+      "element": "Air",
+      "zodiacSign": null,
+      "uprightKeywords": [
+        "Endings",
+        "betrayal",
+        "rock bottom",
+        "crisis"
+      ],
+      "reversedKeywords": [
+        "Recovery",
+        "regeneration",
+        "rising up"
+      ],
+      "meanings": {
+        "love": "Painful breakup, hitting rock bottom",
+        "career": "Career collapse, time to rebuild",
+        "yesOrNo": "No"
+      },
+      "guideUrl": "https://deckaura.com/blogs/guide/ten-of-swords-tarot-meaning",
+      "uprightKeywordsCn": [
+        "结束",
+        "背叛",
+        "谷底",
+        "危机"
+      ],
+      "reversedKeywordsCn": [
+        "恢复",
+        "再生",
+        "重新站起"
+      ],
+      "meaningsCn": {
+        "love": "痛苦结束或关系触底，需要接受现实。",
+        "career": "职业低谷或阶段性失败，但之后可重建。",
+        "yesOrNo": "否"
+      }
+    },
+    {
+      "id": "swords-page-of-swords",
+      "cardNumber": 60,
+      "name": "Page of Swords",
+      "nameEn": "Page of Swords",
+      "nameCn": "宝剑侍从",
+      "arcana": "Minor Arcana",
+      "suit": "Swords",
+      "number": "11",
+      "img": "s11.jpg",
+      "imageUrl": "s11.jpg",
+      "backImageUrl": "/cards/back.png",
+      "element": "Air",
+      "zodiacSign": null,
+      "uprightKeywords": [
+        "Curiosity",
+        "restlessness",
+        "mental energy"
+      ],
+      "reversedKeywords": [
+        "Deception",
+        "manipulation",
+        "all talk"
+      ],
+      "meanings": {
+        "love": "Curious about love, overthinking feelings",
+        "career": "New ideas, research, mental exploration",
+        "yesOrNo": "Yes"
+      },
+      "guideUrl": "https://deckaura.com/blogs/guide/page-of-swords-tarot-meaning",
+      "uprightKeywordsCn": [
+        "好奇",
+        "不安",
+        "脑力活跃"
+      ],
+      "reversedKeywordsCn": [
+        "欺瞒",
+        "操控",
+        "只说不做"
+      ],
+      "meaningsCn": {
+        "love": "对感情好奇但容易想太多，沟通偏试探。",
+        "career": "适合研究、学习和提出新想法。",
+        "yesOrNo": "偏是"
+      }
+    },
+    {
+      "id": "swords-knight-of-swords",
+      "cardNumber": 61,
+      "name": "Knight of Swords",
+      "nameEn": "Knight of Swords",
+      "nameCn": "宝剑骑士",
+      "arcana": "Minor Arcana",
+      "suit": "Swords",
+      "number": "12",
+      "img": "s12.jpg",
+      "imageUrl": "s12.jpg",
+      "backImageUrl": "/cards/back.png",
+      "element": "Air",
+      "zodiacSign": null,
+      "uprightKeywords": [
+        "Ambition",
+        "action",
+        "impulsiveness",
+        "fast thinking"
+      ],
+      "reversedKeywords": [
+        "No direction",
+        "disregard",
+        "aggression"
+      ],
+      "meanings": {
+        "love": "Rushing into love, intense pursuit",
+        "career": "Aggressive career moves, quick action",
+        "yesOrNo": "Yes"
+      },
+      "guideUrl": "https://deckaura.com/blogs/guide/knight-of-swords-tarot-meaning",
+      "uprightKeywordsCn": [
+        "野心",
+        "行动",
+        "冲动",
+        "快速思考"
+      ],
+      "reversedKeywordsCn": [
+        "无方向",
+        "忽视后果",
+        "攻击性"
+      ],
+      "meaningsCn": {
+        "love": "感情推进很快，但可能太急。",
+        "career": "职业行动迅速，适合冲刺但要避免鲁莽。",
+        "yesOrNo": "是"
+      }
+    },
+    {
+      "id": "swords-queen-of-swords",
+      "cardNumber": 62,
+      "name": "Queen of Swords",
+      "nameEn": "Queen of Swords",
+      "nameCn": "宝剑王后",
+      "arcana": "Minor Arcana",
+      "suit": "Swords",
+      "number": "13",
+      "img": "s13.jpg",
+      "imageUrl": "s13.jpg",
+      "backImageUrl": "/cards/back.png",
+      "element": "Air",
+      "zodiacSign": null,
+      "uprightKeywords": [
+        "Independence",
+        "clear boundaries",
+        "direct communication"
+      ],
+      "reversedKeywords": [
+        "Cold",
+        "cruel",
+        "bitterness"
+      ],
+      "meanings": {
+        "love": "Independent partner, honest communication",
+        "career": "Clear leadership, objective decisions",
+        "yesOrNo": "Yes"
+      },
+      "guideUrl": "https://deckaura.com/blogs/guide/queen-of-swords-tarot-meaning",
+      "uprightKeywordsCn": [
+        "独立",
+        "清晰边界",
+        "直接沟通"
+      ],
+      "reversedKeywordsCn": [
+        "冷漠",
+        "刻薄",
+        "怨气"
+      ],
+      "meaningsCn": {
+        "love": "需要理性、坦白和边界清晰的关系。",
+        "career": "适合客观决策、分析和管理。",
+        "yesOrNo": "是"
+      }
+    },
+    {
+      "id": "swords-king-of-swords",
+      "cardNumber": 63,
+      "name": "King of Swords",
+      "nameEn": "King of Swords",
+      "nameCn": "宝剑国王",
+      "arcana": "Minor Arcana",
+      "suit": "Swords",
+      "number": "14",
+      "img": "s14.jpg",
+      "imageUrl": "s14.jpg",
+      "backImageUrl": "/cards/back.png",
+      "element": "Air",
+      "zodiacSign": null,
+      "uprightKeywords": [
+        "Intellectual power",
+        "authority",
+        "truth",
+        "ethics"
+      ],
+      "reversedKeywords": [
+        "Manipulation",
+        "tyranny",
+        "abuse of power"
+      ],
+      "meanings": {
+        "love": "Logical partner, clear communication",
+        "career": "Authority figure, legal expertise",
+        "yesOrNo": "Yes"
+      },
+      "guideUrl": "https://deckaura.com/blogs/guide/king-of-swords-tarot-meaning",
+      "uprightKeywordsCn": [
+        "智性权威",
+        "权威",
+        "真相",
+        "伦理"
+      ],
+      "reversedKeywordsCn": [
+        "操控",
+        "专制",
+        "滥用权力"
+      ],
+      "meaningsCn": {
+        "love": "关系中重视理性、原则和清楚沟通。",
+        "career": "适合法律、管理、策略和专业判断。",
+        "yesOrNo": "是"
+      }
+    },
+    {
+      "id": "wands-ace-of-wands",
+      "cardNumber": 22,
+      "name": "Ace of Wands",
+      "nameEn": "Ace of Wands",
+      "nameCn": "权杖王牌",
+      "arcana": "Minor Arcana",
+      "suit": "Wands",
+      "number": "1",
+      "img": "w01.jpg",
+      "imageUrl": "w01.jpg",
+      "backImageUrl": "/cards/back.png",
+      "element": "Fire",
+      "zodiacSign": null,
+      "uprightKeywords": [
+        "Inspiration",
+        "new venture",
+        "potential",
+        "creation"
+      ],
+      "reversedKeywords": [
+        "Delays",
+        "lack of motivation",
+        "hesitation"
+      ],
+      "meanings": {
+        "love": "Exciting new attraction, passion",
+        "career": "New business idea, creative spark",
+        "yesOrNo": "Yes"
+      },
+      "guideUrl": "https://deckaura.com/blogs/guide/ace-of-wands-tarot-meaning",
+      "uprightKeywordsCn": [
+        "灵感",
+        "新事业",
+        "潜力",
+        "创造"
+      ],
+      "reversedKeywordsCn": [
+        "延迟",
+        "缺乏动力",
+        "犹豫"
+      ],
+      "meaningsCn": {
+        "love": "新的吸引或热情出现，关系有火花。",
+        "career": "新项目、新想法或创业灵感出现。",
+        "yesOrNo": "是"
+      }
+    },
+    {
+      "id": "wands-two-of-wands",
+      "cardNumber": 23,
+      "name": "Two of Wands",
+      "nameEn": "Two of Wands",
+      "nameCn": "权杖二",
+      "arcana": "Minor Arcana",
+      "suit": "Wands",
+      "number": "2",
+      "img": "w02.jpg",
+      "imageUrl": "w02.jpg",
+      "backImageUrl": "/cards/back.png",
+      "element": "Fire",
+      "zodiacSign": null,
+      "uprightKeywords": [
+        "Planning",
+        "future vision",
+        "decisions",
+        "discovery"
+      ],
+      "reversedKeywords": [
+        "Fear of unknown",
+        "lack of planning"
+      ],
+      "meanings": {
+        "love": "Choosing between partners, planning future",
+        "career": "Business planning, expanding horizons",
+        "yesOrNo": "Yes"
+      },
+      "guideUrl": "https://deckaura.com/blogs/guide/two-of-wands-tarot-meaning",
+      "uprightKeywordsCn": [
+        "规划",
+        "未来愿景",
+        "决定",
+        "探索"
+      ],
+      "reversedKeywordsCn": [
+        "害怕未知",
+        "计划不足"
+      ],
+      "meaningsCn": {
+        "love": "思考关系未来，可能在选择之间权衡。",
+        "career": "适合做长期规划和扩展视野。",
+        "yesOrNo": "是"
+      }
+    },
+    {
+      "id": "wands-three-of-wands",
+      "cardNumber": 24,
+      "name": "Three of Wands",
+      "nameEn": "Three of Wands",
+      "nameCn": "权杖三",
+      "arcana": "Minor Arcana",
+      "suit": "Wands",
+      "number": "3",
+      "img": "w03.jpg",
+      "imageUrl": "w03.jpg",
+      "backImageUrl": "/cards/back.png",
+      "element": "Fire",
+      "zodiacSign": null,
+      "uprightKeywords": [
+        "Expansion",
+        "foresight",
+        "overseas opportunities"
+      ],
+      "reversedKeywords": [
+        "Delays",
+        "obstacles",
+        "frustration"
+      ],
+      "meanings": {
+        "love": "Long-distance love, growth together",
+        "career": "Business expansion, international work",
+        "yesOrNo": "Yes"
+      },
+      "guideUrl": "https://deckaura.com/blogs/guide/three-of-wands-tarot-meaning",
+      "uprightKeywordsCn": [
+        "扩张",
+        "远见",
+        "海外机会"
+      ],
+      "reversedKeywordsCn": [
+        "延迟",
+        "障碍",
+        "挫败"
+      ],
+      "meaningsCn": {
+        "love": "关系有成长空间，也可能涉及距离或未来规划。",
+        "career": "事业扩展、跨区域或国际机会。",
+        "yesOrNo": "是"
+      }
+    },
+    {
+      "id": "wands-four-of-wands",
+      "cardNumber": 25,
+      "name": "Four of Wands",
+      "nameEn": "Four of Wands",
+      "nameCn": "权杖四",
+      "arcana": "Minor Arcana",
+      "suit": "Wands",
+      "number": "4",
+      "img": "w04.jpg",
+      "imageUrl": "w04.jpg",
+      "backImageUrl": "/cards/back.png",
+      "element": "Fire",
+      "zodiacSign": null,
+      "uprightKeywords": [
+        "Celebration",
+        "homecoming",
+        "harmony",
+        "community"
+      ],
+      "reversedKeywords": [
+        "Lack of harmony",
+        "transition",
+        "instability"
+      ],
+      "meanings": {
+        "love": "Engagement, wedding, happy home",
+        "career": "Team success, work celebration",
+        "yesOrNo": "Yes"
+      },
+      "guideUrl": "https://deckaura.com/blogs/guide/four-of-wands-tarot-meaning",
+      "uprightKeywordsCn": [
+        "庆祝",
+        "归属",
+        "和谐",
+        "社群"
+      ],
+      "reversedKeywordsCn": [
+        "不和谐",
+        "过渡",
+        "不稳定"
+      ],
+      "meaningsCn": {
+        "love": "适合公开、庆祝或进入稳定阶段。",
+        "career": "团队成果、阶段性成功和庆祝。",
+        "yesOrNo": "是"
+      }
+    },
+    {
+      "id": "wands-five-of-wands",
+      "cardNumber": 26,
+      "name": "Five of Wands",
+      "nameEn": "Five of Wands",
+      "nameCn": "权杖五",
+      "arcana": "Minor Arcana",
+      "suit": "Wands",
+      "number": "5",
+      "img": "w05.jpg",
+      "imageUrl": "w05.jpg",
+      "backImageUrl": "/cards/back.png",
+      "element": "Fire",
+      "zodiacSign": null,
+      "uprightKeywords": [
+        "Conflict",
+        "competition",
+        "tension",
+        "disagreement"
+      ],
+      "reversedKeywords": [
+        "Avoiding conflict",
+        "inner conflict"
+      ],
+      "meanings": {
+        "love": "Arguments, competition for attention",
+        "career": "Workplace rivalry, creative differences",
+        "yesOrNo": "No"
+      },
+      "guideUrl": "https://deckaura.com/blogs/guide/five-of-wands-tarot-meaning",
+      "uprightKeywordsCn": [
+        "冲突",
+        "竞争",
+        "紧张",
+        "分歧"
+      ],
+      "reversedKeywordsCn": [
+        "避免冲突",
+        "内在冲突"
+      ],
+      "meaningsCn": {
+        "love": "感情中有争执、竞争或注意力拉扯。",
+        "career": "职场竞争明显，意见分歧较多。",
+        "yesOrNo": "否"
+      }
+    },
+    {
+      "id": "wands-six-of-wands",
+      "cardNumber": 27,
+      "name": "Six of Wands",
+      "nameEn": "Six of Wands",
+      "nameCn": "权杖六",
+      "arcana": "Minor Arcana",
+      "suit": "Wands",
+      "number": "6",
+      "img": "w06.jpg",
+      "imageUrl": "w06.jpg",
+      "backImageUrl": "/cards/back.png",
+      "element": "Fire",
+      "zodiacSign": null,
+      "uprightKeywords": [
+        "Victory",
+        "recognition",
+        "success",
+        "public acclaim"
+      ],
+      "reversedKeywords": [
+        "Fall from grace",
+        "ego",
+        "lack of recognition"
+      ],
+      "meanings": {
+        "love": "Public commitment, admired relationship",
+        "career": "Promotion, public recognition",
+        "yesOrNo": "Yes"
+      },
+      "guideUrl": "https://deckaura.com/blogs/guide/six-of-wands-tarot-meaning",
+      "uprightKeywordsCn": [
+        "胜利",
+        "认可",
+        "成功",
+        "公开赞誉"
+      ],
+      "reversedKeywordsCn": [
+        "失势",
+        "自负",
+        "缺乏认可"
+      ],
+      "meaningsCn": {
+        "love": "关系被看见或得到认可，推进较顺。",
+        "career": "晋升、表扬或公众认可。",
+        "yesOrNo": "是"
+      }
+    },
+    {
+      "id": "wands-seven-of-wands",
+      "cardNumber": 28,
+      "name": "Seven of Wands",
+      "nameEn": "Seven of Wands",
+      "nameCn": "权杖七",
+      "arcana": "Minor Arcana",
+      "suit": "Wands",
+      "number": "7",
+      "img": "w07.jpg",
+      "imageUrl": "w07.jpg",
+      "backImageUrl": "/cards/back.png",
+      "element": "Fire",
+      "zodiacSign": null,
+      "uprightKeywords": [
+        "Defensiveness",
+        "perseverance",
+        "standing ground"
+      ],
+      "reversedKeywords": [
+        "Giving up",
+        "overwhelmed",
+        "exhaustion"
+      ],
+      "meanings": {
+        "love": "Defending your relationship, boundaries",
+        "career": "Protecting your position, competition",
+        "yesOrNo": "Maybe"
+      },
+      "guideUrl": "https://deckaura.com/blogs/guide/seven-of-wands-tarot-meaning",
+      "uprightKeywordsCn": [
+        "防御",
+        "坚持",
+        "守住立场"
+      ],
+      "reversedKeywordsCn": [
+        "放弃",
+        "不堪重负",
+        "疲惫"
+      ],
+      "meaningsCn": {
+        "love": "需要维护边界或为关系争取空间。",
+        "career": "面对竞争，要守住自己的位置。",
+        "yesOrNo": "不确定"
+      }
+    },
+    {
+      "id": "wands-eight-of-wands",
+      "cardNumber": 29,
+      "name": "Eight of Wands",
+      "nameEn": "Eight of Wands",
+      "nameCn": "权杖八",
+      "arcana": "Minor Arcana",
+      "suit": "Wands",
+      "number": "8",
+      "img": "w08.jpg",
+      "imageUrl": "w08.jpg",
+      "backImageUrl": "/cards/back.png",
+      "element": "Fire",
+      "zodiacSign": null,
+      "uprightKeywords": [
+        "Speed",
+        "movement",
+        "quick progress",
+        "travel"
+      ],
+      "reversedKeywords": [
+        "Delays",
+        "frustration",
+        "waiting"
+      ],
+      "meanings": {
+        "love": "Fast-moving romance, exciting news",
+        "career": "Rapid career progress, travel for work",
+        "yesOrNo": "Yes"
+      },
+      "guideUrl": "https://deckaura.com/blogs/guide/eight-of-wands-tarot-meaning",
+      "uprightKeywordsCn": [
+        "速度",
+        "推进",
+        "快速进展",
+        "旅行"
+      ],
+      "reversedKeywordsCn": [
+        "延迟",
+        "挫败",
+        "等待"
+      ],
+      "meaningsCn": {
+        "love": "感情发展很快，可能有消息或邀约。",
+        "career": "工作进展迅速，也可能涉及出差。",
+        "yesOrNo": "是"
+      }
+    },
+    {
+      "id": "wands-nine-of-wands",
+      "cardNumber": 30,
+      "name": "Nine of Wands",
+      "nameEn": "Nine of Wands",
+      "nameCn": "权杖九",
+      "arcana": "Minor Arcana",
+      "suit": "Wands",
+      "number": "9",
+      "img": "w09.jpg",
+      "imageUrl": "w09.jpg",
+      "backImageUrl": "/cards/back.png",
+      "element": "Fire",
+      "zodiacSign": null,
+      "uprightKeywords": [
+        "Resilience",
+        "courage",
+        "persistence",
+        "last stand"
+      ],
+      "reversedKeywords": [
+        "Exhaustion",
+        "giving up",
+        "overwhelmed"
+      ],
+      "meanings": {
+        "love": "Guarded heart, persisting through tough times",
+        "career": "Almost there, don't give up",
+        "yesOrNo": "Maybe"
+      },
+      "guideUrl": "https://deckaura.com/blogs/guide/nine-of-wands-tarot-meaning",
+      "uprightKeywordsCn": [
+        "韧性",
+        "勇气",
+        "坚持",
+        "最后防线"
+      ],
+      "reversedKeywordsCn": [
+        "耗尽",
+        "放弃",
+        "压力过大"
+      ],
+      "meaningsCn": {
+        "love": "心有防备但仍在坚持，需要安全感。",
+        "career": "接近完成，关键是不要过早放弃。",
+        "yesOrNo": "不确定"
+      }
+    },
+    {
+      "id": "wands-ten-of-wands",
+      "cardNumber": 31,
+      "name": "Ten of Wands",
+      "nameEn": "Ten of Wands",
+      "nameCn": "权杖十",
+      "arcana": "Minor Arcana",
+      "suit": "Wands",
+      "number": "10",
+      "img": "w10.jpg",
+      "imageUrl": "w10.jpg",
+      "backImageUrl": "/cards/back.png",
+      "element": "Fire",
+      "zodiacSign": null,
+      "uprightKeywords": [
+        "Burden",
+        "responsibility",
+        "hard work",
+        "stress"
+      ],
+      "reversedKeywords": [
+        "Delegation",
+        "release",
+        "breakdown"
+      ],
+      "meanings": {
+        "love": "Carrying relationship burden alone",
+        "career": "Overworked, need to delegate",
+        "yesOrNo": "No"
+      },
+      "guideUrl": "https://deckaura.com/blogs/guide/ten-of-wands-tarot-meaning",
+      "uprightKeywordsCn": [
+        "负担",
+        "责任",
+        "苦干",
+        "压力"
+      ],
+      "reversedKeywordsCn": [
+        "分担",
+        "释放",
+        "崩溃"
+      ],
+      "meaningsCn": {
+        "love": "一方承担太多，关系压力较重。",
+        "career": "工作过载，需要分配任务。",
+        "yesOrNo": "否"
+      }
+    },
+    {
+      "id": "wands-page-of-wands",
+      "cardNumber": 32,
+      "name": "Page of Wands",
+      "nameEn": "Page of Wands",
+      "nameCn": "权杖侍从",
+      "arcana": "Minor Arcana",
+      "suit": "Wands",
+      "number": "11",
+      "img": "w11.jpg",
+      "imageUrl": "w11.jpg",
+      "backImageUrl": "/cards/back.png",
+      "element": "Fire",
+      "zodiacSign": null,
+      "uprightKeywords": [
+        "Enthusiasm",
+        "exploration",
+        "discovery",
+        "free spirit"
+      ],
+      "reversedKeywords": [
+        "Lack of direction",
+        "setbacks",
+        "procrastination"
+      ],
+      "meanings": {
+        "love": "Exciting new crush, flirtatious energy",
+        "career": "New creative project, learning opportunity",
+        "yesOrNo": "Yes"
+      },
+      "guideUrl": "https://deckaura.com/blogs/guide/page-of-wands-tarot-meaning",
+      "uprightKeywordsCn": [
+        "热情",
+        "探索",
+        "发现",
+        "自由精神"
+      ],
+      "reversedKeywordsCn": [
+        "方向不明",
+        "挫折",
+        "拖延"
+      ],
+      "meaningsCn": {
+        "love": "新鲜的暧昧、轻快的好奇和试探。",
+        "career": "新的创意项目或学习机会。",
+        "yesOrNo": "是"
+      }
+    },
+    {
+      "id": "wands-knight-of-wands",
+      "cardNumber": 33,
+      "name": "Knight of Wands",
+      "nameEn": "Knight of Wands",
+      "nameCn": "权杖骑士",
+      "arcana": "Minor Arcana",
+      "suit": "Wands",
+      "number": "12",
+      "img": "w12.jpg",
+      "imageUrl": "w12.jpg",
+      "backImageUrl": "/cards/back.png",
+      "element": "Fire",
+      "zodiacSign": null,
+      "uprightKeywords": [
+        "Energy",
+        "passion",
+        "adventure",
+        "impulsiveness"
+      ],
+      "reversedKeywords": [
+        "Haste",
+        "scattered energy",
+        "delays"
+      ],
+      "meanings": {
+        "love": "Passionate but short-lived romance",
+        "career": "Quick action, travel for career",
+        "yesOrNo": "Yes"
+      },
+      "guideUrl": "https://deckaura.com/blogs/guide/knight-of-wands-tarot-meaning",
+      "uprightKeywordsCn": [
+        "能量",
+        "激情",
+        "冒险",
+        "冲动"
+      ],
+      "reversedKeywordsCn": [
+        "急躁",
+        "能量分散",
+        "延迟"
+      ],
+      "meaningsCn": {
+        "love": "热烈但可能不够稳定的吸引。",
+        "career": "快速行动、旅行或高能量推进。",
+        "yesOrNo": "是"
+      }
+    },
+    {
+      "id": "wands-queen-of-wands",
+      "cardNumber": 34,
+      "name": "Queen of Wands",
+      "nameEn": "Queen of Wands",
+      "nameCn": "权杖王后",
+      "arcana": "Minor Arcana",
+      "suit": "Wands",
+      "number": "13",
+      "img": "w13.jpg",
+      "imageUrl": "w13.jpg",
+      "backImageUrl": "/cards/back.png",
+      "element": "Fire",
+      "zodiacSign": null,
+      "uprightKeywords": [
+        "Confidence",
+        "determination",
+        "joy",
+        "vibrancy"
+      ],
+      "reversedKeywords": [
+        "Selfishness",
+        "jealousy",
+        "demanding"
+      ],
+      "meanings": {
+        "love": "Charismatic partner, warm love",
+        "career": "Leadership, confident business woman",
+        "yesOrNo": "Yes"
+      },
+      "guideUrl": "https://deckaura.com/blogs/guide/queen-of-wands-tarot-meaning",
+      "uprightKeywordsCn": [
+        "自信",
+        "决心",
+        "喜悦",
+        "活力"
+      ],
+      "reversedKeywordsCn": [
+        "自私",
+        "嫉妒",
+        "强势"
+      ],
+      "meaningsCn": {
+        "love": "有魅力、热情、自信的关系能量。",
+        "career": "适合领导、展示和主动争取资源。",
+        "yesOrNo": "是"
+      }
+    },
+    {
+      "id": "wands-king-of-wands",
+      "cardNumber": 35,
+      "name": "King of Wands",
+      "nameEn": "King of Wands",
+      "nameCn": "权杖国王",
+      "arcana": "Minor Arcana",
+      "suit": "Wands",
+      "number": "14",
+      "img": "w14.jpg",
+      "imageUrl": "w14.jpg",
+      "backImageUrl": "/cards/back.png",
+      "element": "Fire",
+      "zodiacSign": null,
+      "uprightKeywords": [
+        "Leadership",
+        "vision",
+        "entrepreneur",
+        "honor"
+      ],
+      "reversedKeywords": [
+        "Impulsiveness",
+        "overbearing",
+        "vicious"
+      ],
+      "meanings": {
+        "love": "Bold romantic gestures, passionate partner",
+        "career": "Business leader, bold decisions",
+        "yesOrNo": "Yes"
+      },
+      "guideUrl": "https://deckaura.com/blogs/guide/king-of-wands-tarot-meaning",
+      "uprightKeywordsCn": [
+        "领导力",
+        "愿景",
+        "创业者",
+        "荣誉"
+      ],
+      "reversedKeywordsCn": [
+        "冲动",
+        "霸道",
+        "苛刻"
+      ],
+      "meaningsCn": {
+        "love": "大胆热情地表达爱意，行动力强。",
+        "career": "适合做决策、带团队或创业。",
+        "yesOrNo": "是"
+      }
+    },
+    {
+      "id": "pentacles-ace-of-pentacles",
+      "cardNumber": 64,
+      "name": "Ace of Pentacles",
+      "nameEn": "Ace of Pentacles",
+      "nameCn": "星币王牌",
+      "arcana": "Minor Arcana",
+      "suit": "Pentacles",
+      "number": "1",
+      "img": "p01.jpg",
+      "imageUrl": "p01.jpg",
+      "backImageUrl": "/cards/back.png",
+      "element": "Earth",
+      "zodiacSign": null,
+      "uprightKeywords": [
+        "New opportunity",
+        "prosperity",
+        "abundance"
+      ],
+      "reversedKeywords": [
+        "Missed opportunity",
+        "scarcity",
+        "instability"
+      ],
+      "meanings": {
+        "love": "New stable relationship beginning",
+        "career": "New job, financial opportunity",
+        "yesOrNo": "Yes"
+      },
+      "guideUrl": "https://deckaura.com/blogs/guide/ace-of-pentacles-tarot-meaning",
+      "uprightKeywordsCn": [
+        "新机会",
+        "繁荣",
+        "丰盛"
+      ],
+      "reversedKeywordsCn": [
+        "错失机会",
+        "匮乏",
+        "不稳定"
+      ],
+      "meaningsCn": {
+        "love": "稳定关系的新开端，有现实基础。",
+        "career": "新工作、金钱机会或资源落地。",
+        "yesOrNo": "是"
+      }
+    },
+    {
+      "id": "pentacles-two-of-pentacles",
+      "cardNumber": 65,
+      "name": "Two of Pentacles",
+      "nameEn": "Two of Pentacles",
+      "nameCn": "星币二",
+      "arcana": "Minor Arcana",
+      "suit": "Pentacles",
+      "number": "2",
+      "img": "p02.jpg",
+      "imageUrl": "p02.jpg",
+      "backImageUrl": "/cards/back.png",
+      "element": "Earth",
+      "zodiacSign": null,
+      "uprightKeywords": [
+        "Balance",
+        "adaptability",
+        "juggling priorities"
+      ],
+      "reversedKeywords": [
+        "Imbalance",
+        "disorganization",
+        "overwhelm"
+      ],
+      "meanings": {
+        "love": "Balancing love and life, juggling priorities",
+        "career": "Work-life balance, managing multiple projects",
+        "yesOrNo": "Maybe"
+      },
+      "guideUrl": "https://deckaura.com/blogs/guide/two-of-pentacles-tarot-meaning",
+      "uprightKeywordsCn": [
+        "平衡",
+        "适应",
+        "多任务处理"
+      ],
+      "reversedKeywordsCn": [
+        "失衡",
+        "混乱",
+        "压力过大"
+      ],
+      "meaningsCn": {
+        "love": "需要平衡感情与生活其他责任。",
+        "career": "同时处理多个项目，需要管理节奏。",
+        "yesOrNo": "不确定"
+      }
+    },
+    {
+      "id": "pentacles-three-of-pentacles",
+      "cardNumber": 66,
+      "name": "Three of Pentacles",
+      "nameEn": "Three of Pentacles",
+      "nameCn": "星币三",
+      "arcana": "Minor Arcana",
+      "suit": "Pentacles",
+      "number": "3",
+      "img": "p03.jpg",
+      "imageUrl": "p03.jpg",
+      "backImageUrl": "/cards/back.png",
+      "element": "Earth",
+      "zodiacSign": null,
+      "uprightKeywords": [
+        "Teamwork",
+        "collaboration",
+        "skill",
+        "craftsmanship"
+      ],
+      "reversedKeywords": [
+        "Lack of teamwork",
+        "disorganization",
+        "conflict"
+      ],
+      "meanings": {
+        "love": "Building relationship together, shared goals",
+        "career": "Team project, skill recognition",
+        "yesOrNo": "Yes"
+      },
+      "guideUrl": "https://deckaura.com/blogs/guide/three-of-pentacles-tarot-meaning",
+      "uprightKeywordsCn": [
+        "团队合作",
+        "协作",
+        "技能",
+        "工艺"
+      ],
+      "reversedKeywordsCn": [
+        "缺乏合作",
+        "混乱",
+        "冲突"
+      ],
+      "meaningsCn": {
+        "love": "双方共同建设关系，有共同目标。",
+        "career": "团队项目、技能被认可。",
+        "yesOrNo": "是"
+      }
+    },
+    {
+      "id": "pentacles-four-of-pentacles",
+      "cardNumber": 67,
+      "name": "Four of Pentacles",
+      "nameEn": "Four of Pentacles",
+      "nameCn": "星币四",
+      "arcana": "Minor Arcana",
+      "suit": "Pentacles",
+      "number": "4",
+      "img": "p04.jpg",
+      "imageUrl": "p04.jpg",
+      "backImageUrl": "/cards/back.png",
+      "element": "Earth",
+      "zodiacSign": null,
+      "uprightKeywords": [
+        "Security",
+        "control",
+        "conservation",
+        "stability"
+      ],
+      "reversedKeywords": [
+        "Greed",
+        "materialism",
+        "self-protection"
+      ],
+      "meanings": {
+        "love": "Possessiveness, fear of vulnerability",
+        "career": "Financial security, holding onto resources",
+        "yesOrNo": "Maybe"
+      },
+      "guideUrl": "https://deckaura.com/blogs/guide/four-of-pentacles-tarot-meaning",
+      "uprightKeywordsCn": [
+        "守成",
+        "控制",
+        "安全感",
+        "占有"
+      ],
+      "reversedKeywordsCn": [
+        "放手",
+        "慷慨",
+        "财务不稳"
+      ],
+      "meaningsCn": {
+        "love": "感情中可能过度防守或占有欲强。",
+        "career": "重视稳定和资源控制，但别太保守。",
+        "yesOrNo": "不确定"
+      }
+    },
+    {
+      "id": "pentacles-five-of-pentacles",
+      "cardNumber": 68,
+      "name": "Five of Pentacles",
+      "nameEn": "Five of Pentacles",
+      "nameCn": "星币五",
+      "arcana": "Minor Arcana",
+      "suit": "Pentacles",
+      "number": "5",
+      "img": "p05.jpg",
+      "imageUrl": "p05.jpg",
+      "backImageUrl": "/cards/back.png",
+      "element": "Earth",
+      "zodiacSign": null,
+      "uprightKeywords": [
+        "Hardship",
+        "loss",
+        "isolation",
+        "feeling left out"
+      ],
+      "reversedKeywords": [
+        "Recovery",
+        "improvement",
+        "turning corner"
+      ],
+      "meanings": {
+        "love": "Loneliness, feeling rejected in love",
+        "career": "Financial hardship, job loss",
+        "yesOrNo": "No"
+      },
+      "guideUrl": "https://deckaura.com/blogs/guide/five-of-pentacles-tarot-meaning",
+      "uprightKeywordsCn": [
+        "匮乏",
+        "孤立",
+        "困难",
+        "被排除"
+      ],
+      "reversedKeywordsCn": [
+        "恢复",
+        "帮助",
+        "改善"
+      ],
+      "meaningsCn": {
+        "love": "感情中感到被冷落或缺乏支持。",
+        "career": "财务或职业低谷，需要寻找外部帮助。",
+        "yesOrNo": "否"
+      }
+    },
+    {
+      "id": "pentacles-six-of-pentacles",
+      "cardNumber": 69,
+      "name": "Six of Pentacles",
+      "nameEn": "Six of Pentacles",
+      "nameCn": "星币六",
+      "arcana": "Minor Arcana",
+      "suit": "Pentacles",
+      "number": "6",
+      "img": "p06.jpg",
+      "imageUrl": "p06.jpg",
+      "backImageUrl": "/cards/back.png",
+      "element": "Earth",
+      "zodiacSign": null,
+      "uprightKeywords": [
+        "Generosity",
+        "charity",
+        "sharing wealth",
+        "balance"
+      ],
+      "reversedKeywords": [
+        "Debt",
+        "selfishness",
+        "strings attached"
+      ],
+      "meanings": {
+        "love": "Generous partner, giving and receiving love",
+        "career": "Raise, bonus, charitable giving",
+        "yesOrNo": "Yes"
+      },
+      "guideUrl": "https://deckaura.com/blogs/guide/six-of-pentacles-tarot-meaning",
+      "uprightKeywordsCn": [
+        "给予",
+        "接受",
+        "公平",
+        "援助"
+      ],
+      "reversedKeywordsCn": [
+        "不平等",
+        "债务",
+        "单向付出"
+      ],
+      "meaningsCn": {
+        "love": "关系需要互相支持，避免单方面付出。",
+        "career": "资源分配、帮助或合作机会。",
+        "yesOrNo": "是"
+      }
+    },
+    {
+      "id": "pentacles-seven-of-pentacles",
+      "cardNumber": 70,
+      "name": "Seven of Pentacles",
+      "nameEn": "Seven of Pentacles",
+      "nameCn": "星币七",
+      "arcana": "Minor Arcana",
+      "suit": "Pentacles",
+      "number": "7",
+      "img": "p07.jpg",
+      "imageUrl": "p07.jpg",
+      "backImageUrl": "/cards/back.png",
+      "element": "Earth",
+      "zodiacSign": null,
+      "uprightKeywords": [
+        "Patience",
+        "long-term view",
+        "investment",
+        "perseverance"
+      ],
+      "reversedKeywords": [
+        "Impatience",
+        "lack of reward",
+        "wasted effort"
+      ],
+      "meanings": {
+        "love": "Patience in love, long-term investment",
+        "career": "Career growth takes time, be patient",
+        "yesOrNo": "Maybe"
+      },
+      "guideUrl": "https://deckaura.com/blogs/guide/seven-of-pentacles-tarot-meaning",
+      "uprightKeywordsCn": [
+        "等待",
+        "评估",
+        "长期投入"
+      ],
+      "reversedKeywordsCn": [
+        "急躁",
+        "回报不足",
+        "放弃"
+      ],
+      "meaningsCn": {
+        "love": "关系需要耐心观察，看长期投入是否值得。",
+        "career": "长期项目进入评估期，短期回报有限。",
+        "yesOrNo": "不确定"
+      }
+    },
+    {
+      "id": "pentacles-eight-of-pentacles",
+      "cardNumber": 71,
+      "name": "Eight of Pentacles",
+      "nameEn": "Eight of Pentacles",
+      "nameCn": "星币八",
+      "arcana": "Minor Arcana",
+      "suit": "Pentacles",
+      "number": "8",
+      "img": "p08.jpg",
+      "imageUrl": "p08.jpg",
+      "backImageUrl": "/cards/back.png",
+      "element": "Earth",
+      "zodiacSign": null,
+      "uprightKeywords": [
+        "Craftsmanship",
+        "skill development",
+        "diligence"
+      ],
+      "reversedKeywords": [
+        "Perfectionism",
+        "lack of ambition",
+        "mediocrity"
+      ],
+      "meanings": {
+        "love": "Working on relationship, improving together",
+        "career": "Skill building, apprenticeship, hard work",
+        "yesOrNo": "Yes"
+      },
+      "guideUrl": "https://deckaura.com/blogs/guide/eight-of-pentacles-tarot-meaning",
+      "uprightKeywordsCn": [
+        "学习",
+        "精进",
+        "勤奋",
+        "专注"
+      ],
+      "reversedKeywordsCn": [
+        "粗心",
+        "缺乏动力",
+        "低质量"
+      ],
+      "meaningsCn": {
+        "love": "关系需要认真经营和持续投入。",
+        "career": "技能训练、重复打磨和专业提升。",
+        "yesOrNo": "是"
+      }
+    },
+    {
+      "id": "pentacles-nine-of-pentacles",
+      "cardNumber": 72,
+      "name": "Nine of Pentacles",
+      "nameEn": "Nine of Pentacles",
+      "nameCn": "星币九",
+      "arcana": "Minor Arcana",
+      "suit": "Pentacles",
+      "number": "9",
+      "img": "p09.jpg",
+      "imageUrl": "p09.jpg",
+      "backImageUrl": "/cards/back.png",
+      "element": "Earth",
+      "zodiacSign": null,
+      "uprightKeywords": [
+        "Abundance",
+        "luxury",
+        "self-sufficiency",
+        "independence"
+      ],
+      "reversedKeywords": [
+        "Over-investment in work",
+        "superficiality"
+      ],
+      "meanings": {
+        "love": "Enjoying being single, self-love",
+        "career": "Financial independence, enjoying success",
+        "yesOrNo": "Yes"
+      },
+      "guideUrl": "https://deckaura.com/blogs/guide/nine-of-pentacles-tarot-meaning",
+      "uprightKeywordsCn": [
+        "独立",
+        "富足",
+        "自律",
+        "享受"
+      ],
+      "reversedKeywordsCn": [
+        "依赖",
+        "过度消费",
+        "不安"
+      ],
+      "meaningsCn": {
+        "love": "独立、自洽、有吸引力，但未必急着进入关系。",
+        "career": "个人能力和财务状态较好，适合独立发展。",
+        "yesOrNo": "是"
+      }
+    },
+    {
+      "id": "pentacles-ten-of-pentacles",
+      "cardNumber": 73,
+      "name": "Ten of Pentacles",
+      "nameEn": "Ten of Pentacles",
+      "nameCn": "星币十",
+      "arcana": "Minor Arcana",
+      "suit": "Pentacles",
+      "number": "10",
+      "img": "p10.jpg",
+      "imageUrl": "p10.jpg",
+      "backImageUrl": "/cards/back.png",
+      "element": "Earth",
+      "zodiacSign": null,
+      "uprightKeywords": [
+        "Wealth",
+        "legacy",
+        "family",
+        "inheritance",
+        "establishment"
+      ],
+      "reversedKeywords": [
+        "Financial failure",
+        "family disputes"
+      ],
+      "meanings": {
+        "love": "Long-lasting love, family wealth",
+        "career": "Financial success, family business",
+        "yesOrNo": "Yes"
+      },
+      "guideUrl": "https://deckaura.com/blogs/guide/ten-of-pentacles-tarot-meaning",
+      "uprightKeywordsCn": [
+        "传承",
+        "家庭",
+        "财富",
+        "长期稳定"
+      ],
+      "reversedKeywordsCn": [
+        "家庭冲突",
+        "不稳定",
+        "短视"
+      ],
+      "meaningsCn": {
+        "love": "适合长期承诺、家庭和现实稳定。",
+        "career": "长期事业基础、资产和组织稳定。",
+        "yesOrNo": "是"
+      }
+    },
+    {
+      "id": "pentacles-page-of-pentacles",
+      "cardNumber": 74,
+      "name": "Page of Pentacles",
+      "nameEn": "Page of Pentacles",
+      "nameCn": "星币侍从",
+      "arcana": "Minor Arcana",
+      "suit": "Pentacles",
+      "number": "11",
+      "img": "p11.jpg",
+      "imageUrl": "p11.jpg",
+      "backImageUrl": "/cards/back.png",
+      "element": "Earth",
+      "zodiacSign": null,
+      "uprightKeywords": [
+        "Ambition",
+        "studiousness",
+        "new financial opportunity"
+      ],
+      "reversedKeywords": [
+        "Lack of progress",
+        "procrastination"
+      ],
+      "meanings": {
+        "love": "Steady new romance, building foundations",
+        "career": "Scholarship, new job, study opportunity",
+        "yesOrNo": "Yes"
+      },
+      "guideUrl": "https://deckaura.com/blogs/guide/page-of-pentacles-tarot-meaning",
+      "uprightKeywordsCn": [
+        "学习",
+        "机会",
+        "务实",
+        "计划"
+      ],
+      "reversedKeywordsCn": [
+        "拖延",
+        "缺乏进展",
+        "不成熟"
+      ],
+      "meaningsCn": {
+        "love": "慢热但认真，适合从实际行动开始。",
+        "career": "学习新技能或出现实际机会。",
+        "yesOrNo": "是"
+      }
+    },
+    {
+      "id": "pentacles-knight-of-pentacles",
+      "cardNumber": 75,
+      "name": "Knight of Pentacles",
+      "nameEn": "Knight of Pentacles",
+      "nameCn": "星币骑士",
+      "arcana": "Minor Arcana",
+      "suit": "Pentacles",
+      "number": "12",
+      "img": "p12.jpg",
+      "imageUrl": "p12.jpg",
+      "backImageUrl": "/cards/back.png",
+      "element": "Earth",
+      "zodiacSign": null,
+      "uprightKeywords": [
+        "Reliability",
+        "hard work",
+        "routine",
+        "patience"
+      ],
+      "reversedKeywords": [
+        "Boredom",
+        "laziness",
+        "feeling stuck"
+      ],
+      "meanings": {
+        "love": "Loyal steady partner, slow romance",
+        "career": "Reliable worker, methodical approach",
+        "yesOrNo": "Yes"
+      },
+      "guideUrl": "https://deckaura.com/blogs/guide/knight-of-pentacles-tarot-meaning",
+      "uprightKeywordsCn": [
+        "勤恳",
+        "稳定",
+        "责任",
+        "耐心"
+      ],
+      "reversedKeywordsCn": [
+        "停滞",
+        "固执",
+        "乏味"
+      ],
+      "meaningsCn": {
+        "love": "稳定可靠但推进较慢的感情。",
+        "career": "稳扎稳打，适合长期执行。",
+        "yesOrNo": "是"
+      }
+    },
+    {
+      "id": "pentacles-queen-of-pentacles",
+      "cardNumber": 76,
+      "name": "Queen of Pentacles",
+      "nameEn": "Queen of Pentacles",
+      "nameCn": "星币王后",
+      "arcana": "Minor Arcana",
+      "suit": "Pentacles",
+      "number": "13",
+      "img": "p13.jpg",
+      "imageUrl": "p13.jpg",
+      "backImageUrl": "/cards/back.png",
+      "element": "Earth",
+      "zodiacSign": null,
+      "uprightKeywords": [
+        "Nurturing",
+        "practical",
+        "financial security",
+        "homebody"
+      ],
+      "reversedKeywords": [
+        "Neglect",
+        "smothering",
+        "work-home imbalance"
+      ],
+      "meanings": {
+        "love": "Caring partner, domestic happiness",
+        "career": "Successful businesswoman, practical leader",
+        "yesOrNo": "Yes"
+      },
+      "guideUrl": "https://deckaura.com/blogs/guide/queen-of-pentacles-tarot-meaning",
+      "uprightKeywordsCn": [
+        "滋养",
+        "务实",
+        "安全感",
+        "富足"
+      ],
+      "reversedKeywordsCn": [
+        "失衡",
+        "过度照顾",
+        "不安全"
+      ],
+      "meaningsCn": {
+        "love": "温暖、实际、照顾型的关系能量。",
+        "career": "适合经营资源、照顾团队和稳定产出。",
+        "yesOrNo": "是"
+      }
+    },
+    {
+      "id": "pentacles-king-of-pentacles",
+      "cardNumber": 77,
+      "name": "King of Pentacles",
+      "nameEn": "King of Pentacles",
+      "nameCn": "星币国王",
+      "arcana": "Minor Arcana",
+      "suit": "Pentacles",
+      "number": "14",
+      "img": "p14.jpg",
+      "imageUrl": "p14.jpg",
+      "backImageUrl": "/cards/back.png",
+      "element": "Earth",
+      "zodiacSign": null,
+      "uprightKeywords": [
+        "Wealth",
+        "business",
+        "leadership",
+        "security",
+        "discipline"
+      ],
+      "reversedKeywords": [
+        "Greed",
+        "indulgence",
+        "materialism"
+      ],
+      "meanings": {
+        "love": "Stable provider, secure relationship",
+        "career": "Business success, financial mastery",
+        "yesOrNo": "Yes"
+      },
+      "guideUrl": "https://deckaura.com/blogs/guide/king-of-pentacles-tarot-meaning",
+      "uprightKeywordsCn": [
+        "成功",
+        "稳定",
+        "财富",
+        "可靠"
+      ],
+      "reversedKeywordsCn": [
+        "贪婪",
+        "固执",
+        "物质主义"
+      ],
+      "meaningsCn": {
+        "love": "成熟稳定、有现实承诺能力的伴侣能量。",
+        "career": "事业稳定、资源充足，适合长期建设。",
+        "yesOrNo": "是"
+      }
+    }
+  ],
+  "mergeStats": {
+    "primaryCount": 78,
+    "supplementCount": 78,
+    "mergedCount": 78,
+    "unmatchedPrimaryCards": []
+  },
+  "languageFields": {
+    "added": [
+      "uprightKeywordsCn",
+      "reversedKeywordsCn",
+      "meaningsCn"
+    ],
+    "note": "Original English fields are preserved. Chinese fields are appended for frontend display."
+  }
+}
