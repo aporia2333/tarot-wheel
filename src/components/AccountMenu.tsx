@@ -20,5 +20,5 @@ export function AccountMenu() {
   if (!user) return <Link href="/login" className="btn-secondary">登录</Link>;
   if (user.is_anonymous) return <div className="flex items-center gap-3"><span className="text-sm text-mist/70">访客模式</span><Link href="/login" className="btn-secondary">登录或注册</Link></div>;
 
-  return <div className="flex items-center gap-3"><span className="hidden max-w-40 truncate text-sm text-mist/70 sm:block">{user.email}</span><button type="button" className="btn-secondary" onClick={() => void getSupabaseBrowserClient().auth.signOut()}>退出登录</button></div>;
+  return <div className="flex items-center gap-3"><span className="hidden max-w-40 truncate text-sm text-mist/70 sm:block">{user.email}</span><Link href="/account" className="btn-secondary">账户安全</Link><button type="button" className="btn-secondary" onClick={() => void getSupabaseBrowserClient().auth.signOut()}>退出登录</button></div>;
 }
