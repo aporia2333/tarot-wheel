@@ -10,6 +10,15 @@ function isUuid(value: unknown): value is string {
   return typeof value === "string" && /^[0-9a-f]{8}-[0-9a-f]{4}-[1-5][0-9a-f]{3}-[89ab][0-9a-f]{3}-[0-9a-f]{12}$/i.test(value);
 }
 
+function isAllowedAiUser(email: string | undefined): boolean {
+  if (!email) return false;
+  const allowedEmails = (process.env.AI_ALLOWED_EMAILS || "")
+    .split(",")
+    .map((value) => value.trim().toLowerCase())
+    .filter(Boolean);
+  return allowedEmails.includes(email.toLowerCase());
+}
+
 export async function POST(request: Request) {
   let reading: TarotReading | null = null;
   let supabase: Awaited<ReturnType<typeof createSupabaseServerClient>> | null = null;
@@ -23,6 +32,9 @@ export async function POST(request: Request) {
     const { data: authData, error: authError } = await supabase.auth.getUser();
     if (authError || !authData.user) return NextResponse.json({ message: "请先登录。" }, { status: 401 });
     if (authData.user.is_anonymous) return NextResponse.json({ message: "为保护 AI 使用额度，请登录正式账号后再生成解读。" }, { status: 403 });
+    if (!isAllowedAiUser(authData.user.email)) {
+      return NextResponse.json({ message: "当前账号没有 AI 解读权限。" }, { status: 403 });
+    }
 
     const { data, error } = await supabase.from("tarot_readings").select("encrypted_payload").eq("id", readingId).maybeSingle();
     if (error) throw error;
