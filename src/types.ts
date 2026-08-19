@@ -34,6 +34,18 @@ export interface TarotSpread {
   positions: string[];
 }
 
+export interface AiCardInterpretation {
+  position: string;
+  cardName: string;
+  orientation: Orientation;
+  interpretation: string;
+}
+
+export interface AiInterpretation {
+  cards: AiCardInterpretation[];
+  summary: string;
+}
+
 export interface TarotReading {
   readingId: string;
   question: string;
@@ -41,6 +53,6 @@ export interface TarotReading {
   spread: TarotSpread;
   selectedCards: SelectedCard[];
   createdAt: string;
-  aiInterpretation?: string;
+  aiInterpretation?: AiInterpretation;
   aiStatus?: "not_started" | "pending" | "completed" | "failed";
 }
