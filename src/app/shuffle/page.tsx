@@ -45,9 +45,14 @@ export default function ShufflePage() {
           本次将从 {tarotCards.length} 张牌中打乱牌序。你可以多洗几次，直到感觉合适。
         </p>
         <ShuffleAnimation active={shuffling} />
-        <div className="mx-auto mt-2 max-w-md rounded-lg border border-white/12 bg-white/[0.06] p-4 text-sm text-mist/78">
-          当前已洗牌 {shuffleCount} 次
-        </div>
+        <p
+          className="mt-4 flex items-center justify-center gap-2 text-sm text-mist/58"
+          role="status"
+          aria-live="polite"
+        >
+          <span aria-hidden="true" className="h-1.5 w-1.5 rounded-full bg-amber-300/70" />
+          当前已洗牌 <strong className="font-semibold text-mist/90">{shuffleCount}</strong> 次
+        </p>
         <div className="mt-6 flex flex-col justify-center gap-3 sm:flex-row">
           <button type="button" className="btn-secondary" disabled={shuffling} onClick={shuffleOnce}>
             {shuffleCount ? "再洗一次" : "开始洗牌"}
