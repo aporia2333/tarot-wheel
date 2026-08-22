@@ -12,6 +12,7 @@ const text = {
     "\u5207\u724c\u4f1a\u4fdd\u7559\u5f53\u524d\u6d17\u597d\u7684\u724c\u5e8f\uff0c\u53ea\u4ece\u968f\u673a\u4f4d\u7f6e\u628a\u724c\u7ec4\u524d\u540e\u5bf9\u8c03\u3002\u4f60\u53ef\u4ee5\u591a\u6b21\u5207\u724c\uff0c\u786e\u8ba4\u540e\u518d\u8fdb\u5165\u62bd\u724c\u3002",
   countPrefix: "\u5f53\u524d\u5df2\u5207\u724c",
   countSuffix: "\u6b21",
+  statusHint: "\u53ef\u591a\u6b21\u5207\u724c\uff0c\u786e\u8ba4\u540e\u8fdb\u5165\u62bd\u724c",
   cutting: "\u5207\u724c\u4e2d...",
   cutAgain: "\u518d\u5207\u4e00\u6b21",
   randomCut: "\u968f\u673a\u5207\u724c",
@@ -48,8 +49,13 @@ export default function CutPage() {
 
           <CutAnimation active={cutting} cutCount={cutCount} />
 
-          <div className="mt-5 rounded-lg border border-white/12 bg-white/[0.06] p-4 text-sm text-mist/78">
-            {text.countPrefix} {cutCount} {text.countSuffix}
+          <div className="mt-5" role="status" aria-live="polite">
+            <p className="flex items-baseline justify-center gap-2 text-sm text-mist/72">
+              <span>{text.countPrefix}</span>
+              <strong className="text-3xl font-semibold leading-none text-ember">{cutCount}</strong>
+              <span>{text.countSuffix}</span>
+            </p>
+            <p className="mt-2 text-xs text-mist/48">{text.statusHint}</p>
           </div>
 
           <div className="mt-6 flex flex-col gap-3 sm:flex-row">
@@ -64,7 +70,12 @@ export default function CutPage() {
             >
               {text.confirm}
             </button>
-            <button type="button" className="btn-secondary" onClick={() => router.push("/draw")} disabled={cutting}>
+            <button
+              type="button"
+              className="inline-flex min-h-11 items-center justify-center px-4 text-sm text-mist/58 transition-colors hover:text-mist disabled:cursor-not-allowed disabled:opacity-35"
+              onClick={() => router.push("/draw")}
+              disabled={cutting}
+            >
               {text.skip}
             </button>
           </div>
