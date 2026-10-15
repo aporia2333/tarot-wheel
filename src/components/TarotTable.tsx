@@ -1,6 +1,6 @@
 "use client";
 
-import { useCallback, useEffect, useRef, useState, type PointerEvent } from "react";
+import { useCallback, useEffect, useRef, useState, type PointerEvent, type ReactNode } from "react";
 import { createPortal } from "react-dom";
 import { motion, useMotionValue, useReducedMotion } from "framer-motion";
 import { getCardBackSrc } from "@/data/tarotCards";
@@ -21,6 +21,7 @@ interface TarotTableProps {
   isConfirming: boolean;
   onReveal: () => void;
   saveError?: string;
+  saveErrorAction?: ReactNode;
   disabled: boolean;
 }
 
@@ -67,7 +68,7 @@ function fanGeometry(viewportWidth: number, count: number, depthScale: number) {
     ribbonHeight: Math.ceil(28 + radius * (1 - Math.cos(angle)) * depthScale + height + width * Math.sin(angle) / 2 + 14) };
 }
 
-export function TarotTable({ title, placementStorageKey, fanDepthScale = 1, deck, selectedCards, positions, onSelect, onBusyChange, onRedraw, onReveal, saveError, isConfirming, disabled }: TarotTableProps) {
+export function TarotTable({ title, placementStorageKey, fanDepthScale = 1, deck, selectedCards, positions, onSelect, onBusyChange, onRedraw, onReveal, saveError, saveErrorAction, isConfirming, disabled }: TarotTableProps) {
   const { skin } = useCardSkin();
   const reduceMotion = useReducedMotion();
   const [activeIndex, setActiveIndex] = useState<number | null>(null);
@@ -226,7 +227,7 @@ export function TarotTable({ title, placementStorageKey, fanDepthScale = 1, deck
           onClick={() => { setActiveIndex(null); gestureRef.current = null; onRedraw(); }}>全部重抽</button>
       </div>
     </div>
-    {saveError ? <p className="inline-message" role="alert">{saveError}</p> : null}
+    {saveError ? <div className="inline-message" role="alert"><p>{saveError}</p>{saveErrorAction}</div> : null}
     <div className="table-surface">
       <DrawnCardsArea ref={placementRef} boardKey={boardKey} storageKey={placementStorageKey} selectedCards={selectedCards} positions={positions} backStyle={backStyle}
         landingCardId={flight?.phase === "draw" ? deck[flight.index]?.id : undefined}

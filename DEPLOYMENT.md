@@ -36,6 +36,16 @@ AI 解读仅对 `AI_ALLOWED_EMAILS` 白名单内的正式登录账号开放，�
 
 正式上线前，在 Vercel 的 Production 环境变量中配置上述变量。保留现有模型配置；`DEEPSEEK_MODEL` 可覆盖默认模型。部署前执行测试、类型检查、lint 与构建。已连接 Git 的 Vercel 项目可按其配置从 `main` 分支部署。
 
+## 翻牌保存时出现网站验证
+
+2026-10-16 排查正式站时，`GET /api/readings` 与 `POST /api/readings` 返回了 HTTP 403、`x-vercel-mitigated: challenge` 和 `Vercel Security Checkpoint` HTML。这类请求在到达应用接口前已被平台验证拦下，不能按历史 JSON 解析。该观察不代表所有用户的访问都会触发相同验证。
+
+客户端现分别识别浏览器验证、登录失效、限流、服务故障和无效成功响应。抽牌页在验证提示下提供同站首页的新窗口入口；用户通过正常的浏览器验证后，返回原窗口再次点击“一起翻牌”。原窗口不刷新、不清空牌面，重试沿用相同记录 ID、时间、牌位和正逆位；不会自动重放保存或删除操作，也不会将云端失败默默改成本地保存。
+
+Vercel 的验证会话和 API 请求限制见[官方说明](https://vercel.com/docs/vercel-firewall/firewall-concepts#challenge)。若正常浏览器完成验证后仍反复被拦截，需要项目所有者在 Vercel Firewall 中检查实际命中的规则；修改应用代码不能替代平台验证。
+
+回归检查：`npm test`（80 项）、`npm run build`（含类型与 lint 检查），以及 `npx playwright test --config playwright.cloud.config.ts tests/e2e-cloud/history-save-recovery.spec.ts`。浏览器回归使用隔离的模拟认证与数据库，验证 403 恢复、保存成功但响应丢失、原牌面与记录 ID 保留、重试后仅一条记录；不读取或修改真实用户历史。
+
 ## 权限提示、速览与追问
 
 `GET /api/interpret/access` 在点击前检查当前身份与服务器配置，响应使用私有、不缓存策略。访客和无权限账号可以查看来自牌库的正逆位参考；正式账号的 AI 权限继续由原邮箱白名单控制。
