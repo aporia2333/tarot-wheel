@@ -1,34 +1,50 @@
 "use client";
 
 import Link from "next/link";
-import { useParams, useRouter } from "next/navigation";
 import { useEffect, useState } from "react";
+import { useRouter } from "next/navigation";
 import { AiInterpretationPanel } from "@/components/AiInterpretationPanel";
 import { ReadingCardsDisplay } from "@/components/ReadingCardsDisplay";
 import { RequireCloudAuth } from "@/components/RequireCloudAuth";
+import { ReadingLayout } from "@/components/ReadingLayout";
+import { PageNotice } from "@/components/PageNotice";
 import { getReadingById } from "@/lib/readings/client";
 import { useReadingFlowStore } from "@/store/readingFlowStore";
+import { ReferenceMeanings } from "@/components/ReferenceMeanings";
+import { isAiInterpretation } from "@/lib/readings/validation";
+import { consumeReadingReveal } from "@/lib/readingReveal";
 import type { TarotReading } from "@/types";
 
-export default function ResultPage() {
-  const params = useParams<{ id: string }>();
+export default function ResultPage({ params }: { params: { id: string } }) {
   const router = useRouter();
   const resetFlow = useReadingFlowStore((state) => state.resetFlow);
   const [reading, setReading] = useState<TarotReading | null>(null);
   const [loading, setLoading] = useState(true);
-
+  const [message, setMessage] = useState("");
+  const [revealCards, setRevealCards] = useState(false);
   useEffect(() => {
-    void getReadingById(params.id).then(setReading).catch(() => setReading(null)).finally(() => setLoading(false));
+    let active = true; setLoading(true); setMessage("");
+    void getReadingById(params.id).then((value) => { if (active) { setReading(value); setRevealCards(Boolean(value) && consumeReadingReveal(params.id)); } }).catch((error) => {
+      if (active) { setReading(null); setMessage(error instanceof Error ? error.message : "结果读取失败，请稍后重试。"); }
+    }).finally(() => { if (active) setLoading(false); });
+    return () => { active = false; };
   }, [params.id]);
-
-  const content = loading ? <main className="page-shell"><div className="content-wrap text-center text-mist/70">正在读取结果…</div></main> : !reading ? (
-    <main className="page-shell"><div className="content-wrap text-center"><p className="text-mist">没有找到这次抽牌记录。</p><Link href="/history" className="btn-primary mt-4">查看历史</Link></div></main>
-  ) : <main className="page-shell"><div className="content-wrap">
-    <section className="glass rounded-lg p-5"><div className="flex flex-col items-center gap-4 text-center md:flex-row md:items-start md:justify-between md:text-left"><div className="md:pt-1"><p className="text-sm text-ember">{reading.spread.name}</p><h1 className="mt-2 text-3xl font-semibold text-white">抽牌结果</h1><time className="mt-2 block text-sm text-mist/60">{new Date(reading.createdAt).toLocaleString("zh-CN")}</time></div><div className="flex flex-col gap-3 sm:flex-row"><Link href="/history" className="btn-secondary">查看历史</Link><button type="button" className="btn-primary" onClick={() => { resetFlow(); router.push("/question"); }}>重新抽牌</button></div></div></section>
-    {(reading.question || reading.contextInfo) ? <section className="mx-auto mt-6 max-w-3xl text-center">{reading.question ? <><p className="text-sm text-mist/60">你的问题</p><p className="mt-2 text-lg leading-7 text-mist">{reading.question}</p></> : null}{reading.contextInfo ? <><p className="mt-5 text-sm text-mist/60">Context / 背景信息</p><p className="mt-2 whitespace-pre-wrap text-sm leading-7 text-mist/80">{reading.contextInfo}</p></> : null}</section> : null}
-    <ReadingCardsDisplay selectedCards={reading.selectedCards} />
-    <AiInterpretationPanel reading={reading} onUpdate={setReading} />
-  </div></main>;
-
-  return <RequireCloudAuth>{content}</RequireCloudAuth>;
+  const hasInterpretation = Boolean(reading && isAiInterpretation(reading.aiInterpretation, reading.selectedCards.length));
+  const interpretation = reading ? <AiInterpretationPanel reading={reading} onUpdate={setReading} /> : null;
+  const references = reading ? <ReferenceMeanings reading={reading} hasInterpretation={hasInterpretation} /> : null;
+  const actions = reading ? <><Link href="/history" className="btn-secondary">查看历史</Link><button type="button" className="btn-primary" onClick={() => { resetFlow(); router.push("/question"); }}>重新抽牌</button></> : undefined;
+  return <RequireCloudAuth><ReadingLayout title="抽牌结果" step={5} scene="result" actions={actions}
+    description={reading ? <div className="result-meta"><span>{reading.spread.name}</span><time dateTime={reading.createdAt}>{new Date(reading.createdAt).toLocaleString("zh-CN")}</time></div> : undefined}>
+    {loading ? <PageNotice title="正在读取结果…" loading /> : !reading ? <PageNotice title={message || "没有找到这次抽牌记录。"} error={Boolean(message)} description="可以回到历史记录查找，或开始一次新的阅读。" action={<Link href="/history" className="btn-secondary">查看历史</Link>} />
+      : <div className={`result-room-layout ${reading.selectedCards.length > 3 ? "has-many-cards" : ""}`}>
+        <div className="result-card-table"><ReadingCardsDisplay selectedCards={reading.selectedCards} reveal={revealCards} /></div>
+        <div className="result-reading">
+        {(reading.question || reading.contextInfo) ? <section className="result-question" aria-label="本次问题">
+          {reading.question ? <><p className="question-label">你的问题</p><p className="question-text">{reading.question}</p></> : null}
+          {reading.contextInfo ? <details><summary>Context / 背景信息</summary><p>{reading.contextInfo}</p></details> : null}
+        </section> : null}
+        {hasInterpretation ? <>{interpretation}{references}</> : <>{references}{interpretation}</>}
+        </div>
+      </div>}
+  </ReadingLayout></RequireCloudAuth>;
 }

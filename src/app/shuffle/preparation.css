@@ -1,0 +1,90 @@
+/* R05.1 preparation-only theme; the reading and account pages keep their own layout. */
+.preparation-shell { --ritual-ink: #0f211d; --ritual-ivory: #efe5d4; --ritual-gold: #c5a56a; isolation: isolate; padding: 0; min-height: calc(100dvh - var(--site-header-height)); background: #0f211d; color: var(--ritual-ivory); }
+.preparation-shell > .content-wrap { width: 100%; max-width: none; }
+.preparation-shell .preparation-room { margin: 0; max-width: none; width: 100%; height: calc(100dvh - var(--site-header-height)); min-height: 580px; position: relative; overflow: hidden; }
+.preparation-shell .preparation-scene { position: absolute; inset: 0; max-width: none; margin: 0; overflow: hidden; }
+.ritual-background { position: absolute; inset: 0; background: linear-gradient(90deg, #09161136, #09161105 40%, #09161116), url("/scenes/preparation/room-v1.png") center 46% / cover; }
+.preparation-shell .ritual-stage { position: relative; display: block; width: 100%; height: 100%; overflow: visible; }
+.ritual-world { transform: translateX(85px); transform-origin: 500px 410px; transition: transform 550ms ease; }
+.scene-playing .ritual-world { transform: translateX(85px) scale(1.045); }
+.scene-magic .ritual-world { transform: translateX(85px); }
+.crystal-ball, .crystal-ritual { pointer-events: none; }
+.reader-figure { animation: reader-arrive 350ms ease both; }
+.is-idle .reader-figure { animation: reader-arrive 350ms ease both, reader-breathe 7s ease-in-out 350ms infinite; }
+.reader-nods .reader-head { animation: reader-nod 650ms ease both; }
+.ritual-light { position: absolute; pointer-events: none; width: 30%; height: 75%; top: 10%; opacity: .16; }
+.ritual-light-warm { left: -8%; background: radial-gradient(ellipse, #cf974f66, transparent 70%); }
+.ritual-light-cool { right: -10%; background: radial-gradient(ellipse, #84b4ba55, transparent 70%); }
+.ritual-dust { position: absolute; inset: 0; pointer-events: none; }
+.ritual-dust i { position: absolute; width: 2px; height: 2px; border-radius: 50%; background: #d6ba81; opacity: .14; animation: room-dust 13s ease-in-out infinite; }
+.ritual-magic { pointer-events: none; transition: opacity 200ms ease; }
+.scene-settling .gather-mote { animation: gather-mote 700ms ease-out both; }
+.preparation-shell .dealer-dialogue { position: absolute; left: clamp(24px, 5vw, 76px); top: 40%; width: clamp(290px, 27vw, 380px); max-width: none; margin: 0; padding: 25px 27px; border-radius: 5px 15px 5px 5px; background: linear-gradient(130deg, #10251ef5, #0d1b18f3); border: 1px solid #9b8556; color: var(--ritual-ivory); box-shadow: 0 16px 40px #02080555, inset 0 0 0 4px #1a302220; z-index: 4; transition: opacity 200ms ease; }
+.preparation-shell .dealer-dialogue::after { display: none; }
+.preparation-shell .dealer-name { display: block; font-family: var(--font-display); color: #e1c48b; font-size: 19px; margin-bottom: 14px; }
+.preparation-shell .dealer-dialogue .reader-line { font-family: var(--font-display); font-size: clamp(18px, 1.5vw, 22px); line-height: 1.8; margin: 0; }
+.preparation-shell .dealer-dialogue .reader-prompt { color: #c0c7b7; font-size: 13px; margin-top: 13px; line-height: 1.65; }
+.preparation-shell .preparation-stage-title { position: absolute; width: 1px; height: 1px; padding: 0; overflow: hidden; clip-path: inset(50%); white-space: nowrap; }
+.preparation-shell .preparation-choices { display: flex; gap: 13px; flex-wrap: nowrap; margin-top: 21px; }
+.ritual-choice { display: inline-flex; align-items: center; justify-content: center; flex: 1; min-height: 44px; padding: 8px 16px; border: 1px solid #c5a56a; border-radius: 5px; background: linear-gradient(#254234, #142c23); color: #eee0bd; font-family: var(--font-display); font-size: 16px; line-height: 1.4; box-shadow: inset 0 0 0 3px #10211d; transition: background 180ms ease, border-color 180ms ease; }
+@media (hover: hover) and (pointer: fine) { .ritual-choice:hover { background: #315343; border-color: #eed3a2; } }
+.preparation-shell .preparation-count-form { margin-top: 19px; }
+.preparation-shell .preparation-count-control { display: flex; width: fit-content; gap: 7px; align-items: center; padding: 3px; border: 1px solid #897750; border-radius: 6px; background: #152b23; }
+.preparation-shell .preparation-count-control button { min-width: 40px; min-height: 40px; padding: 4px 8px; border: 0; background: transparent; color: #e9d5ac; font-size: 22px; line-height: 1; }
+.preparation-shell .preparation-count-control button:disabled { opacity: .35; }
+.preparation-shell .preparation-count-control input { width: 48px; min-height: 40px; padding: 4px; text-align: center; border: 0; background: transparent; color: #eee5d4; appearance: textfield; font-size: 20px; }
+.preparation-count-control input::-webkit-inner-spin-button { appearance: none; }
+.preparation-shell .preparation-count-control span { color: #c5c3af; font-size: 14px; }
+.preparation-shell #preparation-range { display: block; font-size: 12px; color: #abb9a8; margin: 7px 0 0; }
+.count-actions { display: flex; gap: 15px; margin-top: 15px; align-items: center; }
+.ritual-back { min-height: 44px; border: 0; background: transparent; color: #c8cbb9; font-size: 13px; padding: 4px; }
+.preparation-shell .dealer-dialogue .inline-message { color: #efd0b6; background: #573d2d45; border-color: #d0a17f; padding: 9px 12px; font-size: 13px; }
+.preparation-shell .dealer-dialogue.dialogue-playing { width: 245px; padding: 19px 22px; top: auto; bottom: 24px; opacity: .92; }
+.preparation-shell .dialogue-playing .dealer-name { margin-bottom: 7px; font-size: 16px; }
+.preparation-shell .preparation-running { min-height: 0; padding: 0; }
+.preparation-shell .preparation-running h1 { font-size: 21px; font-family: var(--font-display); font-weight: 400; }
+.preparation-shell .preparation-running p { font-size: 13px; color: #b9c5b2; margin: 6px 0 0; }
+.preparation-shell .scene-fallback-note { position: absolute; top: 14px; left: 20px; max-width: calc(100% - 200px); margin: 0; font-size: 12px; color: #dfd1b3; background: #10231dde; padding: 7px 10px; z-index: 3; }
+@keyframes reader-arrive { from { opacity: 0; } to { opacity: 1; } }
+@keyframes reader-breathe { 50% { transform: translateY(1.5px); } }
+@keyframes reader-nod { 40% { transform: rotate(2deg) translateY(2px); } }
+@keyframes room-dust { 50% { transform: translate(8px, -16px); opacity: .23; } }
+@keyframes gather-mote { from { opacity: 0; transform: scale(1.45); } 35% { opacity: .8; } to { opacity: 0; transform: scale(.55); } }
+@media (max-width: 1099px) {
+  .preparation-shell .preparation-room { height: auto; min-height: 0; padding-bottom: 22px; background: #0f211d; }
+  .preparation-shell .preparation-scene { position: relative; height: clamp(440px, calc(100dvh - 380px), 620px); }
+  .ritual-world { transform: none; }
+  .scene-playing .ritual-world { transform: scale(1.035); }
+  .scene-magic .ritual-world { transform: none; }
+  .preparation-shell .dealer-dialogue, .preparation-shell .dealer-dialogue.dialogue-playing { position: relative; inset: auto; width: calc(100% - 48px); max-width: 540px; margin: 0 auto; padding: 22px 26px; opacity: 1; }
+  .preparation-shell .dealer-dialogue .reader-line { font-size: 20px; }
+  .preparation-shell .preparation-choices { max-width: 360px; }
+}
+@media (max-width: 767px) {
+  .preparation-shell .preparation-scene { height: clamp(340px, 50dvh, 410px); overflow: hidden; margin: 0; }
+  .preparation-shell .preparation-scene > svg { width: 100%; height: 100%; margin: 0; max-width: none; }
+  .preparation-shell .dealer-dialogue, .preparation-shell .dealer-dialogue.dialogue-playing { width: calc(100% - 32px); padding: 20px 22px; margin: 0 auto; }
+  .preparation-shell .dealer-dialogue .reader-line { font-size: 18px; line-height: 1.7; }
+  .preparation-shell .dealer-name { margin-bottom: 9px; font-size: 17px; }
+  .preparation-shell .preparation-choices { margin-top: 17px; gap: 12px; }
+  .preparation-shell .scene-fallback-note { top: auto; bottom: 0; max-width: calc(100% - 32px); left: 16px; }
+}
+@media (prefers-reduced-motion: reduce) {
+  .preparation-shell *, .preparation-shell .reader-figure, .preparation-shell .reader-head, .preparation-shell .gather-mote { animation: none !important; transition: none !important; }
+  .scene-playing .ritual-world { transform: translateX(85px); }
+  .ritual-dust, .ritual-magic { display: none; }
+}
+@media (max-width: 1099px) and (prefers-reduced-motion: reduce) { .scene-playing .ritual-world { transform: none; } }
+.preparation-shell .scene-recovery { position: absolute; bottom: 22px; left: 22px; z-index: 5; padding: 18px; max-width: 300px; color: #eee0bd; background: #10251ef5; border: 1px solid #c5a56a; }
+.scene-recovery p { margin: 0 0 12px; }
+.scene-magic .reader-figure { animation: none; }
+.preparation-scene[data-casting="staff"] .reader-figure { animation: reader-arrive 350ms var(--ease-out) both; }
+.preparation-scene[data-casting="staff"].scene-playing .reader-figure { animation: none; }
+.preparation-scene[data-casting="staff"] .reader-nods { transform: none; }
+.preparation-scene[data-quality="low"] .ritual-dust, .preparation-scene[data-quality="low"] .ritual-light { display: none; }
+.scene-magic .ritual-world { transition: none; }
+.ritual-debugger { position: absolute; right: 16px; bottom: 16px; z-index: 7; width: min(300px, calc(100% - 32px)); padding: 14px; background: #0f211df5; color: #eee0bd; border: 1px solid #897750; font-size: 12px; }
+.ritual-debugger label { display: flex; align-items: center; gap: 10px; margin-top: 8px; }
+.ritual-debugger input, .ritual-debugger select { min-width: 0; flex: 1; color: #eee0bd; background: #203a2e; }
+.ritual-debugger button { margin: 8px 8px 0 0; padding: 4px 8px; border: 1px solid #897750; }
+.ritual-debugger output { display: block; margin-top: 8px; }

@@ -5,6 +5,8 @@ import { FormEvent, useEffect, useState } from "react";
 import { useRouter } from "next/navigation";
 import type { User } from "@supabase/supabase-js";
 import { getSupabaseBrowserClient, isSupabaseConfigured } from "@/lib/supabase/client";
+import { ReadingLayout } from "@/components/ReadingLayout";
+import { PageNotice } from "@/components/PageNotice";
 
 export default function AccountPage() {
   const router = useRouter();
@@ -48,20 +50,17 @@ export default function AccountPage() {
     setMessage("密码已更新。");
   }
 
-  if (!user) return <main className="page-shell"><div className="content-wrap text-center text-mist/70">正在验证账号…</div></main>;
+  if (!isSupabaseConfigured) return <ReadingLayout title="账户安全" scene="account" narrow><PageNotice title="本地体验模式无需账号" description="阅读记录保存在当前浏览器。" action={<Link href="/" className="btn-secondary">返回首页</Link>} /></ReadingLayout>;
+  if (!user) return <ReadingLayout title="账户安全" scene="account" narrow><PageNotice title="正在验证账号…" loading /></ReadingLayout>;
 
-  return <main className="page-shell"><div className="content-wrap max-w-md">
-    <Link href="/" className="text-sm text-mist/65 hover:text-mist">← 返回首页</Link>
-    <section className="glass mt-6 rounded-lg p-6">
-      <h1 className="text-3xl font-semibold text-white">账户安全</h1>
-      <p className="mt-3 text-sm text-mist/70">当前账号：{user.email}</p>
-      <form className="mt-6 space-y-5" onSubmit={updatePassword}>
-        <label className="block text-sm text-mist/80">当前密码<input className="field mt-2" type="password" autoComplete="current-password" required value={currentPassword} onChange={(event) => setCurrentPassword(event.target.value)} /></label>
-        <label className="block text-sm text-mist/80">新密码<input className="field mt-2" type="password" autoComplete="new-password" minLength={10} required value={newPassword} onChange={(event) => setNewPassword(event.target.value)} /></label>
-        <p className="text-xs leading-5 text-mist/60">建议使用密码管理器生成的独特密码，避免使用用户名、邮箱或常见词。</p>
-        {message ? <p className="rounded-lg bg-white/[0.08] p-3 text-sm text-mist">{message}</p> : null}
+  return <ReadingLayout title="账户安全" description={`当前账号：${user.email}`} scene="account" narrow>
+      <form className="account-form" onSubmit={updatePassword}>
+        <label>当前密码<input className="field" type="password" autoComplete="current-password" required value={currentPassword} onChange={(event) => setCurrentPassword(event.target.value)} /></label>
+        <label>新密码<input className="field" type="password" autoComplete="new-password" minLength={10} required value={newPassword} onChange={(event) => setNewPassword(event.target.value)} /></label>
+        <p className="field-help">建议使用密码管理器生成的独特密码，避免使用用户名、邮箱或常见词。</p>
+        {message ? <p className="inline-message" role="status">{message}</p> : null}
         <button className="btn-primary w-full" type="submit" disabled={loading}>{loading ? "正在更新…" : "更新密码"}</button>
       </form>
-    </section>
-  </div></main>;
+      <Link href="/" className="text-link mt-4">返回首页</Link>
+  </ReadingLayout>;
 }

@@ -2,6 +2,7 @@ interface PaginationProps {
   currentPage: number;
   totalPages: number;
   onChange: (page: number) => void;
+  disabled?: boolean;
 }
 
 function ArrowIcon({ direction }: { direction: "left" | "right" }) {
@@ -12,14 +13,14 @@ function ArrowIcon({ direction }: { direction: "left" | "right" }) {
   );
 }
 
-export function Pagination({ currentPage, totalPages, onChange }: PaginationProps) {
+export function Pagination({ currentPage, totalPages, onChange, disabled = false }: PaginationProps) {
   return (
     <nav className="spread-pagination" aria-label="牌阵分页">
       <button
         type="button"
         className="pagination-arrow"
         onClick={() => onChange(currentPage - 1)}
-        disabled={currentPage === 0}
+        disabled={disabled || currentPage === 0}
         aria-label="上一页"
       >
         <ArrowIcon direction="left" />
@@ -34,7 +35,8 @@ export function Pagination({ currentPage, totalPages, onChange }: PaginationProp
             onClick={() => onChange(page)}
             aria-label={`前往第 ${page + 1} 页`}
             aria-current={page === currentPage ? "page" : undefined}
-          />
+            disabled={disabled}
+          >{page + 1}</button>
         ))}
       </div>
 
@@ -42,7 +44,7 @@ export function Pagination({ currentPage, totalPages, onChange }: PaginationProp
         type="button"
         className="pagination-arrow"
         onClick={() => onChange(currentPage + 1)}
-        disabled={currentPage === totalPages - 1}
+        disabled={disabled || currentPage === totalPages - 1}
         aria-label="下一页"
       >
         <ArrowIcon direction="right" />

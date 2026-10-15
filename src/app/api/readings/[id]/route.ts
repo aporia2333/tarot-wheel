@@ -37,7 +37,7 @@ export async function DELETE(_: Request, { params }: { params: { id: string } })
     const { supabase, user } = await getAuthenticatedClient();
     if (!user) return NextResponse.json({ message: "请先登录。" }, { status: 401 });
 
-    const { error } = await supabase.from("tarot_readings").delete().eq("id", params.id);
+    const { error } = await supabase.from("tarot_readings").delete().eq("id", params.id).eq("user_id", user.id);
     if (error) throw error;
     return new NextResponse(null, { status: 204 });
   } catch (error) {

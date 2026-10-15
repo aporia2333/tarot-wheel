@@ -1,12 +1,12 @@
 "use client";
 
 import { TarotCard } from "@/components/TarotCard";
-import { getKeywords } from "@/data/tarotCards";
+import { getCardMeaning, getKeywords } from "@/data/tarotCards";
 import type { SelectedCard } from "@/types";
 
 export function ResultCard({ selectedCard, index }: { selectedCard: SelectedCard; index: number }) {
   const { card, orientation, position } = selectedCard;
-  const meanings = card.meaningsCn ?? card.meanings ?? {};
+  const meanings = orientation === "upright" ? card.meaningsCn ?? card.meanings ?? {} : { "逆位参考": getCardMeaning(card, orientation) };
 
   return (
     <article className="glass grid gap-5 rounded-lg p-4 md:grid-cols-[180px_1fr]">

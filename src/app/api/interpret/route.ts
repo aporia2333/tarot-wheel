@@ -1,66 +1,41 @@
 import { NextResponse } from "next/server";
 import { decryptReadingPayload, encryptReadingPayload } from "@/lib/crypto/readings";
 import { generateDeepSeekInterpretation } from "@/lib/ai/deepseek";
+import { AiRequestConflict, interpretReading } from "@/lib/ai/interpretReading";
+import { isRecord, isStoredReading, isUuid } from "@/lib/readings/validation";
 import { createSupabaseServerClient } from "@/lib/supabase/server";
-import type { TarotReading } from "@/types";
+import { isAllowedAiUser } from "@/lib/ai/access";
 
 export const runtime = "nodejs";
 
-function isUuid(value: unknown): value is string {
-  return typeof value === "string" && /^[0-9a-f]{8}-[0-9a-f]{4}-[1-5][0-9a-f]{3}-[89ab][0-9a-f]{3}-[0-9a-f]{12}$/i.test(value);
-}
-
-function isAllowedAiUser(email: string | undefined): boolean {
-  if (!email) return false;
-  const allowedEmails = (process.env.AI_ALLOWED_EMAILS || "")
-    .split(",")
-    .map((value) => value.trim().toLowerCase())
-    .filter(Boolean);
-  return allowedEmails.includes(email.toLowerCase());
-}
-
 export async function POST(request: Request) {
-  let reading: TarotReading | null = null;
-  let supabase: Awaited<ReturnType<typeof createSupabaseServerClient>> | null = null;
-  let readingId = "";
-
+  let body: unknown;
+  try { body = await request.json(); } catch { return NextResponse.json({ message: "请求 JSON 无效。" }, { status: 400 }); }
+  if (!isRecord(body) || !isUuid(body.readingId)) return NextResponse.json({ message: "记录 ID 无效。" }, { status: 400 });
+  const readingId = body.readingId;
   try {
-    const body = await request.json() as { readingId?: unknown };
-    if (!isUuid(body.readingId)) return NextResponse.json({ message: "记录 ID 无效。" }, { status: 400 });
-    readingId = body.readingId;
-    supabase = await createSupabaseServerClient();
+    const supabase = await createSupabaseServerClient();
     const { data: authData, error: authError } = await supabase.auth.getUser();
     if (authError || !authData.user) return NextResponse.json({ message: "请先登录。" }, { status: 401 });
     if (authData.user.is_anonymous) return NextResponse.json({ message: "为保护 AI 使用额度，请登录正式账号后再生成解读。" }, { status: 403 });
-    if (!isAllowedAiUser(authData.user.email)) {
-      return NextResponse.json({ message: "当前账号没有 AI 解读权限。" }, { status: 403 });
-    }
-
-    const { data, error } = await supabase.from("tarot_readings").select("encrypted_payload").eq("id", readingId).maybeSingle();
+    if (!isAllowedAiUser(authData.user.email)) return NextResponse.json({ message: "当前账号没有 AI 解读权限。" }, { status: 403 });
+    const { data, error } = await supabase.from("tarot_readings").select("encrypted_payload,updated_at").eq("id", readingId).maybeSingle();
     if (error) throw error;
     if (!data) return NextResponse.json({ message: "未找到该记录。" }, { status: 404 });
-    reading = decryptReadingPayload<TarotReading>(data.encrypted_payload);
-
-    if (reading.aiInterpretation && reading.aiStatus === "completed") {
-      return NextResponse.json({ interpretation: reading.aiInterpretation, cached: true });
-    }
-
-    const pendingReading = { ...reading, aiStatus: "pending" as const };
-    const { error: pendingError } = await supabase.from("tarot_readings").update({ encrypted_payload: encryptReadingPayload(pendingReading) }).eq("id", readingId);
-    if (pendingError) throw pendingError;
-
-    const interpretation = await generateDeepSeekInterpretation(pendingReading);
-    const completedReading = { ...pendingReading, aiInterpretation: interpretation, aiStatus: "completed" as const };
-    const { error: completedError } = await supabase.from("tarot_readings").update({ encrypted_payload: encryptReadingPayload(completedReading) }).eq("id", readingId);
-    if (completedError) throw completedError;
-
-    return NextResponse.json({ interpretation, cached: false });
+    const reading = decryptReadingPayload<unknown>(data.encrypted_payload);
+    if (!isStoredReading(reading)) throw new Error("历史记录格式不完整，无法生成解读。");
+    const result = await interpretReading(reading, data.updated_at, {
+      save: async (next, expectedUpdatedAt) => {
+        const { data: updated, error: updateError } = await supabase.from("tarot_readings")
+          .update({ encrypted_payload: encryptReadingPayload(next) }).eq("id", readingId)
+          .eq("updated_at", expectedUpdatedAt).select("updated_at").maybeSingle();
+        if (updateError) throw updateError;
+        return updated?.updated_at ?? null;
+      },
+    }, generateDeepSeekInterpretation);
+    return NextResponse.json(result);
   } catch (error) {
-    if (supabase && reading && readingId) {
-      const failedReading = { ...reading, aiStatus: "failed" as const };
-      await supabase.from("tarot_readings").update({ encrypted_payload: encryptReadingPayload(failedReading) }).eq("id", readingId);
-    }
     const message = error instanceof Error ? error.message : "生成 AI 解读失败。";
-    return NextResponse.json({ message }, { status: 500 });
+    return NextResponse.json({ message }, { status: error instanceof AiRequestConflict ? 409 : 500 });
   }
 }

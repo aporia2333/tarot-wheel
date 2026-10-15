@@ -13,7 +13,7 @@
       "number": "0",
       "img": "m00.jpg",
       "imageUrl": "m00.jpg",
-      "backImageUrl": "/cards/back.png",
+      "backImageUrl": "/cards/back.svg",
       "element": "Air",
       "zodiacSign": "Uranus",
       "uprightKeywords": [
@@ -48,7 +48,10 @@
         "love": "新的感情机会，关系带有轻盈、试探和冒险感。",
         "career": "新的职业方向或机会，适合带着信念尝试。",
         "yesOrNo": "偏是"
-      }
+      },
+      "reversedMeaningCn": "冲动冒险或因害怕未知而迟迟不动；先检查准备程度，再决定是否迈出一步。",
+      "astrologicalCorrespondence": "Uranus",
+      "rank": "major"
     },
     {
       "id": "major-the-magician",
@@ -61,7 +64,7 @@
       "number": "1",
       "img": "m01.jpg",
       "imageUrl": "m01.jpg",
-      "backImageUrl": "/cards/back.png",
+      "backImageUrl": "/cards/back.svg",
       "element": "Air",
       "zodiacSign": "Mercury",
       "uprightKeywords": [
@@ -94,7 +97,10 @@
         "love": "有吸引力和主动性，适合自信表达好感。",
         "career": "技能发挥、资源到位，可能出现新机会。",
         "yesOrNo": "是"
-      }
+      },
+      "reversedMeaningCn": "资源或能力尚未有效发挥，也要留意操控与夸大承诺，重新对齐计划与行动。",
+      "astrologicalCorrespondence": "Mercury",
+      "rank": "major"
     },
     {
       "id": "major-the-high-priestess",
@@ -107,7 +113,7 @@
       "number": "2",
       "img": "m02.jpg",
       "imageUrl": "m02.jpg",
-      "backImageUrl": "/cards/back.png",
+      "backImageUrl": "/cards/back.svg",
       "element": "Water",
       "zodiacSign": "Moon",
       "uprightKeywords": [
@@ -141,7 +147,10 @@
         "love": "感情中有隐藏情绪，需要相信直觉而不是只看表面。",
         "career": "适合观察和等待，重要信息可能尚未浮现。",
         "yesOrNo": "偏是"
-      }
+      },
+      "reversedMeaningCn": "与内在感受脱节或信息尚被遮掩；区分直觉与猜测，给自己核实的空间。",
+      "astrologicalCorrespondence": "Moon",
+      "rank": "major"
     },
     {
       "id": "major-the-empress",
@@ -154,7 +163,7 @@
       "number": "3",
       "img": "m03.jpg",
       "imageUrl": "m03.jpg",
-      "backImageUrl": "/cards/back.png",
+      "backImageUrl": "/cards/back.svg",
       "element": "Earth",
       "zodiacSign": "Venus",
       "uprightKeywords": [
@@ -189,7 +198,10 @@
         "love": "感情温暖、亲密，有被照顾和被吸引的能量。",
         "career": "项目有成长空间，适合发挥创意和审美。",
         "yesOrNo": "是"
-      }
+      },
+      "reversedMeaningCn": "照顾失衡、自我价值不稳或创造力受阻；先恢复自己的需求与边界。",
+      "astrologicalCorrespondence": "Venus",
+      "rank": "major"
     },
     {
       "id": "major-the-emperor",
@@ -202,7 +214,7 @@
       "number": "4",
       "img": "m04.jpg",
       "imageUrl": "m04.jpg",
-      "backImageUrl": "/cards/back.png",
+      "backImageUrl": "/cards/back.svg",
       "element": "Fire",
       "zodiacSign": "Aries",
       "uprightKeywords": [
@@ -237,7 +249,10 @@
         "love": "关系重视承诺和责任，也可能带有保护欲。",
         "career": "适合建立秩序、承担领导职责或争取晋升。",
         "yesOrNo": "是"
-      }
+      },
+      "reversedMeaningCn": "控制过度、规则僵化或执行纪律不足；建立能支持而非压迫人的秩序。",
+      "astrologicalCorrespondence": "Aries",
+      "rank": "major"
     },
     {
       "id": "major-the-hierophant",
@@ -250,7 +265,7 @@
       "number": "5",
       "img": "m05.jpg",
       "imageUrl": "m05.jpg",
-      "backImageUrl": "/cards/back.png",
+      "backImageUrl": "/cards/back.svg",
       "element": "Earth",
       "zodiacSign": "Taurus",
       "uprightKeywords": [
@@ -284,7 +299,10 @@
         "love": "偏向稳定、传统和认真承诺的关系。",
         "career": "适合向导师学习，或走更稳妥、制度化的路线。",
         "yesOrNo": "偏是"
-      }
+      },
+      "reversedMeaningCn": "质疑传统或尝试新方法；检查规则是否仍适用，而非为了反叛而反叛。",
+      "astrologicalCorrespondence": "Taurus",
+      "rank": "major"
     },
     {
       "id": "major-the-lovers",
@@ -297,7 +315,7 @@
       "number": "6",
       "img": "m06.jpg",
       "imageUrl": "m06.jpg",
-      "backImageUrl": "/cards/back.png",
+      "backImageUrl": "/cards/back.svg",
       "element": "Air",
       "zodiacSign": "Gemini",
       "uprightKeywords": [
@@ -332,7 +350,10 @@
         "love": "强烈吸引和深层连接，也涉及重要选择。",
         "career": "可能有重要合作或职业方向上的抉择。",
         "yesOrNo": "是"
-      }
+      },
+      "reversedMeaningCn": "价值观、需求或行动不一致；厘清选择与责任，寻找可以坦诚协商的部分。",
+      "astrologicalCorrespondence": "Gemini",
+      "rank": "major"
     },
     {
       "id": "major-the-chariot",
@@ -345,7 +366,7 @@
       "number": "7",
       "img": "m07.jpg",
       "imageUrl": "m07.jpg",
-      "backImageUrl": "/cards/back.png",
+      "backImageUrl": "/cards/back.svg",
       "element": "Water",
       "zodiacSign": "Cancer",
       "uprightKeywords": [
@@ -379,7 +400,10 @@
         "love": "主动推进关系，带着信心追求。",
         "career": "事业上需要冲刺和执行力，有取得进展的机会。",
         "yesOrNo": "是"
-      }
+      },
+      "reversedMeaningCn": "方向分散、推进失控或过于强硬；重新确定目标与可控的行动节奏。",
+      "astrologicalCorrespondence": "Cancer",
+      "rank": "major"
     },
     {
       "id": "major-strength",
@@ -392,7 +416,7 @@
       "number": "8",
       "img": "m08.jpg",
       "imageUrl": "m08.jpg",
-      "backImageUrl": "/cards/back.png",
+      "backImageUrl": "/cards/back.svg",
       "element": "Fire",
       "zodiacSign": "Leo",
       "uprightKeywords": [
@@ -427,7 +451,10 @@
         "love": "用耐心和温柔维系关系，而不是强硬推进。",
         "career": "靠坚持和韧性克服挑战。",
         "yesOrNo": "是"
-      }
+      },
+      "reversedMeaningCn": "自我怀疑或内在力量暂时受阻；用耐心管理情绪，避免靠强硬掩盖不安。",
+      "astrologicalCorrespondence": "Leo",
+      "rank": "major"
     },
     {
       "id": "major-the-hermit",
@@ -440,7 +467,7 @@
       "number": "9",
       "img": "m09.jpg",
       "imageUrl": "m09.jpg",
-      "backImageUrl": "/cards/back.png",
+      "backImageUrl": "/cards/back.svg",
       "element": "Earth",
       "zodiacSign": "Virgo",
       "uprightKeywords": [
@@ -473,7 +500,10 @@
         "love": "需要先厘清自己，再进入或推进关系。",
         "career": "适合反思职业目标，寻找真正的方向。",
         "yesOrNo": "不确定"
-      }
+      },
+      "reversedMeaningCn": "独处变成隔离，或退缩使求助困难；保留反思时间，也重新建立支持连接。",
+      "astrologicalCorrespondence": "Virgo",
+      "rank": "major"
     },
     {
       "id": "major-wheel-of-fortune",
@@ -486,7 +516,7 @@
       "number": "10",
       "img": "m10.jpg",
       "imageUrl": "m10.jpg",
-      "backImageUrl": "/cards/back.png",
+      "backImageUrl": "/cards/back.svg",
       "element": "Fire",
       "zodiacSign": "Jupiter",
       "uprightKeywords": [
@@ -520,7 +550,10 @@
         "love": "关系可能进入转折期，带有机缘感。",
         "career": "职业变化或意外机会出现，需要把握时机。",
         "yesOrNo": "偏是"
-      }
+      },
+      "reversedMeaningCn": "变化受阻或时机不顺；看见可调整的部分，不把挫折当作永远不会改变的命运。",
+      "astrologicalCorrespondence": "Jupiter",
+      "rank": "major"
     },
     {
       "id": "major-justice",
@@ -533,7 +566,7 @@
       "number": "11",
       "img": "m11.jpg",
       "imageUrl": "m11.jpg",
-      "backImageUrl": "/cards/back.png",
+      "backImageUrl": "/cards/back.svg",
       "element": "Air",
       "zodiacSign": "Libra",
       "uprightKeywords": [
@@ -568,7 +601,10 @@
         "love": "关系需要公平、坦诚和责任感。",
         "career": "涉及规则、合同、伦理或重要判断。",
         "yesOrNo": "是，但取决于是否公平合理"
-      }
+      },
+      "reversedMeaningCn": "判断失衡、信息不诚实或责任被回避；补足事实，检视双方是否承担相应后果。",
+      "astrologicalCorrespondence": "Libra",
+      "rank": "major"
     },
     {
       "id": "major-the-hanged-man",
@@ -581,7 +617,7 @@
       "number": "12",
       "img": "m12.jpg",
       "imageUrl": "m12.jpg",
-      "backImageUrl": "/cards/back.png",
+      "backImageUrl": "/cards/back.svg",
       "element": "Water",
       "zodiacSign": "Neptune",
       "uprightKeywords": [
@@ -616,7 +652,10 @@
         "love": "关系暂时停顿，需要换角度理解对方。",
         "career": "职业节奏放慢，适合重新审视处境。",
         "yesOrNo": "不确定"
-      }
+      },
+      "reversedMeaningCn": "等待变成拖延，或抗拒换个角度；辨别暂停是否仍有价值，避免无止境悬置。",
+      "astrologicalCorrespondence": "Neptune",
+      "rank": "major"
     },
     {
       "id": "major-death",
@@ -629,7 +668,7 @@
       "number": "13",
       "img": "m13.jpg",
       "imageUrl": "m13.jpg",
-      "backImageUrl": "/cards/back.png",
+      "backImageUrl": "/cards/back.svg",
       "element": "Water",
       "zodiacSign": "Scorpio",
       "uprightKeywords": [
@@ -663,7 +702,10 @@
         "love": "关系进入转化期，可能需要放下旧模式。",
         "career": "一个阶段结束，为新方向腾出空间。",
         "yesOrNo": "不确定，偏向需要改变"
-      }
+      },
+      "reversedMeaningCn": "难以接受阶段结束或旧模式正在拖住变化；逐步放下已不再适用的部分。",
+      "astrologicalCorrespondence": "Scorpio",
+      "rank": "major"
     },
     {
       "id": "major-temperance",
@@ -676,7 +718,7 @@
       "number": "14",
       "img": "m14.jpg",
       "imageUrl": "m14.jpg",
-      "backImageUrl": "/cards/back.png",
+      "backImageUrl": "/cards/back.svg",
       "element": "Fire",
       "zodiacSign": "Sagittarius",
       "uprightKeywords": [
@@ -711,7 +753,10 @@
         "love": "关系需要慢慢协调，重视平衡和磨合。",
         "career": "适合稳步推进，保持工作与生活的平衡。",
         "yesOrNo": "偏是"
-      }
+      },
+      "reversedMeaningCn": "节奏失衡、过度投入或耐心不足；先协调需求与资源，再推进下一步。",
+      "astrologicalCorrespondence": "Sagittarius",
+      "rank": "major"
     },
     {
       "id": "major-the-devil",
@@ -724,7 +769,7 @@
       "number": "15",
       "img": "m15.jpg",
       "imageUrl": "m15.jpg",
-      "backImageUrl": "/cards/back.png",
+      "backImageUrl": "/cards/back.svg",
       "element": "Earth",
       "zodiacSign": "Capricorn",
       "uprightKeywords": [
@@ -757,7 +802,10 @@
         "love": "强烈吸引但可能有依赖、执念或不健康关系模式。",
         "career": "可能感到被工作、金钱或环境困住。",
         "yesOrNo": "否"
-      }
+      },
+      "reversedMeaningCn": "有机会松动依赖和限制性信念；觉察束缚来源，用实际边界支持脱离旧模式。",
+      "astrologicalCorrespondence": "Capricorn",
+      "rank": "major"
     },
     {
       "id": "major-the-tower",
@@ -770,7 +818,7 @@
       "number": "16",
       "img": "m16.jpg",
       "imageUrl": "m16.jpg",
-      "backImageUrl": "/cards/back.png",
+      "backImageUrl": "/cards/back.svg",
       "element": "Fire",
       "zodiacSign": "Mars",
       "uprightKeywords": [
@@ -803,7 +851,10 @@
         "love": "关系中可能出现冲击、真相暴露或结构崩塌。",
         "career": "事业可能有突然变化，需要重新搭建基础。",
         "yesOrNo": "否"
-      }
+      },
+      "reversedMeaningCn": "试图避免冲击，或因害怕变化而维持脆弱结构；主动检视问题比继续回避更有帮助。",
+      "astrologicalCorrespondence": "Mars",
+      "rank": "major"
     },
     {
       "id": "major-the-star",
@@ -816,7 +867,7 @@
       "number": "17",
       "img": "m17.jpg",
       "imageUrl": "m17.jpg",
-      "backImageUrl": "/cards/back.png",
+      "backImageUrl": "/cards/back.svg",
       "element": "Air",
       "zodiacSign": "Aquarius",
       "uprightKeywords": [
@@ -851,7 +902,10 @@
         "love": "感情有疗愈和重新燃起希望的可能。",
         "career": "创意和愿景增强，适合追求理想方向。",
         "yesOrNo": "是"
-      }
+      },
+      "reversedMeaningCn": "希望暂时受挫、信念不足或感到与支持脱节；通过可完成的小事重新建立信心。",
+      "astrologicalCorrespondence": "Aquarius",
+      "rank": "major"
     },
     {
       "id": "major-the-moon",
@@ -864,7 +918,7 @@
       "number": "18",
       "img": "m18.jpg",
       "imageUrl": "m18.jpg",
-      "backImageUrl": "/cards/back.png",
+      "backImageUrl": "/cards/back.svg",
       "element": "Water",
       "zodiacSign": "Pisces",
       "uprightKeywords": [
@@ -897,7 +951,10 @@
         "love": "感情中存在不确定、隐藏情绪或误解。",
         "career": "局势不够清晰，先不要完全相信表象。",
         "yesOrNo": "不确定"
-      }
+      },
+      "reversedMeaningCn": "恐惧可能开始释放、信息逐渐清楚；仍需核实事实，别把猜想当作已经揭晓的真相。",
+      "astrologicalCorrespondence": "Pisces",
+      "rank": "major"
     },
     {
       "id": "major-the-sun",
@@ -910,7 +967,7 @@
       "number": "19",
       "img": "m19.jpg",
       "imageUrl": "m19.jpg",
-      "backImageUrl": "/cards/back.png",
+      "backImageUrl": "/cards/back.svg",
       "element": "Fire",
       "zodiacSign": "Sun",
       "uprightKeywords": [
@@ -943,7 +1000,10 @@
         "love": "关系明朗、快乐，有积极发展。",
         "career": "事业表现亮眼，容易获得认可。",
         "yesOrNo": "是"
-      }
+      },
+      "reversedMeaningCn": "乐观与活力暂时被遮住，或局势仍不够清楚；给进展时间，避免过早断言失败。",
+      "astrologicalCorrespondence": "Sun",
+      "rank": "major"
     },
     {
       "id": "major-judgement",
@@ -956,7 +1016,7 @@
       "number": "20",
       "img": "m20.jpg",
       "imageUrl": "m20.jpg",
-      "backImageUrl": "/cards/back.png",
+      "backImageUrl": "/cards/back.svg",
       "element": "Fire",
       "zodiacSign": "Pluto",
       "uprightKeywords": [
@@ -989,7 +1049,10 @@
         "love": "关系进入评估期，可能有重新开始或做决定的机会。",
         "career": "听见职业召唤，需要做出重要判断。",
         "yesOrNo": "是"
-      }
+      },
+      "reversedMeaningCn": "自我怀疑或拒绝吸取经验，令关键判断迟迟未成；允许修正，而非陷入自我责备。",
+      "astrologicalCorrespondence": "Pluto",
+      "rank": "major"
     },
     {
       "id": "major-the-world",
@@ -1002,7 +1065,7 @@
       "number": "21",
       "img": "m21.jpg",
       "imageUrl": "m21.jpg",
-      "backImageUrl": "/cards/back.png",
+      "backImageUrl": "/cards/back.svg",
       "element": "Earth",
       "zodiacSign": "Saturn",
       "uprightKeywords": [
@@ -1037,7 +1100,10 @@
         "love": "关系有圆满感，可能进入稳定或完成阶段。",
         "career": "目标达成，职业进入一个里程碑。",
         "yesOrNo": "是"
-      }
+      },
+      "reversedMeaningCn": "收尾未完成、延迟或捷径留下缺口；检查尚未整合的部分，再确认阶段是否结束。",
+      "astrologicalCorrespondence": "Saturn",
+      "rank": "major"
     },
     {
       "id": "cups-ace-of-cups",
@@ -1050,7 +1116,7 @@
       "number": "1",
       "img": "c01.jpg",
       "imageUrl": "c01.jpg",
-      "backImageUrl": "/cards/back.png",
+      "backImageUrl": "/cards/back.svg",
       "element": "Water",
       "zodiacSign": null,
       "uprightKeywords": [
@@ -1083,7 +1149,10 @@
         "love": "新的关系或情感流动开始，适合表达真心。",
         "career": "创意满足或情绪价值提升。",
         "yesOrNo": "是"
-      }
+      },
+      "reversedMeaningCn": "感受受阻、情绪空虚或难以表达关心；先辨认真实需求，避免勉强投入新的关系。",
+      "astrologicalCorrespondence": null,
+      "rank": "ace"
     },
     {
       "id": "cups-two-of-cups",
@@ -1096,7 +1165,7 @@
       "number": "2",
       "img": "c02.jpg",
       "imageUrl": "c02.jpg",
-      "backImageUrl": "/cards/back.png",
+      "backImageUrl": "/cards/back.svg",
       "element": "Water",
       "zodiacSign": null,
       "uprightKeywords": [
@@ -1129,7 +1198,10 @@
         "love": "双向好感、互相靠近，关系较平等。",
         "career": "适合合作、结盟或建立伙伴关系。",
         "yesOrNo": "是"
-      }
+      },
+      "reversedMeaningCn": "彼此投入失衡或连接出现裂缝；回到沟通与互惠，不直接把不和等同于注定分手。",
+      "astrologicalCorrespondence": null,
+      "rank": "2"
     },
     {
       "id": "cups-three-of-cups",
@@ -1142,7 +1214,7 @@
       "number": "3",
       "img": "c03.jpg",
       "imageUrl": "c03.jpg",
-      "backImageUrl": "/cards/back.png",
+      "backImageUrl": "/cards/back.svg",
       "element": "Water",
       "zodiacSign": null,
       "uprightKeywords": [
@@ -1177,7 +1249,10 @@
         "love": "轻松愉快的社交型感情，也可能朋友变恋人。",
         "career": "团队协作顺利，适合社交和拓展人脉。",
         "yesOrNo": "是"
-      }
+      },
+      "reversedMeaningCn": "社交过度、流言或被孤立感可能影响支持网络；检查相处边界与真正可靠的连接。",
+      "astrologicalCorrespondence": null,
+      "rank": "3"
     },
     {
       "id": "cups-four-of-cups",
@@ -1190,7 +1265,7 @@
       "number": "4",
       "img": "c04.jpg",
       "imageUrl": "c04.jpg",
-      "backImageUrl": "/cards/back.png",
+      "backImageUrl": "/cards/back.svg",
       "element": "Water",
       "zodiacSign": null,
       "uprightKeywords": [
@@ -1223,7 +1298,10 @@
         "love": "对感情兴趣不足，可能忽视眼前机会。",
         "career": "工作动力下降，容易错过机会。",
         "yesOrNo": "否"
-      }
+      },
+      "reversedMeaningCn": "从冷淡或封闭中恢复觉察，开始重新接受机会；留意动力回归后能采取的小行动。",
+      "astrologicalCorrespondence": null,
+      "rank": "4"
     },
     {
       "id": "cups-five-of-cups",
@@ -1236,7 +1314,7 @@
       "number": "5",
       "img": "c05.jpg",
       "imageUrl": "c05.jpg",
-      "backImageUrl": "/cards/back.png",
+      "backImageUrl": "/cards/back.svg",
       "element": "Water",
       "zodiacSign": null,
       "uprightKeywords": [
@@ -1271,7 +1349,10 @@
         "love": "沉浸在遗憾或失恋情绪中，但仍有可保留的部分。",
         "career": "职业上有失望，需要从损失中恢复。",
         "yesOrNo": "否"
-      }
+      },
+      "reversedMeaningCn": "逐步接受失落并找到仍可保留的支持；疗愈需要时间，不必强迫自己立刻释怀。",
+      "astrologicalCorrespondence": null,
+      "rank": "5"
     },
     {
       "id": "cups-six-of-cups",
@@ -1284,7 +1365,7 @@
       "number": "6",
       "img": "c06.jpg",
       "imageUrl": "c06.jpg",
-      "backImageUrl": "/cards/back.png",
+      "backImageUrl": "/cards/back.svg",
       "element": "Water",
       "zodiacSign": null,
       "uprightKeywords": [
@@ -1317,7 +1398,10 @@
         "love": "旧人、旧情或熟悉感回归，带有温柔怀旧感。",
         "career": "过去的机会或旧经验可能重新发挥作用。",
         "yesOrNo": "偏是"
-      }
+      },
+      "reversedMeaningCn": "开始离开过去的依赖和怀旧，走向独立；保留经验，同时为现在腾出空间。",
+      "astrologicalCorrespondence": null,
+      "rank": "6"
     },
     {
       "id": "cups-seven-of-cups",
@@ -1330,7 +1414,7 @@
       "number": "7",
       "img": "c07.jpg",
       "imageUrl": "c07.jpg",
-      "backImageUrl": "/cards/back.png",
+      "backImageUrl": "/cards/back.svg",
       "element": "Water",
       "zodiacSign": null,
       "uprightKeywords": [
@@ -1365,7 +1449,10 @@
         "love": "感情期待可能过于理想化，需要分清现实。",
         "career": "选择太多导致分散，需要聚焦。",
         "yesOrNo": "不确定"
-      }
+      },
+      "reversedMeaningCn": "选择逐渐清晰，幻想需要落地；按现实条件聚焦，而不是继续被所有可能性拉扯。",
+      "astrologicalCorrespondence": null,
+      "rank": "7"
     },
     {
       "id": "cups-eight-of-cups",
@@ -1378,7 +1465,7 @@
       "number": "8",
       "img": "c08.jpg",
       "imageUrl": "c08.jpg",
-      "backImageUrl": "/cards/back.png",
+      "backImageUrl": "/cards/back.svg",
       "element": "Water",
       "zodiacSign": null,
       "uprightKeywords": [
@@ -1411,7 +1498,10 @@
         "love": "离开不满足的关系，寻找更深层的情感意义。",
         "career": "可能离开当前工作，寻找更有意义的方向。",
         "yesOrNo": "不确定"
-      }
+      },
+      "reversedMeaningCn": "害怕改变、停滞或难以离开不满足的处境；分清值得修复与只是因恐惧而留下。",
+      "astrologicalCorrespondence": null,
+      "rank": "8"
     },
     {
       "id": "cups-nine-of-cups",
@@ -1424,7 +1514,7 @@
       "number": "9",
       "img": "c09.jpg",
       "imageUrl": "c09.jpg",
-      "backImageUrl": "/cards/back.png",
+      "backImageUrl": "/cards/back.svg",
       "element": "Water",
       "zodiacSign": null,
       "uprightKeywords": [
@@ -1457,7 +1547,10 @@
         "love": "感情愿望有实现机会，情绪满足度较高。",
         "career": "事业目标接近达成，带来满足感。",
         "yesOrNo": "是"
-      }
+      },
+      "reversedMeaningCn": "愿望实现未必带来满足，或欲求过度；重新认识内在需要与外在期待的差别。",
+      "astrologicalCorrespondence": null,
+      "rank": "9"
     },
     {
       "id": "cups-ten-of-cups",
@@ -1470,7 +1563,7 @@
       "number": "10",
       "img": "c10.jpg",
       "imageUrl": "c10.jpg",
-      "backImageUrl": "/cards/back.png",
+      "backImageUrl": "/cards/back.svg",
       "element": "Water",
       "zodiacSign": null,
       "uprightKeywords": [
@@ -1505,7 +1598,10 @@
         "love": "稳定、幸福、适合长期发展的关系。",
         "career": "理想工作状态或工作生活和谐。",
         "yesOrNo": "是"
-      }
+      },
+      "reversedMeaningCn": "共同愿景不一致、家庭或关系缺乏协调；谈清各自期待，别只维护表面的和谐。",
+      "astrologicalCorrespondence": null,
+      "rank": "10"
     },
     {
       "id": "cups-page-of-cups",
@@ -1518,7 +1614,7 @@
       "number": "11",
       "img": "c11.jpg",
       "imageUrl": "c11.jpg",
-      "backImageUrl": "/cards/back.png",
+      "backImageUrl": "/cards/back.svg",
       "element": "Water",
       "zodiacSign": null,
       "uprightKeywords": [
@@ -1549,7 +1645,10 @@
         "love": "甜美的示好、暧昧消息或新的情感萌芽。",
         "career": "创意机会出现，适合尝试艺术或表达。",
         "yesOrNo": "是"
-      }
+      },
+      "reversedMeaningCn": "情绪表达不成熟或创意受阻；温柔接纳感受，并用更清楚的方式表达需求。",
+      "astrologicalCorrespondence": null,
+      "rank": "page"
     },
     {
       "id": "cups-knight-of-cups",
@@ -1562,7 +1661,7 @@
       "number": "12",
       "img": "c12.jpg",
       "imageUrl": "c12.jpg",
-      "backImageUrl": "/cards/back.png",
+      "backImageUrl": "/cards/back.svg",
       "element": "Water",
       "zodiacSign": null,
       "uprightKeywords": [
@@ -1597,7 +1696,10 @@
         "love": "浪漫邀约或有魅力的人靠近，但需要看实际行动。",
         "career": "追随创意热情，适合表达和提案。",
         "yesOrNo": "是"
-      }
+      },
+      "reversedMeaningCn": "情绪起伏、嫉妒或理想化让承诺失去现实基础；看实际行动与稳定性。",
+      "astrologicalCorrespondence": null,
+      "rank": "knight"
     },
     {
       "id": "cups-queen-of-cups",
@@ -1610,7 +1712,7 @@
       "number": "13",
       "img": "c13.jpg",
       "imageUrl": "c13.jpg",
-      "backImageUrl": "/cards/back.png",
+      "backImageUrl": "/cards/back.svg",
       "element": "Water",
       "zodiacSign": null,
       "uprightKeywords": [
@@ -1645,7 +1747,10 @@
         "love": "温柔深情、重视照顾和情绪理解。",
         "career": "适合咨询、照护、创意或需要情商的工作。",
         "yesOrNo": "是"
-      }
+      },
+      "reversedMeaningCn": "不安全感、过度依赖或情绪操控可能使照顾失衡；恢复自我照顾与边界。",
+      "astrologicalCorrespondence": null,
+      "rank": "queen"
     },
     {
       "id": "cups-king-of-cups",
@@ -1658,7 +1763,7 @@
       "number": "14",
       "img": "c14.jpg",
       "imageUrl": "c14.jpg",
-      "backImageUrl": "/cards/back.png",
+      "backImageUrl": "/cards/back.svg",
       "element": "Water",
       "zodiacSign": null,
       "uprightKeywords": [
@@ -1689,7 +1794,10 @@
         "love": "成熟稳定的爱，能控制情绪并给予支持。",
         "career": "以同理心领导，适合协调和管理。",
         "yesOrNo": "是"
-      }
+      },
+      "reversedMeaningCn": "情绪难以稳定，或用情绪影响他人；先调整回应方式，再处理需要协商的事情。",
+      "astrologicalCorrespondence": null,
+      "rank": "king"
     },
     {
       "id": "swords-ace-of-swords",
@@ -1702,7 +1810,7 @@
       "number": "1",
       "img": "s01.jpg",
       "imageUrl": "s01.jpg",
-      "backImageUrl": "/cards/back.png",
+      "backImageUrl": "/cards/back.svg",
       "element": "Air",
       "zodiacSign": null,
       "uprightKeywords": [
@@ -1737,7 +1845,10 @@
         "love": "通过坦诚沟通带来关系突破。",
         "career": "出现清晰想法或关键突破。",
         "yesOrNo": "是"
-      }
+      },
+      "reversedMeaningCn": "想法混乱、判断不清或沟通失序；补足事实并整理表达，避免仓促认定真相。",
+      "astrologicalCorrespondence": null,
+      "rank": "ace"
     },
     {
       "id": "swords-two-of-swords",
@@ -1750,7 +1861,7 @@
       "number": "2",
       "img": "s02.jpg",
       "imageUrl": "s02.jpg",
-      "backImageUrl": "/cards/back.png",
+      "backImageUrl": "/cards/back.svg",
       "element": "Air",
       "zodiacSign": null,
       "uprightKeywords": [
@@ -1783,7 +1894,10 @@
         "love": "关系处于抉择点，双方可能回避真相。",
         "career": "职业选择困难，需要更多信息。",
         "yesOrNo": "不确定"
-      }
+      },
+      "reversedMeaningCn": "信息过载或被选择压住，也可能开始看清僵局；先减少干扰，再完成必要的判断。",
+      "astrologicalCorrespondence": null,
+      "rank": "2"
     },
     {
       "id": "swords-three-of-swords",
@@ -1796,7 +1910,7 @@
       "number": "3",
       "img": "s03.jpg",
       "imageUrl": "s03.jpg",
-      "backImageUrl": "/cards/back.png",
+      "backImageUrl": "/cards/back.svg",
       "element": "Air",
       "zodiacSign": null,
       "uprightKeywords": [
@@ -1830,7 +1944,10 @@
         "love": "可能有失望、分离或痛苦沟通。",
         "career": "职场上面临刺痛的事实或损失。",
         "yesOrNo": "否"
-      }
+      },
+      "reversedMeaningCn": "正在从失望中恢复，学习原谅或松动旧伤；承认痛苦并逐步修复，不强求立刻恢复。",
+      "astrologicalCorrespondence": null,
+      "rank": "3"
     },
     {
       "id": "swords-four-of-swords",
@@ -1843,7 +1960,7 @@
       "number": "4",
       "img": "s04.jpg",
       "imageUrl": "s04.jpg",
-      "backImageUrl": "/cards/back.png",
+      "backImageUrl": "/cards/back.svg",
       "element": "Air",
       "zodiacSign": null,
       "uprightKeywords": [
@@ -1878,7 +1995,10 @@
         "love": "关系需要暂停和冷静，避免过度消耗。",
         "career": "需要休整，避免职业倦怠。",
         "yesOrNo": "不确定"
-      }
+      },
+      "reversedMeaningCn": "缺乏休息、坐立不安或过劳；暂停并恢复精力，别把持续消耗误认为有效推进。",
+      "astrologicalCorrespondence": null,
+      "rank": "4"
     },
     {
       "id": "swords-five-of-swords",
@@ -1891,7 +2011,7 @@
       "number": "5",
       "img": "s05.jpg",
       "imageUrl": "s05.jpg",
-      "backImageUrl": "/cards/back.png",
+      "backImageUrl": "/cards/back.svg",
       "element": "Air",
       "zodiacSign": null,
       "uprightKeywords": [
@@ -1926,7 +2046,10 @@
         "love": "争执和权力斗争明显，不适合硬碰硬。",
         "career": "职场政治或不公平竞争，需要谨慎。",
         "yesOrNo": "否"
-      }
+      },
+      "reversedMeaningCn": "有机会结束争胜与冲突、尝试和解；承认争执的代价，关注能否重建信任。",
+      "astrologicalCorrespondence": null,
+      "rank": "5"
     },
     {
       "id": "swords-six-of-swords",
@@ -1939,7 +2062,7 @@
       "number": "6",
       "img": "s06.jpg",
       "imageUrl": "s06.jpg",
-      "backImageUrl": "/cards/back.png",
+      "backImageUrl": "/cards/back.svg",
       "element": "Air",
       "zodiacSign": null,
       "uprightKeywords": [
@@ -1974,7 +2097,10 @@
         "love": "从旧伤中离开，关系进入过渡期。",
         "career": "职业转型、调岗或迁移。",
         "yesOrNo": "偏是"
-      }
+      },
+      "reversedMeaningCn": "过渡受阻、抗拒离开或旧事未了；处理遗留问题，再决定怎样进入下一阶段。",
+      "astrologicalCorrespondence": null,
+      "rank": "6"
     },
     {
       "id": "swords-seven-of-swords",
@@ -1987,7 +2113,7 @@
       "number": "7",
       "img": "s07.jpg",
       "imageUrl": "s07.jpg",
-      "backImageUrl": "/cards/back.png",
+      "backImageUrl": "/cards/back.svg",
       "element": "Air",
       "zodiacSign": null,
       "uprightKeywords": [
@@ -2022,7 +2148,10 @@
         "love": "关系中可能有隐瞒、试探或不完全诚实。",
         "career": "工作中要警惕暗箱操作或信息不对称。",
         "yesOrNo": "否"
-      }
+      },
+      "reversedMeaningCn": "隐瞒可能浮现，或需要坦白与重新考虑策略；诚实面对事实，修正不透明的做法。",
+      "astrologicalCorrespondence": null,
+      "rank": "7"
     },
     {
       "id": "swords-eight-of-swords",
@@ -2035,7 +2164,7 @@
       "number": "8",
       "img": "s08.jpg",
       "imageUrl": "s08.jpg",
-      "backImageUrl": "/cards/back.png",
+      "backImageUrl": "/cards/back.svg",
       "element": "Air",
       "zodiacSign": null,
       "uprightKeywords": [
@@ -2068,7 +2197,10 @@
         "love": "感觉被关系困住，但限制可能部分来自自己。",
         "career": "职业上感到卡住，需要突破自我设限。",
         "yesOrNo": "否"
-      }
+      },
+      "reversedMeaningCn": "限制正在松动，新的视角让行动空间增加；以现实可做的一步检验自由感。",
+      "astrologicalCorrespondence": null,
+      "rank": "8"
     },
     {
       "id": "swords-nine-of-swords",
@@ -2081,7 +2213,7 @@
       "number": "9",
       "img": "s09.jpg",
       "imageUrl": "s09.jpg",
-      "backImageUrl": "/cards/back.png",
+      "backImageUrl": "/cards/back.svg",
       "element": "Air",
       "zodiacSign": null,
       "uprightKeywords": [
@@ -2116,7 +2248,10 @@
         "love": "过度思虑导致关系焦虑，需要回到事实。",
         "career": "工作压力大，可能影响睡眠和判断。",
         "yesOrNo": "否"
-      }
+      },
+      "reversedMeaningCn": "有机会从焦虑中恢复并寻求支持；区分担心与证据，不让反复思虑替代行动。",
+      "astrologicalCorrespondence": null,
+      "rank": "9"
     },
     {
       "id": "swords-ten-of-swords",
@@ -2129,7 +2264,7 @@
       "number": "10",
       "img": "s10.jpg",
       "imageUrl": "s10.jpg",
-      "backImageUrl": "/cards/back.png",
+      "backImageUrl": "/cards/back.svg",
       "element": "Air",
       "zodiacSign": null,
       "uprightKeywords": [
@@ -2164,7 +2299,10 @@
         "love": "痛苦结束或关系触底，需要接受现实。",
         "career": "职业低谷或阶段性失败，但之后可重建。",
         "yesOrNo": "否"
-      }
+      },
+      "reversedMeaningCn": "触底后逐渐恢复，旧阶段需要真正结束；允许修复，避免重演已经耗尽的模式。",
+      "astrologicalCorrespondence": null,
+      "rank": "10"
     },
     {
       "id": "swords-page-of-swords",
@@ -2177,7 +2315,7 @@
       "number": "11",
       "img": "s11.jpg",
       "imageUrl": "s11.jpg",
-      "backImageUrl": "/cards/back.png",
+      "backImageUrl": "/cards/back.svg",
       "element": "Air",
       "zodiacSign": null,
       "uprightKeywords": [
@@ -2210,7 +2348,10 @@
         "love": "对感情好奇但容易想太多，沟通偏试探。",
         "career": "适合研究、学习和提出新想法。",
         "yesOrNo": "偏是"
-      }
+      },
+      "reversedMeaningCn": "沟通流于空谈、操控或未经核实的信息；先查证，再用行动支持自己的说法。",
+      "astrologicalCorrespondence": null,
+      "rank": "page"
     },
     {
       "id": "swords-knight-of-swords",
@@ -2223,7 +2364,7 @@
       "number": "12",
       "img": "s12.jpg",
       "imageUrl": "s12.jpg",
-      "backImageUrl": "/cards/back.png",
+      "backImageUrl": "/cards/back.svg",
       "element": "Air",
       "zodiacSign": null,
       "uprightKeywords": [
@@ -2258,7 +2399,10 @@
         "love": "感情推进很快，但可能太急。",
         "career": "职业行动迅速，适合冲刺但要避免鲁莽。",
         "yesOrNo": "是"
-      }
+      },
+      "reversedMeaningCn": "行动缺乏方向，急躁或攻击性可能放大冲突；放慢判断，考虑后果与边界。",
+      "astrologicalCorrespondence": null,
+      "rank": "knight"
     },
     {
       "id": "swords-queen-of-swords",
@@ -2271,7 +2415,7 @@
       "number": "13",
       "img": "s13.jpg",
       "imageUrl": "s13.jpg",
-      "backImageUrl": "/cards/back.png",
+      "backImageUrl": "/cards/back.svg",
       "element": "Air",
       "zodiacSign": null,
       "uprightKeywords": [
@@ -2304,7 +2448,10 @@
         "love": "需要理性、坦白和边界清晰的关系。",
         "career": "适合客观决策、分析和管理。",
         "yesOrNo": "是"
-      }
+      },
+      "reversedMeaningCn": "直接变成刻薄，或旧怨让判断过于冷硬；保留清晰边界，也给事实与理解留空间。",
+      "astrologicalCorrespondence": null,
+      "rank": "queen"
     },
     {
       "id": "swords-king-of-swords",
@@ -2317,7 +2464,7 @@
       "number": "14",
       "img": "s14.jpg",
       "imageUrl": "s14.jpg",
-      "backImageUrl": "/cards/back.png",
+      "backImageUrl": "/cards/back.svg",
       "element": "Air",
       "zodiacSign": null,
       "uprightKeywords": [
@@ -2352,7 +2499,10 @@
         "love": "关系中重视理性、原则和清楚沟通。",
         "career": "适合法律、管理、策略和专业判断。",
         "yesOrNo": "是"
-      }
+      },
+      "reversedMeaningCn": "理性权威被用于操控、专制或压制；检查决策是否透明、公平并允许质疑。",
+      "astrologicalCorrespondence": null,
+      "rank": "king"
     },
     {
       "id": "wands-ace-of-wands",
@@ -2365,7 +2515,7 @@
       "number": "1",
       "img": "w01.jpg",
       "imageUrl": "w01.jpg",
-      "backImageUrl": "/cards/back.png",
+      "backImageUrl": "/cards/back.svg",
       "element": "Fire",
       "zodiacSign": null,
       "uprightKeywords": [
@@ -2400,7 +2550,10 @@
         "love": "新的吸引或热情出现，关系有火花。",
         "career": "新项目、新想法或创业灵感出现。",
         "yesOrNo": "是"
-      }
+      },
+      "reversedMeaningCn": "新想法尚未启动，动力不足、延迟或犹豫；检视准备条件，把灵感化成一个小步骤。",
+      "astrologicalCorrespondence": null,
+      "rank": "ace"
     },
     {
       "id": "wands-two-of-wands",
@@ -2413,7 +2566,7 @@
       "number": "2",
       "img": "w02.jpg",
       "imageUrl": "w02.jpg",
-      "backImageUrl": "/cards/back.png",
+      "backImageUrl": "/cards/back.svg",
       "element": "Fire",
       "zodiacSign": null,
       "uprightKeywords": [
@@ -2446,7 +2599,10 @@
         "love": "思考关系未来，可能在选择之间权衡。",
         "career": "适合做长期规划和扩展视野。",
         "yesOrNo": "是"
-      }
+      },
+      "reversedMeaningCn": "对未知的恐惧或计划不足使扩展受阻；先确认资源与目标，再承担适度风险。",
+      "astrologicalCorrespondence": null,
+      "rank": "2"
     },
     {
       "id": "wands-three-of-wands",
@@ -2459,7 +2615,7 @@
       "number": "3",
       "img": "w03.jpg",
       "imageUrl": "w03.jpg",
-      "backImageUrl": "/cards/back.png",
+      "backImageUrl": "/cards/back.svg",
       "element": "Fire",
       "zodiacSign": null,
       "uprightKeywords": [
@@ -2492,7 +2648,10 @@
         "love": "关系有成长空间，也可能涉及距离或未来规划。",
         "career": "事业扩展、跨区域或国际机会。",
         "yesOrNo": "是"
-      }
+      },
+      "reversedMeaningCn": "扩展遭遇延迟、障碍或挫败；重新检查预期与外部条件，不因等待就否定全部投入。",
+      "astrologicalCorrespondence": null,
+      "rank": "3"
     },
     {
       "id": "wands-four-of-wands",
@@ -2505,7 +2664,7 @@
       "number": "4",
       "img": "w04.jpg",
       "imageUrl": "w04.jpg",
-      "backImageUrl": "/cards/back.png",
+      "backImageUrl": "/cards/back.svg",
       "element": "Fire",
       "zodiacSign": null,
       "uprightKeywords": [
@@ -2540,7 +2699,10 @@
         "love": "适合公开、庆祝或进入稳定阶段。",
         "career": "团队成果、阶段性成功和庆祝。",
         "yesOrNo": "是"
-      }
+      },
+      "reversedMeaningCn": "归属或协作不稳，庆祝与稳定基础尚未到位；先协调共同需要，重建支持。",
+      "astrologicalCorrespondence": null,
+      "rank": "4"
     },
     {
       "id": "wands-five-of-wands",
@@ -2553,7 +2715,7 @@
       "number": "5",
       "img": "w05.jpg",
       "imageUrl": "w05.jpg",
-      "backImageUrl": "/cards/back.png",
+      "backImageUrl": "/cards/back.svg",
       "element": "Fire",
       "zodiacSign": null,
       "uprightKeywords": [
@@ -2586,7 +2748,10 @@
         "love": "感情中有争执、竞争或注意力拉扯。",
         "career": "职场竞争明显，意见分歧较多。",
         "yesOrNo": "否"
-      }
+      },
+      "reversedMeaningCn": "冲突被回避，或矛盾转向内心；用建设性的方式讨论分歧，别只压下不满。",
+      "astrologicalCorrespondence": null,
+      "rank": "5"
     },
     {
       "id": "wands-six-of-wands",
@@ -2599,7 +2764,7 @@
       "number": "6",
       "img": "w06.jpg",
       "imageUrl": "w06.jpg",
-      "backImageUrl": "/cards/back.png",
+      "backImageUrl": "/cards/back.svg",
       "element": "Fire",
       "zodiacSign": null,
       "uprightKeywords": [
@@ -2634,7 +2799,10 @@
         "love": "关系被看见或得到认可，推进较顺。",
         "career": "晋升、表扬或公众认可。",
         "yesOrNo": "是"
-      }
+      },
+      "reversedMeaningCn": "认可不足、自负或声誉受挫可能影响推进；关注实际成果，减少对外界掌声的依赖。",
+      "astrologicalCorrespondence": null,
+      "rank": "6"
     },
     {
       "id": "wands-seven-of-wands",
@@ -2647,7 +2815,7 @@
       "number": "7",
       "img": "w07.jpg",
       "imageUrl": "w07.jpg",
-      "backImageUrl": "/cards/back.png",
+      "backImageUrl": "/cards/back.svg",
       "element": "Fire",
       "zodiacSign": null,
       "uprightKeywords": [
@@ -2680,7 +2848,10 @@
         "love": "需要维护边界或为关系争取空间。",
         "career": "面对竞争，要守住自己的位置。",
         "yesOrNo": "不确定"
-      }
+      },
+      "reversedMeaningCn": "压力过大或精力耗尽，难以继续守住立场；重新分配力量，分清必要边界与无效争斗。",
+      "astrologicalCorrespondence": null,
+      "rank": "7"
     },
     {
       "id": "wands-eight-of-wands",
@@ -2693,7 +2864,7 @@
       "number": "8",
       "img": "w08.jpg",
       "imageUrl": "w08.jpg",
-      "backImageUrl": "/cards/back.png",
+      "backImageUrl": "/cards/back.svg",
       "element": "Fire",
       "zodiacSign": null,
       "uprightKeywords": [
@@ -2728,7 +2899,10 @@
         "love": "感情发展很快，可能有消息或邀约。",
         "career": "工作进展迅速，也可能涉及出差。",
         "yesOrNo": "是"
-      }
+      },
+      "reversedMeaningCn": "消息与行动延迟，推进受阻；确认沟通和节奏，避免焦躁导致更多失误。",
+      "astrologicalCorrespondence": null,
+      "rank": "8"
     },
     {
       "id": "wands-nine-of-wands",
@@ -2741,7 +2915,7 @@
       "number": "9",
       "img": "w09.jpg",
       "imageUrl": "w09.jpg",
-      "backImageUrl": "/cards/back.png",
+      "backImageUrl": "/cards/back.svg",
       "element": "Fire",
       "zodiacSign": null,
       "uprightKeywords": [
@@ -2776,7 +2950,10 @@
         "love": "心有防备但仍在坚持，需要安全感。",
         "career": "接近完成，关键是不要过早放弃。",
         "yesOrNo": "不确定"
-      }
+      },
+      "reversedMeaningCn": "长久防守带来疲惫，可能想放弃；检查剩余资源并寻求支持，不把透支当成坚持。",
+      "astrologicalCorrespondence": null,
+      "rank": "9"
     },
     {
       "id": "wands-ten-of-wands",
@@ -2789,7 +2966,7 @@
       "number": "10",
       "img": "w10.jpg",
       "imageUrl": "w10.jpg",
-      "backImageUrl": "/cards/back.png",
+      "backImageUrl": "/cards/back.svg",
       "element": "Fire",
       "zodiacSign": null,
       "uprightKeywords": [
@@ -2824,7 +3001,10 @@
         "love": "一方承担太多，关系压力较重。",
         "career": "工作过载，需要分配任务。",
         "yesOrNo": "否"
-      }
+      },
+      "reversedMeaningCn": "负担需要分担或释放，也可能已接近承受极限；调整责任分配，别继续独自扛住一切。",
+      "astrologicalCorrespondence": null,
+      "rank": "10"
     },
     {
       "id": "wands-page-of-wands",
@@ -2837,7 +3017,7 @@
       "number": "11",
       "img": "w11.jpg",
       "imageUrl": "w11.jpg",
-      "backImageUrl": "/cards/back.png",
+      "backImageUrl": "/cards/back.svg",
       "element": "Fire",
       "zodiacSign": null,
       "uprightKeywords": [
@@ -2872,7 +3052,10 @@
         "love": "新鲜的暧昧、轻快的好奇和试探。",
         "career": "新的创意项目或学习机会。",
         "yesOrNo": "是"
-      }
+      },
+      "reversedMeaningCn": "热情缺少方向，拖延或挫折阻碍探索；缩小尝试范围，用实践辨认下一步。",
+      "astrologicalCorrespondence": null,
+      "rank": "page"
     },
     {
       "id": "wands-knight-of-wands",
@@ -2885,7 +3068,7 @@
       "number": "12",
       "img": "w12.jpg",
       "imageUrl": "w12.jpg",
-      "backImageUrl": "/cards/back.png",
+      "backImageUrl": "/cards/back.svg",
       "element": "Fire",
       "zodiacSign": null,
       "uprightKeywords": [
@@ -2920,7 +3103,10 @@
         "love": "热烈但可能不够稳定的吸引。",
         "career": "快速行动、旅行或高能量推进。",
         "yesOrNo": "是"
-      }
+      },
+      "reversedMeaningCn": "急躁、能量分散或延迟使行动难以持续；先收束目标，避免用冲动替代承诺。",
+      "astrologicalCorrespondence": null,
+      "rank": "knight"
     },
     {
       "id": "wands-queen-of-wands",
@@ -2933,7 +3119,7 @@
       "number": "13",
       "img": "w13.jpg",
       "imageUrl": "w13.jpg",
-      "backImageUrl": "/cards/back.png",
+      "backImageUrl": "/cards/back.svg",
       "element": "Fire",
       "zodiacSign": null,
       "uprightKeywords": [
@@ -2968,7 +3154,10 @@
         "love": "有魅力、热情、自信的关系能量。",
         "career": "适合领导、展示和主动争取资源。",
         "yesOrNo": "是"
-      }
+      },
+      "reversedMeaningCn": "不安转成嫉妒、强势或只顾自己；恢复自信，也尊重他人的空间与需求。",
+      "astrologicalCorrespondence": null,
+      "rank": "queen"
     },
     {
       "id": "wands-king-of-wands",
@@ -2981,7 +3170,7 @@
       "number": "14",
       "img": "w14.jpg",
       "imageUrl": "w14.jpg",
-      "backImageUrl": "/cards/back.png",
+      "backImageUrl": "/cards/back.svg",
       "element": "Fire",
       "zodiacSign": null,
       "uprightKeywords": [
@@ -3016,7 +3205,10 @@
         "love": "大胆热情地表达爱意，行动力强。",
         "career": "适合做决策、带团队或创业。",
         "yesOrNo": "是"
-      }
+      },
+      "reversedMeaningCn": "领导力变成冲动、霸道或苛刻；让愿景与执行、倾听及责任相配合。",
+      "astrologicalCorrespondence": null,
+      "rank": "king"
     },
     {
       "id": "pentacles-ace-of-pentacles",
@@ -3029,7 +3221,7 @@
       "number": "1",
       "img": "p01.jpg",
       "imageUrl": "p01.jpg",
-      "backImageUrl": "/cards/back.png",
+      "backImageUrl": "/cards/back.svg",
       "element": "Earth",
       "zodiacSign": null,
       "uprightKeywords": [
@@ -3062,7 +3254,10 @@
         "love": "稳定关系的新开端，有现实基础。",
         "career": "新工作、金钱机会或资源落地。",
         "yesOrNo": "是"
-      }
+      },
+      "reversedMeaningCn": "实际机会可能错失、资源不稳或尚未准备好；检查条件与投入能力，再决定是否承接。",
+      "astrologicalCorrespondence": null,
+      "rank": "ace"
     },
     {
       "id": "pentacles-two-of-pentacles",
@@ -3075,7 +3270,7 @@
       "number": "2",
       "img": "p02.jpg",
       "imageUrl": "p02.jpg",
-      "backImageUrl": "/cards/back.png",
+      "backImageUrl": "/cards/back.svg",
       "element": "Earth",
       "zodiacSign": null,
       "uprightKeywords": [
@@ -3108,7 +3303,10 @@
         "love": "需要平衡感情与生活其他责任。",
         "career": "同时处理多个项目，需要管理节奏。",
         "yesOrNo": "不确定"
-      }
+      },
+      "reversedMeaningCn": "安排混乱或承担过多使平衡失守；减少同时推进的事项，明确优先顺序。",
+      "astrologicalCorrespondence": null,
+      "rank": "2"
     },
     {
       "id": "pentacles-three-of-pentacles",
@@ -3121,7 +3319,7 @@
       "number": "3",
       "img": "p03.jpg",
       "imageUrl": "p03.jpg",
-      "backImageUrl": "/cards/back.png",
+      "backImageUrl": "/cards/back.svg",
       "element": "Earth",
       "zodiacSign": null,
       "uprightKeywords": [
@@ -3156,7 +3354,10 @@
         "love": "双方共同建设关系，有共同目标。",
         "career": "团队项目、技能被认可。",
         "yesOrNo": "是"
-      }
+      },
+      "reversedMeaningCn": "合作缺乏协调、分工不清或意见冲突；明确共同目标与各自责任，重建协作。",
+      "astrologicalCorrespondence": null,
+      "rank": "3"
     },
     {
       "id": "pentacles-four-of-pentacles",
@@ -3169,7 +3370,7 @@
       "number": "4",
       "img": "p04.jpg",
       "imageUrl": "p04.jpg",
-      "backImageUrl": "/cards/back.png",
+      "backImageUrl": "/cards/back.svg",
       "element": "Earth",
       "zodiacSign": null,
       "uprightKeywords": [
@@ -3179,7 +3380,10 @@
         "stability"
       ],
       "reversedKeywords": [
-        "Greed",
+        "Letting go",
+        "generosity",
+        "financial instability",
+        "greed",
         "materialism",
         "self-protection"
       ],
@@ -3198,13 +3402,19 @@
       "reversedKeywordsCn": [
         "放手",
         "慷慨",
-        "财务不稳"
+        "财务不稳",
+        "贪婪",
+        "物质主义",
+        "过度自我保护"
       ],
       "meaningsCn": {
         "love": "感情中可能过度防守或占有欲强。",
         "career": "重视稳定和资源控制，但别太保守。",
         "yesOrNo": "不确定"
-      }
+      },
+      "reversedMeaningCn": "资源控制可能开始松动，也可能因不安而更加抓紧；结合处境辨认放手、过度防守或财务不稳。",
+      "astrologicalCorrespondence": null,
+      "rank": "4"
     },
     {
       "id": "pentacles-five-of-pentacles",
@@ -3217,7 +3427,7 @@
       "number": "5",
       "img": "p05.jpg",
       "imageUrl": "p05.jpg",
-      "backImageUrl": "/cards/back.png",
+      "backImageUrl": "/cards/back.svg",
       "element": "Earth",
       "zodiacSign": null,
       "uprightKeywords": [
@@ -3252,7 +3462,10 @@
         "love": "感情中感到被冷落或缺乏支持。",
         "career": "财务或职业低谷，需要寻找外部帮助。",
         "yesOrNo": "否"
-      }
+      },
+      "reversedMeaningCn": "困难逐渐改善，帮助或恢复的入口出现；主动连接支持，不必继续独自承担匮乏感。",
+      "astrologicalCorrespondence": null,
+      "rank": "5"
     },
     {
       "id": "pentacles-six-of-pentacles",
@@ -3265,7 +3478,7 @@
       "number": "6",
       "img": "p06.jpg",
       "imageUrl": "p06.jpg",
-      "backImageUrl": "/cards/back.png",
+      "backImageUrl": "/cards/back.svg",
       "element": "Earth",
       "zodiacSign": null,
       "uprightKeywords": [
@@ -3300,7 +3513,10 @@
         "love": "关系需要互相支持，避免单方面付出。",
         "career": "资源分配、帮助或合作机会。",
         "yesOrNo": "是"
-      }
+      },
+      "reversedMeaningCn": "给予与接受失衡，援助附带条件或形成债务压力；检查互惠、界限与资源分配。",
+      "astrologicalCorrespondence": null,
+      "rank": "6"
     },
     {
       "id": "pentacles-seven-of-pentacles",
@@ -3313,7 +3529,7 @@
       "number": "7",
       "img": "p07.jpg",
       "imageUrl": "p07.jpg",
-      "backImageUrl": "/cards/back.png",
+      "backImageUrl": "/cards/back.svg",
       "element": "Earth",
       "zodiacSign": null,
       "uprightKeywords": [
@@ -3347,7 +3563,10 @@
         "love": "关系需要耐心观察，看长期投入是否值得。",
         "career": "长期项目进入评估期，短期回报有限。",
         "yesOrNo": "不确定"
-      }
+      },
+      "reversedMeaningCn": "长期投入回报不足或急于求成；重新评估方向与成本，区分耐心与继续无效消耗。",
+      "astrologicalCorrespondence": null,
+      "rank": "7"
     },
     {
       "id": "pentacles-eight-of-pentacles",
@@ -3360,7 +3579,7 @@
       "number": "8",
       "img": "p08.jpg",
       "imageUrl": "p08.jpg",
-      "backImageUrl": "/cards/back.png",
+      "backImageUrl": "/cards/back.svg",
       "element": "Earth",
       "zodiacSign": null,
       "uprightKeywords": [
@@ -3371,7 +3590,8 @@
       "reversedKeywords": [
         "Perfectionism",
         "lack of ambition",
-        "mediocrity"
+        "mediocrity",
+        "carelessness"
       ],
       "meanings": {
         "love": "Working on relationship, improving together",
@@ -3386,15 +3606,19 @@
         "专注"
       ],
       "reversedKeywordsCn": [
-        "粗心",
-        "缺乏动力",
-        "低质量"
+        "完美主义",
+        "缺乏进取心",
+        "敷衍",
+        "粗心"
       ],
       "meaningsCn": {
         "love": "关系需要认真经营和持续投入。",
         "career": "技能训练、重复打磨和专业提升。",
         "yesOrNo": "是"
-      }
+      },
+      "reversedMeaningCn": "动力不足、敷衍或完美主义让技能精进受阻；调整质量标准与练习节奏。",
+      "astrologicalCorrespondence": null,
+      "rank": "8"
     },
     {
       "id": "pentacles-nine-of-pentacles",
@@ -3407,7 +3631,7 @@
       "number": "9",
       "img": "p09.jpg",
       "imageUrl": "p09.jpg",
-      "backImageUrl": "/cards/back.png",
+      "backImageUrl": "/cards/back.svg",
       "element": "Earth",
       "zodiacSign": null,
       "uprightKeywords": [
@@ -3418,7 +3642,10 @@
       ],
       "reversedKeywords": [
         "Over-investment in work",
-        "superficiality"
+        "superficiality",
+        "dependence",
+        "overspending",
+        "insecurity"
       ],
       "meanings": {
         "love": "Enjoying being single, self-love",
@@ -3433,15 +3660,20 @@
         "享受"
       ],
       "reversedKeywordsCn": [
+        "过度投入工作",
+        "表面化追求",
         "依赖",
         "过度消费",
-        "不安"
+        "不安全感"
       ],
       "meaningsCn": {
         "love": "独立、自洽、有吸引力，但未必急着进入关系。",
         "career": "个人能力和财务状态较好，适合独立发展。",
         "yesOrNo": "是"
-      }
+      },
+      "reversedMeaningCn": "过度投入工作、表面化追求或消费使独立感不稳；重新协调安全感、自我价值与实际资源。",
+      "astrologicalCorrespondence": null,
+      "rank": "9"
     },
     {
       "id": "pentacles-ten-of-pentacles",
@@ -3454,7 +3686,7 @@
       "number": "10",
       "img": "p10.jpg",
       "imageUrl": "p10.jpg",
-      "backImageUrl": "/cards/back.png",
+      "backImageUrl": "/cards/back.svg",
       "element": "Earth",
       "zodiacSign": null,
       "uprightKeywords": [
@@ -3466,7 +3698,9 @@
       ],
       "reversedKeywords": [
         "Financial failure",
-        "family disputes"
+        "family disputes",
+        "instability",
+        "short-term thinking"
       ],
       "meanings": {
         "love": "Long-lasting love, family wealth",
@@ -3481,7 +3715,8 @@
         "长期稳定"
       ],
       "reversedKeywordsCn": [
-        "家庭冲突",
+        "财务失败",
+        "家庭纠纷",
         "不稳定",
         "短视"
       ],
@@ -3489,7 +3724,10 @@
         "love": "适合长期承诺、家庭和现实稳定。",
         "career": "长期事业基础、资产和组织稳定。",
         "yesOrNo": "是"
-      }
+      },
+      "reversedMeaningCn": "财务基础或家庭共识不稳，短视可能损伤长期建设；检查共同安排与可持续性。",
+      "astrologicalCorrespondence": null,
+      "rank": "10"
     },
     {
       "id": "pentacles-page-of-pentacles",
@@ -3502,7 +3740,7 @@
       "number": "11",
       "img": "p11.jpg",
       "imageUrl": "p11.jpg",
-      "backImageUrl": "/cards/back.png",
+      "backImageUrl": "/cards/back.svg",
       "element": "Earth",
       "zodiacSign": null,
       "uprightKeywords": [
@@ -3535,7 +3773,10 @@
         "love": "慢热但认真，适合从实际行动开始。",
         "career": "学习新技能或出现实际机会。",
         "yesOrNo": "是"
-      }
+      },
+      "reversedMeaningCn": "学习或计划缺乏进展，拖延使机会难以落地；从可验证的小任务建立纪律。",
+      "astrologicalCorrespondence": null,
+      "rank": "page"
     },
     {
       "id": "pentacles-knight-of-pentacles",
@@ -3548,7 +3789,7 @@
       "number": "12",
       "img": "p12.jpg",
       "imageUrl": "p12.jpg",
-      "backImageUrl": "/cards/back.png",
+      "backImageUrl": "/cards/back.svg",
       "element": "Earth",
       "zodiacSign": null,
       "uprightKeywords": [
@@ -3560,7 +3801,8 @@
       "reversedKeywords": [
         "Boredom",
         "laziness",
-        "feeling stuck"
+        "feeling stuck",
+        "stubbornness"
       ],
       "meanings": {
         "love": "Loyal steady partner, slow romance",
@@ -3575,15 +3817,19 @@
         "耐心"
       ],
       "reversedKeywordsCn": [
+        "乏味",
+        "懒散",
         "停滞",
-        "固执",
-        "乏味"
+        "固执"
       ],
       "meaningsCn": {
         "love": "稳定可靠但推进较慢的感情。",
         "career": "稳扎稳打，适合长期执行。",
         "yesOrNo": "是"
-      }
+      },
+      "reversedMeaningCn": "稳定变成停滞、懒散或固执；检查惯例是否有效，做适度调整而非只重复旧方法。",
+      "astrologicalCorrespondence": null,
+      "rank": "knight"
     },
     {
       "id": "pentacles-queen-of-pentacles",
@@ -3596,7 +3842,7 @@
       "number": "13",
       "img": "p13.jpg",
       "imageUrl": "p13.jpg",
-      "backImageUrl": "/cards/back.png",
+      "backImageUrl": "/cards/back.svg",
       "element": "Earth",
       "zodiacSign": null,
       "uprightKeywords": [
@@ -3608,7 +3854,8 @@
       "reversedKeywords": [
         "Neglect",
         "smothering",
-        "work-home imbalance"
+        "work-home imbalance",
+        "insecurity"
       ],
       "meanings": {
         "love": "Caring partner, domestic happiness",
@@ -3623,15 +3870,19 @@
         "富足"
       ],
       "reversedKeywordsCn": [
-        "失衡",
+        "忽视需求",
         "过度照顾",
-        "不安全"
+        "工作家庭失衡",
+        "不安全感"
       ],
       "meaningsCn": {
         "love": "温暖、实际、照顾型的关系能量。",
         "career": "适合经营资源、照顾团队和稳定产出。",
         "yesOrNo": "是"
-      }
+      },
+      "reversedMeaningCn": "照顾过度、忽视需要或工作家庭失衡；重新分配资源，也照顾自己的现实需求。",
+      "astrologicalCorrespondence": null,
+      "rank": "queen"
     },
     {
       "id": "pentacles-king-of-pentacles",
@@ -3644,7 +3895,7 @@
       "number": "14",
       "img": "p14.jpg",
       "imageUrl": "p14.jpg",
-      "backImageUrl": "/cards/back.png",
+      "backImageUrl": "/cards/back.svg",
       "element": "Earth",
       "zodiacSign": null,
       "uprightKeywords": [
@@ -3680,7 +3931,10 @@
         "love": "成熟稳定、有现实承诺能力的伴侣能量。",
         "career": "事业稳定、资源充足，适合长期建设。",
         "yesOrNo": "是"
-      }
+      },
+      "reversedMeaningCn": "贪婪、过度享受或固执使资源管理失衡；检视成功标准，避免用占有替代安全感。",
+      "astrologicalCorrespondence": null,
+      "rank": "king"
     }
   ],
   "mergeStats": {
@@ -3696,5 +3950,11 @@
       "meaningsCn"
     ],
     "note": "Original English fields are preserved. Chinese fields are appended for frontend display."
+  },
+  "knowledgeNotes": {
+    "tradition": "Rider-Waite-Smith numbering; modern contextual interpretations.",
+    "meanings": "meanings/meaningsCn are upright topic references; reversedMeaningCn and reversedKeywordsCn describe the reversed state. Reversals are not automatically negative or the opposite of upright.",
+    "astrology": "astrologicalCorrespondence includes planets and zodiac signs; zodiacSign is preserved as a legacy alias. Minor Arcana astrology is unspecified.",
+    "ranks": "Minor numbers 11-14 identify Page/Knight/Queen/King; they are court ranks, not pip numerology."
   }
 }

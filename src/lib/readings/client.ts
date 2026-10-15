@@ -1,6 +1,7 @@
 import type { TarotReading } from "@/types";
-import { getReadingById as getLocalReadingById, getReadings as getLocalReadings, saveReading as saveLocalReading } from "@/lib/storage";
+import { clearReadings as clearLocalReadings, deleteReading as deleteLocalReading, getReadingById as getLocalReadingById, getReadings as getLocalReadings, saveReading as saveLocalReading } from "@/lib/storage";
 import { isSupabaseConfigured } from "@/lib/supabase/client";
+import { isRecord } from "@/lib/readings/validation";
 
 interface ReadingsResponse {
   readings?: TarotReading[];
@@ -10,7 +11,13 @@ interface ReadingsResponse {
 
 async function request<T>(url: string, options?: RequestInit): Promise<T> {
   const response = await fetch(url, options);
-  const data = (await response.json()) as ReadingsResponse;
+  if (response.status === 204) return undefined as T;
+  let data: ReadingsResponse;
+  try {
+    const parsed: unknown = await response.json();
+    if (!isRecord(parsed)) throw new Error();
+    data = parsed as ReadingsResponse;
+  } catch { throw new Error("历史服务返回格式无效，请稍后重试。"); }
   if (!response.ok) throw new Error(data.message || "历史记录请求失败。");
   return data as T;
 }
@@ -40,6 +47,11 @@ export async function getReadingById(id: string): Promise<TarotReading | null> {
 }
 
 export async function deleteReading(id: string): Promise<void> {
-  if (!isSupabaseConfigured) return;
+  if (!isSupabaseConfigured) { deleteLocalReading(id); return; }
   await request(`/api/readings/${encodeURIComponent(id)}`, { method: "DELETE" });
+}
+
+export async function clearReadings(): Promise<void> {
+  if (!isSupabaseConfigured) { clearLocalReadings(); return; }
+  await request("/api/readings", { method: "DELETE" });
 }

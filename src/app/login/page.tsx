@@ -5,10 +5,13 @@ import { useRouter, useSearchParams } from "next/navigation";
 import { FormEvent, Suspense, useEffect, useState } from "react";
 import type { Session } from "@supabase/supabase-js";
 import { GuestStartButton } from "@/components/GuestStartButton";
+import { ReadingLayout } from "@/components/ReadingLayout";
+import { PageNotice } from "@/components/PageNotice";
 import { getSupabaseBrowserClient, isSupabaseConfigured } from "@/lib/supabase/client";
+import { safeReturnPath } from "@/lib/supabase/guest";
 
 export default function LoginPage() {
-  return <Suspense fallback={<main className="page-shell"><div className="content-wrap text-center text-mist/70">正在加载登录页…</div></main>}><LoginForm /></Suspense>;
+  return <Suspense fallback={<ReadingLayout scene="account" narrow><PageNotice title="正在加载登录页…" loading /></ReadingLayout>}><LoginForm /></Suspense>;
 }
 
 function LoginForm() {
@@ -20,7 +23,7 @@ function LoginForm() {
   const [message, setMessage] = useState("");
   const [loading, setLoading] = useState(false);
   const possibleNext = searchParams.get("next");
-  const nextPath = possibleNext?.startsWith("/") ? possibleNext : "/";
+  const nextPath = safeReturnPath(possibleNext, "/");
 
   useEffect(() => {
     if (!isSupabaseConfigured) return;
@@ -48,18 +51,15 @@ function LoginForm() {
     router.replace(nextPath);
   }
 
-  return <main className="page-shell"><div className="content-wrap max-w-md">
-    <Link href="/" className="text-sm text-mist/65 hover:text-mist">← 返回首页</Link>
-    <section className="glass mt-6 rounded-lg p-6">
-      <h1 className="text-3xl font-semibold text-white">{mode === "login" ? "登录" : "创建账号"}</h1>
-      {!isSupabaseConfigured ? <p className="mt-4 text-sm leading-6 text-mist/75">尚未配置云端服务。请先配置 Supabase。</p> : <form className="mt-6 space-y-5" onSubmit={submit}>
-        <label className="block text-sm text-mist/80">邮箱<input className="field mt-2" type="email" autoComplete="email" required value={email} onChange={(event) => setEmail(event.target.value)} /></label>
-        <label className="block text-sm text-mist/80">密码<input className="field mt-2" type="password" autoComplete={mode === "login" ? "current-password" : "new-password"} minLength={8} required value={password} onChange={(event) => setPassword(event.target.value)} /></label>
-        {message ? <p className="rounded-lg bg-white/[0.08] p-3 text-sm text-mist">{message}</p> : null}
+  return <ReadingLayout title={mode === "login" ? "登录" : "创建账号"} description="保存你的阅读，在不同设备上回看。" scene="account" narrow>
+      {!isSupabaseConfigured ? <PageNotice title="当前为本地体验模式" description="你可以直接作为访客开始抽牌，记录会保存在这台设备的浏览器中。" /> : <form className="account-form" onSubmit={submit}>
+        <label>邮箱<input className="field" type="email" autoComplete="email" required value={email} onChange={(event) => setEmail(event.target.value)} /></label>
+        <label>密码<input className="field" type="password" autoComplete={mode === "login" ? "current-password" : "new-password"} minLength={8} required value={password} onChange={(event) => setPassword(event.target.value)} /></label>
+        {message ? <p className="inline-message" role="status">{message}</p> : null}
         <button className="btn-primary w-full" type="submit" disabled={loading}>{loading ? "处理中…" : mode === "login" ? "登录" : "注册"}</button>
       </form>}
-      <button type="button" className="mt-5 text-sm text-ember hover:text-white" onClick={() => { setMode((current) => current === "login" ? "signup" : "login"); setMessage(""); }}>{mode === "login" ? "没有账号？创建一个" : "已有账号？去登录"}</button>
-      <div className="mt-5 border-t border-white/10 pt-5"><GuestStartButton className="btn-secondary w-full" /></div>
-    </section>
-  </div></main>;
+      {isSupabaseConfigured ? <button type="button" className="text-link auth-toggle" onClick={() => { setMode((current) => current === "login" ? "signup" : "login"); setMessage(""); }}>{mode === "login" ? "没有账号？创建一个" : "已有账号？去登录"}</button> : null}
+      <div className="auth-guest"><GuestStartButton className="btn-secondary w-full" nextPath={safeReturnPath(possibleNext)} /></div>
+      <Link href="/" className="text-link mt-4">返回首页</Link>
+  </ReadingLayout>;
 }

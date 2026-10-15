@@ -1,0 +1,89 @@
+{
+  "date": "2026-10-13",
+  "tool": "built-in image_gen.imagegen",
+  "intent": "identity-preserve",
+  "transparent_background": true,
+  "copy_policy": "Original tool PNG copied unchanged; no raster editing, cropping or recompression. Eye/mouth registration and masks are SVG metadata.",
+  "assets": [
+    {
+      "role": "star-moon",
+      "name": "星月",
+      "prompt": "Use case: identity-preserve. Production transparent performance atlas for the SAME adult woman tarot dealer in the reference. Preserve her EXACT face, adult head-to-body proportions, hair, ivory blouse, emerald velvet dress, lighting, shoulder positions, VIEWER-RIGHT hand gripping the SAME moonstone staff, staff size and coordinates. Reference is a two-panel existing atlas. Output a NEW atlas with THREE equal square panels side by side (3:1 landscape), no labels or lines, genuine transparent alpha, same hip crop, position, scale and geometry in all three panels. In ALL THREE new panels change the VIEWER-LEFT resting arm: gently bent back beside her waist, hand lowered onto her lap below the hip crop and mostly hidden by the sleeve; no hand or fingers on an imaginary tabletop, no raised open palm. Preserve realistic complete sleeve and wrist connections, natural cloth folds, healthy adult proportions. The staff arm stays at the exact reference grip position; do not wave or redesign the staff. Panel 1: calm concentration, eyelids gently closed, chin slightly tucked, brow relaxed, mouth neutral. Panel 2: eyes naturally open with attentive gaze toward lower VIEWER LEFT (the crystal ball will be there); a composed focused look, not angry; same head shape/neck/arm position as panel 1. Panel 3: eyes open looking warmly forward, very slight closed-mouth smile after completing magic; no teeth, no big grin; same body and both arm positions as panel 2. The three expressions must be visibly distinct yet subtle and natural. Keep all eyes, mouths and heads at consistent positions for local facial blending. No furniture, crystal ball, cards, beams, particles, background, baked glow halo, extra arms, disembodied hands, text or checkerboard. Refined cinematic painterly realism, same warm candle key light and faint cool fill.",
+      "referenced_image_paths": [
+        "E:/taro web 2.0/public/characters/star-moon/staff-v1.png"
+      ],
+      "source": "C:/Users/jhb/.codex/generated_images/01a11cba-3fe6-7170-b574-c256b962ee18/exec-9026a945-d736-4171-b9d6-887ed76ab40b.png",
+      "saved_path": "E:/taro web 2.0/public/characters/star-moon/staff-acting-v1.png",
+      "size": [
+        2172,
+        724
+      ],
+      "panels": [
+        "focus",
+        "active",
+        "smile"
+      ],
+      "sha256": "dee5169de4ad4a2576dc29296daf43785017ac9a0cc74aa53a8decba5949b72d"
+    },
+    {
+      "role": "scholar",
+      "name": "学者",
+      "prompt": "Use case: identity-preserve. Production transparent performance atlas for the SAME adult male Scholar tarot dealer in the reference. Preserve the EXACT face, adult head-to-body proportions, hair, ivory blouse, emerald velvet dress, lighting, shoulder positions, VIEWER-RIGHT hand gripping the SAME moonstone staff, staff size and coordinates. Reference is a two-panel existing atlas. Output a NEW atlas with THREE equal square panels side by side (3:1 landscape), no labels or lines, genuine transparent alpha, same hip crop, position, scale and geometry in all three panels. In ALL THREE new panels change the VIEWER-LEFT resting arm: gently bent back beside the waist, hand lowered onto the lap below the hip crop and mostly hidden by the sleeve; no hand or fingers on an imaginary tabletop, no raised open palm. Preserve realistic complete sleeve and wrist connections, natural cloth folds, healthy adult proportions. The staff arm stays at the exact reference grip position; do not wave or redesign the staff. Panel 1: calm concentration, eyelids gently closed, chin slightly tucked, brow relaxed, mouth neutral. Panel 2: eyes naturally open with attentive gaze toward lower VIEWER LEFT (the crystal ball will be there); a composed focused look, not angry; same head shape/neck/arm position as panel 1. Panel 3: eyes open looking warmly forward, very slight closed-mouth smile after completing magic; no teeth, no big grin; same body and both arm positions as panel 2. The three expressions must be visibly distinct yet subtle and natural. Keep all eyes, mouths and heads at consistent positions for local facial blending. No furniture, crystal ball, cards, beams, particles, background, baked glow halo, extra arms, disembodied hands, text or checkerboard. Refined cinematic painterly realism, same warm candle key light and faint cool fill.\nPreserve his masculine adult face, tousled brown hair, ivory ruffled shirt, green embroidered jacket and the SAME dark walnut bronze geometrical crystal staff. A reserved, thoughtful closed-mouth smile. Do not feminize the face.",
+      "referenced_image_paths": [
+        "E:/taro web 2.0/public/characters/scholar/staff-v1.png"
+      ],
+      "source": "C:/Users/jhb/.codex/generated_images/01a11cba-3fe6-7170-b574-c256b962ee18/exec-128ff214-fb29-4be1-95af-16a3312e96b9.png",
+      "saved_path": "E:/taro web 2.0/public/characters/scholar/staff-acting-v1.png",
+      "size": [
+        2172,
+        724
+      ],
+      "panels": [
+        "focus",
+        "active",
+        "smile"
+      ],
+      "sha256": "7c48ff02ae1ebf01446f752e2413237241b6419fd086ebbaf94ae39b80e5f1f8"
+    },
+    {
+      "role": "quqi",
+      "name": "曲奇猫",
+      "prompt": "Use case: identity-preserve. Production transparent performance atlas for the SAME orange longhair CAT Quqi tarot dealer in the reference. Preserve the EXACT face, adult head-to-body proportions, hair, ivory blouse, emerald velvet dress, lighting, shoulder positions, VIEWER-RIGHT hand gripping the SAME moonstone staff, staff size and coordinates. Reference is a two-panel existing atlas. Output a NEW atlas with THREE equal square panels side by side (3:1 landscape), no labels or lines, genuine transparent alpha, same hip crop, position, scale and geometry in all three panels. In ALL THREE new panels change the VIEWER-LEFT resting arm: gently bent back beside the waist, hand lowered onto the lap below the hip crop and mostly hidden by the sleeve; no hand or fingers on an imaginary tabletop, no raised open palm. Preserve realistic complete sleeve and wrist connections, natural cloth folds, healthy adult proportions. The staff arm stays at the exact reference grip position; do not wave or redesign the staff. Panel 1: calm concentration, eyelids gently closed, chin slightly tucked, brow relaxed, mouth neutral. Panel 2: eyes naturally open with attentive gaze toward lower VIEWER LEFT (the crystal ball will be there); a composed focused look, not angry; same head shape/neck/arm position as panel 1. Panel 3: eyes open looking warmly forward, very slight closed-mouth smile after completing magic; no teeth, no big grin; same body and both arm positions as panel 2. The three expressions must be visibly distinct yet subtle and natural. Keep all eyes, mouths and heads at consistent positions for local facial blending. No furniture, crystal ball, cards, beams, particles, background, baked glow halo, extra arms, disembodied hands, text or checkerboard. Refined cinematic painterly realism, same warm candle key light and faint cool fill.\nPreserve the cat face, feline ears, orange fur, emerald cloak and SAME amber staff. All hands remain softly furry rounded CAT PAWS, no human hands or fingers. Smile means soft warm eyes and a relaxed feline mouth, not a human grin. Keep mature feline proportions.",
+      "referenced_image_paths": [
+        "E:/taro web 2.0/public/characters/quqi/staff-v1.png"
+      ],
+      "source": "C:/Users/jhb/.codex/generated_images/01a11cba-3fe6-7170-b574-c256b962ee18/exec-438d3cf2-334a-4cc8-967f-1a6366ac8fcb.png",
+      "saved_path": "E:/taro web 2.0/public/characters/quqi/staff-acting-v1.png",
+      "size": [
+        2172,
+        724
+      ],
+      "panels": [
+        "focus",
+        "active",
+        "smile"
+      ],
+      "sha256": "def0d826297ab470a0cd9e9036ecaa6d029d86e3e31560f164406e4b7860b136"
+    },
+    {
+      "role": "star-cap",
+      "name": "星帽猫",
+      "prompt": "Use case: identity-preserve. Production transparent performance atlas for the SAME gray longhair CAT with blue embroidered witch hat tarot dealer in the reference. Preserve the EXACT face, adult head-to-body proportions, hair, ivory blouse, emerald velvet dress, lighting, shoulder positions, VIEWER-RIGHT hand gripping the SAME moonstone staff, staff size and coordinates. Reference is a two-panel existing atlas. Output a NEW atlas with THREE equal square panels side by side (3:1 landscape), no labels or lines, genuine transparent alpha, same hip crop, position, scale and geometry in all three panels. In ALL THREE new panels change the VIEWER-LEFT resting arm: gently bent back beside the waist, hand lowered onto the lap below the hip crop and mostly hidden by the sleeve; no hand or fingers on an imaginary tabletop, no raised open palm. Preserve realistic complete sleeve and wrist connections, natural cloth folds, healthy adult proportions. The staff arm stays at the exact reference grip position; do not wave or redesign the staff. Panel 1: calm concentration, eyelids gently closed, chin slightly tucked, brow relaxed, mouth neutral. Panel 2: eyes naturally open with attentive gaze toward lower VIEWER LEFT (the crystal ball will be there); a composed focused look, not angry; same head shape/neck/arm position as panel 1. Panel 3: eyes open looking warmly forward, very slight closed-mouth smile after completing magic; no teeth, no big grin; same body and both arm positions as panel 2. The three expressions must be visibly distinct yet subtle and natural. Keep all eyes, mouths and heads at consistent positions for local facial blending. No furniture, crystal ball, cards, beams, particles, background, baked glow halo, extra arms, disembodied hands, text or checkerboard. Refined cinematic painterly realism, same warm candle key light and faint cool fill.\nPreserve gray fur, cat face, exact pointed star-and-crescent hat, emerald cloak and SAME blue-crystal star staff. All hands stay rounded furry CAT PAWS, no human fingers. Smile uses a relaxed feline muzzle and warm eyes, never a human grin. Keep mature feline proportions.",
+      "referenced_image_paths": [
+        "E:/taro web 2.0/public/characters/star-cap/staff-v1.png"
+      ],
+      "source": "C:/Users/jhb/.codex/generated_images/01a11cba-3fe6-7170-b574-c256b962ee18/exec-16ad4920-a333-468b-86a4-7c3a83a2b3b4.png",
+      "saved_path": "E:/taro web 2.0/public/characters/star-cap/staff-acting-v1.png",
+      "size": [
+        2172,
+        724
+      ],
+      "panels": [
+        "focus",
+        "active",
+        "smile"
+      ],
+      "sha256": "b091012ed90afa15f3b487ba62b8c32417b72f501ee63fcdffd0d5d4a0ae86f5"
+    }
+  ]
+}
